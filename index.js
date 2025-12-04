@@ -21,12 +21,16 @@ app.use(cors());
 
 app.use('/auth' , authRouter )
 
+app.get('/', (req, res) => {
+  res.send('Server is running')
+})
+
 // use DB
 connectToDB()
 
-export default app;
+// export default app;
 
-// app.listen( port , ()=>{
-//     console.log(`app is running on port : ${port}`)
-// })
+app.listen( port , ()=>{
+    console.log(`app is running on port : ${port}`)
+})
 
