@@ -36,7 +36,7 @@ const userSchema = new mongoose.Schema({
     },
 
     // Profile Setup Data
-    
+
     gender: {
         type: String,
         enum: ["male", "female"],
@@ -69,7 +69,8 @@ const userSchema = new mongoose.Schema({
         enum: [
             "Lose weight",
             "Gain weight",
-            "Improve weight",
+            "Improve health",
+            "Maintain weight",
             "Build muscle"
         ],
     },
@@ -80,8 +81,8 @@ const userSchema = new mongoose.Schema({
     },
 
     healthNotes: {
-    type: String,
-    trim: true,
+        type: String,
+        trim: true,
     },
 
     activityLevel: {
@@ -107,8 +108,9 @@ const userSchema = new mongoose.Schema({
     },
 
     profileCompleted: {
-        type: Boolean,
-        default: false,
+        type: String,
+        enum: ["true", "false"],
+        default: "false",
     }
 
 }, {

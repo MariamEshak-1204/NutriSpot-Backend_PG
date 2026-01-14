@@ -47,7 +47,7 @@ export const profileSetup = asyncHandler(async (req, res) => {
     user.carbs = carbs ?? user.carbs;
 
     // 4️⃣ Mark profile as completed
-    user.profileCompleted = true;
+    user.profileCompleted = "true";
 
     // 5️⃣ Save user
     const updatedUser = await user.save();

@@ -40,7 +40,8 @@ export const profileValidation = Joi.object({
     goal: Joi.string().valid(
         "Lose weight",
         "Gain weight",
-        "Improve weight",
+        "Improve health",
+        "Maintain weight",
         "Build muscle"
     ).optional(),
 
