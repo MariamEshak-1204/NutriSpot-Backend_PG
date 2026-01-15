@@ -28,6 +28,7 @@ export const profileSetup = asyncHandler(async (req, res) => {
         calories,
         proteins,
         carbs,
+        fats,
     } = req.body;
 
     // 3️⃣ Update fields (safe update)
@@ -45,6 +46,7 @@ export const profileSetup = asyncHandler(async (req, res) => {
     user.calories = calories ?? user.calories;
     user.proteins = proteins ?? user.proteins;
     user.carbs = carbs ?? user.carbs;
+    user.fats = fats ?? user.fats;
 
     // 4️⃣ Mark profile as completed
     user.profileCompleted = "true";
