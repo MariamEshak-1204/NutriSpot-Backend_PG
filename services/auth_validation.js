@@ -21,7 +21,6 @@ export const loginValidation = Joi.object({
 
 
 // Profile Setup Validation
-
 export const profileValidation = Joi.object({
     gender: Joi.string().valid("male", "female").optional(),
 
@@ -61,7 +60,10 @@ export const profileValidation = Joi.object({
 
     calories: Joi.number().min(1500).max(2500).optional(),
 
-    proteins: Joi.number().min(0).max(200).optional(),
+    proteins: Joi.number().min(40).max(200).optional(),
 
     carbs: Joi.number().min(130).max(300).optional(),
+
+    fats: Joi.number().min(30).max(100).optional(),
+
 });

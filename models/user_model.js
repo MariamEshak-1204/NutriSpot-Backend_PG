@@ -14,6 +14,7 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         trim: true,
+        required: false,
     },
     profileImage: {
         type: String,
@@ -104,6 +105,10 @@ const userSchema = new mongoose.Schema({
     },
 
     carbs: {
+        type: Number,
+    },
+
+    fats: {
         type: Number,
     },
 

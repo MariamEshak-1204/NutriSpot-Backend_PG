@@ -105,7 +105,7 @@ export const googleLogin = async (req, res) => {
             user = await User.create({
                 userName: name,
                 email,
-                password: "GoogleLogin",
+                // password: undefined,
                 profileImage: picture,
                 provider: "google",
                 googleId: sub
