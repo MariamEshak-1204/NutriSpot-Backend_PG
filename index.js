@@ -2,7 +2,8 @@ import express from "express"
 import dotenv from "dotenv"
 import morgan from "morgan"
 import cookieParser from "cookie-parser"
-import  authRouter  from "./routes/auth_routes.js"
+import userRouter from "./routes/user_routes.js"
+import homeRouter from "./routes/home_routes.js"
 import { connectToDB } from "./DB/mongoose.js"
 import cors from "cors";
 
@@ -19,7 +20,8 @@ app.use(morgan('dev'))
 app.use(cookieParser())
 app.use(cors());
 
-app.use('/auth' , authRouter )
+app.use('/user', userRouter)
+app.use('/home', homeRouter)
 
 app.get('/', (req, res) => {
   res.send('Server is running')
