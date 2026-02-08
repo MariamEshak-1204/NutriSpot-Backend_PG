@@ -1,7 +1,9 @@
-
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
+
+    // Login & Register Data
+    
     userName: {
         type: String,
         trim: true,
@@ -25,14 +27,14 @@ const userSchema = new mongoose.Schema({
         default: "user",
     },
     googleId: {
-        type: String,     // جديد → لتخزين Google ID
+        type: String,
     },
     facebookId: {
-        type: String,     // جديد → لتخزين Facebook ID
+        type: String,
     },
     provider: {
         type: String,
-        enum: ['local', 'google', 'facebook'],
+        enum: ["local", "google", "facebook"],
         default: "local",
     },
 
@@ -116,7 +118,16 @@ const userSchema = new mongoose.Schema({
         type: String,
         enum: ["true", "false"],
         default: "false",
-    }
+    },
+
+    // Favorites Section
+    
+    favorites: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Food",
+        }
+    ],
 
 }, {
     timestamps: true,
