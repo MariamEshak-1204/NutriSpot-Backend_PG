@@ -31,21 +31,21 @@ export const foodValidation = Joi.object({
     .min(1)
     .required(),
 
-  diseases: Joi.array()
+  health: Joi.array()
     .items(
-      Joi.string().valid("diabetes", "hypertension", "heart")
+      Joi.string().valid("high blood pressure", "heart disease" , "diabetes")
     )
     .optional(),
 
   diet: Joi.array()
     .items(
-      Joi.string().valid("vegan", "keto", "diet")
+      Joi.string().valid("vegan", "keto", "low carb" , "high protein")
     )
     .optional(),
 
   allergy: Joi.array()
     .items(
-      Joi.string().valid("nuts", "gluten", "lactuse", "none")
+      Joi.string().valid("none" ,"nuts", "gluten", "lactose")
     )
     .optional()
 });

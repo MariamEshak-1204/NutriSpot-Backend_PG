@@ -23,13 +23,12 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -56,12 +55,11 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "keto",
-            "diet"
+            "keto"
         ],
         "allergy": [
             "none"
@@ -91,13 +89,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -124,13 +121,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -158,12 +154,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -184,6 +180,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158083/FITFAT%20images/home%20suggestion%20recipes%20images/xnxesuyo1dexcy69p97b.jpg",
         "price": 240,
+        "discount": 0,
         "time": 20,
         "calories": 320,
         "protein": 9,
@@ -192,13 +189,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -216,6 +212,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158083/FITFAT%20images/home%20suggestion%20recipes%20images/jlpvwmcklyup0hsvht5d.jpg",
         "price": 190,
+        "discount": 0,
         "time": 10,
         "calories": 320,
         "protein": 8,
@@ -224,13 +221,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -254,6 +250,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158083/FITFAT%20images/home%20suggestion%20recipes%20images/fxxxnrvp63aemuovx1r9.jpg",
         "price": 200,
+        "discount": 0,
         "time": 35,
         "calories": 400,
         "protein": 15,
@@ -262,13 +259,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -287,6 +283,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/xicnwyb9kmfotl3hrfv2.jpg",
         "price": 100,
+        "discount": 0,
         "time": 15,
         "calories": 350,
         "protein": 14,
@@ -295,12 +292,12 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -319,6 +316,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/zcadjohia0srvzl72xj1.jpg",
         "price": 250,
+        "discount": 0,
         "time": 25,
         "calories": 180,
         "protein": 5,
@@ -327,13 +325,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -353,6 +350,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/px1nklb3boecwvm3tm8u.jpg",
         "price": 315,
+        "discount": 0,
         "time": 35,
         "calories": 320,
         "protein": 10,
@@ -361,13 +359,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -386,6 +383,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/qp3p4jej7f1hqccrrwkj.jpg",
         "price": 160,
+        "discount": 0,
         "time": 15,
         "calories": 350,
         "protein": 25,
@@ -394,12 +392,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -417,6 +415,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/x0nlmas1a6lf9jvcz3tj.jpg",
         "price": 110,
+        "discount": 0,
         "time": 10,
         "calories": 320,
         "protein": 10,
@@ -425,12 +424,11 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "diet",
             "vegan"
         ],
         "allergy": [
@@ -449,7 +447,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158083/FITFAT%20images/home%20suggestion%20recipes%20images/nosmwnybowcilrrzfvhp.jpg",
         "price": 210,
-        "discount":10,
+        "discount": 10,
         "time": 15,
         "calories": 320,
         "protein": 10,
@@ -458,11 +456,11 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "nuts"
@@ -481,6 +479,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/ksuvisprlsm4uxiptexg.jpg",
         "price": 300,
+        "discount": 0,
         "time": 25,
         "calories": 420,
         "protein": 40,
@@ -489,12 +488,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -513,6 +512,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/oep0aqguygmmkscfqwvq.jpg",
         "price": 150,
+        "discount": 0,
         "time": 25,
         "calories": 180,
         "protein": 5,
@@ -521,13 +521,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -547,6 +546,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/jqzqfapheiy5ldls7nnt.jpg",
         "price": 180,
+        "discount": 0,
         "time": 30,
         "calories": 400,
         "protein": 15,
@@ -555,15 +555,15 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "low carb"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -579,6 +579,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/ybdcewe293fmfarrxlkl.jpg",
         "price": 160,
+        "discount": 0,
         "time": 15,
         "calories": 350,
         "protein": 10,
@@ -587,13 +588,12 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "nuts"
@@ -613,6 +613,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/sl97sq5p3eygdsmofbhp.jpg",
         "price": 170,
+        "discount": 0,
         "time": 40,
         "calories": 420,
         "protein": 35,
@@ -621,12 +622,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -645,6 +646,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/qpphj5azocdagfyvew33.jpg",
         "price": 220,
+        "discount": 0,
         "time": 20,
         "calories": 350,
         "protein": 12,
@@ -653,12 +655,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -675,6 +677,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/xwhhr0cqkmjd4dtnqzqk.jpg",
         "price": 140,
+        "discount": 0,
         "time": 10,
         "calories": 350,
         "protein": 8,
@@ -683,13 +686,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "nuts"
@@ -706,6 +709,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/aus5gjhy2ndf5vz4xhj9.jpg",
         "price": 180,
+        "discount": 0,
         "time": 10,
         "calories": 400,
         "protein": 15,
@@ -714,12 +718,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "high protein"
         ],
         "allergy": [
             "nuts"
@@ -736,6 +740,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/kbkespqefyvqbxsdqf9x.jpg",
         "price": 160,
+        "discount": 0,
         "time": 15,
         "calories": 470,
         "protein": 22,
@@ -744,12 +749,12 @@
         "categories": [
             "sandwich"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "high protein"
         ],
         "allergy": [
             "none"
@@ -766,6 +771,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/ioys1peqyxykvwgrsqtz.jpg",
         "price": 215,
+        "discount": 0,
         "time": 15,
         "calories": 490,
         "protein": 30,
@@ -774,15 +780,16 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "high protein",
+            "low carb"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -796,6 +803,7 @@
         ],
         "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/y6n34ebzpalgg1cumcx1.jpg",
         "price": 230,
+        "discount": 0,
         "time": 35,
         "calories": 390,
         "protein": 23,
@@ -804,15 +812,15 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "high protein"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -824,8 +832,9 @@
             "1 tablespoon olive oil",
             "Salt and black pepper to taste"
         ],
-        "image": "https://www.foodiesfeed.com/wp-content/uploads/ff-images/2025/05/delicious-omelette-with-fresh-tomatoes-and-greens.png",
+        "image": "https://cheeseandsuch.com/wp-content/uploads/2021/03/spinach-feta-omelette-recipe-11-1024x683.jpg",
         "price": 150,
+        "discount": 0,
         "time": 10,
         "calories": 250,
         "protein": 18,
@@ -834,15 +843,16 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "keto",
+            "high protein"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -854,8 +864,9 @@
             "200g asparagus, steamed",
             "Salt and pepper to taste"
         ],
-        "image": "https://www.foodiesfeed.com/wp-content/uploads/ff-images/2025/05/grilled-steak-salad-with-sweet-potatoes-and-greens.webp",
+        "image": "https://healthymummywellness.com/wp-content/uploads/2022/04/Roast-Turkey-Breast-grilled-Asperagus-Sweet-Potato-Wedges-768x512.jpg",
         "price": 300,
+        "discount": 0,
         "time": 25,
         "calories": 280,
         "protein": 32,
@@ -864,12 +875,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "keto",
+            "high protein"
         ],
         "allergy": [
             "none"
@@ -885,6 +897,7 @@
         ],
         "image": "https://triedtestedandtrue.com/wp-content/uploads/2022/09/Coconut-Mango-Chia-Pudding-6.jpg",
         "price": 145,
+        "discount": 0,
         "time": 10,
         "calories": 210,
         "protein": 6,
@@ -893,13 +906,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -916,6 +929,7 @@
         ],
         "image": "https://foodwithfeeling.com/wp-content/uploads/2022/04/stuffed-sweet-potatoes-10.jpg",
         "price": 215,
+        "discount": 0,
         "time": 40,
         "calories": 220,
         "protein": 8,
@@ -924,13 +938,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -956,13 +969,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -977,7 +990,7 @@
             "1 tablespoon pine nuts",
             "Salt and pepper to taste"
         ],
-        "image": "https://www.foodiesfeed.com/wp-content/uploads/2023/05/bowl-of-ramen-soup.jpg",
+        "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2013/08/Zucchini-Noodles-with-Pesto-6.jpg",
         "price": 260,
         "time": 20,
         "calories": 200,
@@ -987,13 +1000,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "keto"
         ],
         "allergy": [
             "nuts"
@@ -1017,13 +1030,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "nuts"
@@ -1050,13 +1063,13 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "high protein"
         ],
         "allergy": [
             "none"
@@ -1082,13 +1095,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -1113,13 +1125,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -1144,13 +1155,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "keto"
         ],
         "allergy": [
             "none"
@@ -1175,13 +1186,14 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "high protein",
+            "keto"
         ],
         "allergy": [
             "none"
@@ -1207,12 +1219,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart",
+        "health": [
+            "heart disease",
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "keto",
+            "high protein"
         ],
         "allergy": [
             "none"
@@ -1239,13 +1252,12 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -1270,13 +1282,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "keto"
         ],
         "allergy": [
             "none"
@@ -1301,13 +1313,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "vegan",
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -1333,13 +1344,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "high protein"
         ],
         "allergy": [
             "none"
@@ -1363,12 +1374,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "high protein",
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -1393,13 +1405,13 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes",
-            "heart"
+            "heart disease"
         ],
         "diet": [
             "keto",
-            "diet"
+            "high protein"
         ],
         "allergy": [
             "none"
@@ -1423,12 +1435,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes"
         ],
         "diet": [
             "vegan",
-            "diet"
+            "low carb"
         ],
         "allergy": [
             "nuts"
@@ -1453,11 +1465,11 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "high protein"
         ],
         "allergy": [
             "gluten"
@@ -1482,14 +1494,15 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "hypertension"
+        "health": [
+            "high blood pressure"
         ],
         "diet": [
-            "keto"
+            "keto",
+            "high protein"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -1511,11 +1524,12 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
+        "health": [
             "diabetes"
         ],
         "diet": [
-            "vegan"
+            "vegan",
+            "high protein"
         ],
         "allergy": [
             "none"
@@ -1539,11 +1553,11 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "nuts"
@@ -1567,11 +1581,11 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
+        "health": [
             "diabetes"
         ],
         "diet": [
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "gluten"
@@ -1594,11 +1608,12 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "keto"
+            "keto",
+            "high protein"
         ],
         "allergy": [
             "nuts"
@@ -1623,14 +1638,15 @@
         "categories": [
             "meal"
         ],
-        "diseases": [
-            "hypertension"
+        "health": [
+            "high blood pressure"
         ],
         "diet": [
-            "diet"
+            "vegan",
+            "keto"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -1652,11 +1668,12 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
+        "health": [
             "diabetes"
         ],
         "diet": [
-            "vegan"
+            "vegan",
+            "low carb"
         ],
         "allergy": [
             "nuts"
@@ -1680,14 +1697,14 @@
         "categories": [
             "sandwich"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "high protein"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -1709,11 +1726,11 @@
         "categories": [
             "sandwich"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "high protein"
         ],
         "allergy": [
             "gluten"
@@ -1738,11 +1755,12 @@
         "categories": [
             "sandwich"
         ],
-        "diseases": [
+        "health": [
             "diabetes"
         ],
         "diet": [
-            "keto"
+            "keto",
+            "high protein"
         ],
         "allergy": [
             "nuts"
@@ -1766,8 +1784,8 @@
         "categories": [
             "sandwich"
         ],
-        "diseases": [
-            "hypertension"
+        "health": [
+            "high blood pressure"
         ],
         "diet": [
             "vegan"
@@ -1795,14 +1813,14 @@
         "categories": [
             "sandwich"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "high protein"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -1815,7 +1833,7 @@
         ],
         "image": "https://www.eatingwell.com/thmb/xcmUyImuOzj5HOfwpYdlL1GMVAw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8030933-egg-spinach-cheddar-breakfast-sandwich-beauty-743063c037fe42bda5a55fe4bdfa7419.jpg",
         "price": 314,
-        "discount":20,
+        "discount": 20,
         "time": 8,
         "calories": 300,
         "protein": 15,
@@ -1824,11 +1842,12 @@
         "categories": [
             "sandwich"
         ],
-        "diseases": [
+        "health": [
             "diabetes"
         ],
         "diet": [
-            "keto"
+            "keto",
+            "high protein"
         ],
         "allergy": [
             "gluten"
@@ -1853,14 +1872,15 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "keto"
+            "keto",
+            "low carb"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -1881,7 +1901,7 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
+        "health": [
             "diabetes"
         ],
         "diet": [
@@ -1909,11 +1929,11 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
-            "hypertension"
+        "health": [
+            "high blood pressure"
         ],
         "diet": [
-            "diet"
+            "vegan"
         ],
         "allergy": [
             "nuts"
@@ -1938,14 +1958,14 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
-            "heart"
+        "health": [
+            "heart disease"
         ],
         "diet": [
-            "diet"
+            "high protein"
         ],
         "allergy": [
-            "lactuse"
+            "lactose"
         ]
     },
     {
@@ -1957,7 +1977,7 @@
             "1 tablespoon olive oil",
             "1 teaspoon lemon juice"
         ],
-        "image": "https://www.eatingwell.com/thmb/chcKCmbmQRvrHy1uyBEE38wgSPY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Avocado--Chickpea-Salad-hero-1x1-24606_preview_maxWidth_4000_maxHeight_4000_ppi_300_quality_100-eaaa63ea30cb443f81d683c63056a396.jpg",
+        "image": "https://www.eatingwell.com/thmb/chcKCmbmQRvrHy1uyBEE38wgSPY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc/:format(webp)/Avocado--Chickpea-Salad-hero-1x1-24606_preview_maxWidth_4000_maxHeight_4000_ppi_300_quality_100-eaaa63ea30cb443f81d683c63056a396.jpg",
         "price": 315,
         "time": 8,
         "calories": 280,
@@ -1967,7 +1987,7 @@
         "categories": [
             "salad"
         ],
-        "diseases": [
+        "health": [
             "diabetes"
         ],
         "diet": [
@@ -1976,5 +1996,970 @@
         "allergy": [
             "none"
         ]
-    }
+    },
+    {
+        "name": "Turkey Avocado Whole Wheat Sandwich",
+        "ingredients": [
+            "whole wheat bread",
+            "turkey breast slices",
+            "avocado",
+            "lettuce",
+            "tomato",
+            "mustard"
+        ],
+        "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg",
+        "price": 185,
+        "discount": 15,
+        "time": 10,
+        "calories": 380,
+        "protein": 28,
+        "carbs": 35,
+        "fats": 14,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Grilled Chicken Pesto Sandwich",
+        "ingredients": [
+            "whole grain bun",
+            "grilled chicken breast",
+            "basil pesto",
+            "tomato",
+            "lettuce"
+        ],
+        "image": "https://thecozyapron.com/wp-content/uploads/2020/09/grilled-chicken-sandwich_thecozyapron_1.jpg",
+        "price": 195,
+        "time": 12,
+        "calories": 420,
+        "protein": 32,
+        "carbs": 38,
+        "fats": 16,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "nuts"
+        ]
+    },
+    {
+        "name": "Tuna Greek Yogurt Sandwich",
+        "ingredients": [
+            "whole wheat bread",
+            "tuna",
+            "greek yogurt",
+            "cucumber",
+            "lemon juice"
+        ],
+        "image": "https://www.daisybeet.com/wp-content/uploads/2023/08/Tuna-Salad-with-Greek-Yogurt-8.jpg",
+        "price": 160,
+        "time": 10,
+        "calories": 340,
+        "protein": 30,
+        "carbs": 32,
+        "fats": 8,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Egg White Breakfast Sandwich",
+        "ingredients": [
+            "whole grain bread",
+            "egg whites",
+            "spinach",
+            "low fat cheese"
+        ],
+        "image": "https://sweetpeasandsaffron.com/wp-content/uploads/2018/06/copycat-starbucks-egg-white-breakfast-sandwich-2.jpg",
+        "price": 145,
+        "time": 8,
+        "calories": 280,
+        "protein": 22,
+        "carbs": 30,
+        "fats": 6,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "lactose",
+            "gluten"
+        ]
+    },
+    {
+        "name": "Grilled Halloumi Veggie Sandwich",
+        "ingredients": [
+            "whole wheat bun",
+            "halloumi cheese",
+            "grilled zucchini",
+            "bell pepper",
+            "lettuce"
+        ],
+        "image": "https://itsavegworldafterall.com/wp-content/uploads/2021/05/Halloumi-Sandwiches-5.jpg",
+        "price": 175,
+        "discount": 15,
+        "time": 12,
+        "calories": 410,
+        "protein": 18,
+        "carbs": 36,
+        "fats": 20,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "keto"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Roast Beef Mustard Sandwich",
+        "ingredients": [
+            "whole grain bread",
+            "roast beef",
+            "mustard",
+            "lettuce"
+        ],
+        "image": "https://cookingandbeer.com/wp-content/uploads/2015/07/roastbeefsammiesthumb.jpg",
+        "price": 200,
+        "time": 10,
+        "calories": 430,
+        "protein": 30,
+        "carbs": 34,
+        "fats": 18,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Falafel Tahini Sandwich",
+        "ingredients": [
+            "whole wheat pita",
+            "baked falafel",
+            "tahini sauce",
+            "tomato",
+            "lettuce"
+        ],
+        "image": "https://ordinaryvegan.net/wp-content/uploads/2019/09/Vegan-Baked-Falafel-resize-1536x1025.webp",
+        "price": 140,
+        "time": 10,
+        "calories": 390,
+        "protein": 14,
+        "carbs": 45,
+        "fats": 16,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Smoked Salmon Cream Cheese Sandwich",
+        "ingredients": [
+            "whole grain bread",
+            "smoked salmon",
+            "light cream cheese",
+            "cucumber"
+        ],
+        "image": "https://thecozyapron.com/wp-content/uploads/2024/05/smoked-salmon-sandwich_thecozyapron_1.jpg",
+        "price": 220,
+        "time": 8,
+        "calories": 360,
+        "protein": 24,
+        "carbs": 28,
+        "fats": 16,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Grilled Chicken Quinoa Salad",
+        "ingredients": [
+            "grilled chicken breast",
+            "quinoa",
+            "mixed greens",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://www.completelydelicious.com/wp-content/uploads/2023/05/grilled-chicken-quinoa-salad-5-660x880.jpg",
+        "price": 230,
+        "time": 15,
+        "calories": 420,
+        "protein": 35,
+        "carbs": 30,
+        "fats": 14,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Lentil Spinach Salad",
+        "ingredients": [
+            "lentils",
+            "spinach",
+            "red onion",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://www.gimmesomeoven.com/wp-content/uploads/2016/08/Easy-Warm-Lentil-Salad-Recipe-1.jpg",
+        "price": 180,
+        "discount": 10,
+        "time": 15,
+        "calories": 300,
+        "protein": 16,
+        "carbs": 38,
+        "fats": 8,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Shrimp Avocado Salad",
+        "ingredients": [
+            "shrimp",
+            "avocado",
+            "mixed greens",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://feelgoodfoodie.net/wp-content/uploads/2025/06/Shrimp-Avocado-Salad-04.jpg",
+        "price": 260,
+        "time": 15,
+        "calories": 360,
+        "protein": 28,
+        "carbs": 12,
+        "fats": 18,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Brown Rice Vegetable Salad",
+        "ingredients": [
+            "brown rice",
+            "cucumber",
+            "tomato",
+            "parsley",
+            "olive oil"
+        ],
+        "image": "https://www.recipetineats.com/tachyon/2020/09/Brown-Rice-Salad_8.jpg?resize=900%2C1260&zoom=0.72",
+        "price": 170,
+        "discount": 20,
+        "time": 15,
+        "calories": 310,
+        "protein": 9,
+        "carbs": 48,
+        "fats": 8,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Spinach and Strawberry Salad",
+        "ingredients": [
+            "fresh spinach",
+            "strawberries",
+            "walnuts",
+            "balsamic vinaigrette"
+        ],
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2025/04/spinach-strawberry-salad-recipe-580x808.jpg",
+        "price": 214,
+        "discount": 0,
+        "time": 5,
+        "calories": 220,
+        "protein": 6,
+        "carbs": 15,
+        "fats": 12,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "nuts"
+        ]
+    },
+    {
+        "name": "Grilled Veggie Wrap",
+        "ingredients": [
+            "whole wheat wrap",
+            "grilled zucchini",
+            "bell peppers",
+            "eggplant",
+            "hummus",
+            "spinach leaves"
+        ],
+        "image": "https://foodwithfeeling.com/wp-content/uploads/2023/09/Grilled-Veggie-Wraps-3-680x1020.jpg",
+        "price": 140,
+        "discount": 0,
+        "time": 8,
+        "calories": 280,
+        "protein": 8,
+        "carbs": 32,
+        "fats": 10,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Greek Salad",
+        "ingredients": [
+            "cucumber",
+            "cherry tomatoes",
+            "feta cheese",
+            "olives",
+            "olive oil"
+        ],
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/greek-salad-2-580x756.jpg",
+        "price": 215,
+        "discount": 0,
+        "time": 5,
+        "calories": 250,
+        "protein": 8,
+        "carbs": 10,
+        "fats": 20,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "keto"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Quinoa and Roasted Veggie Salad",
+        "ingredients": [
+            "cooked quinoa",
+            "roasted zucchini",
+            "bell peppers",
+            "carrot",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://choosingchia.com/jessh-jessh/uploads/2025/08/roasted-vegetable-quinoa-salad-8.jpg",
+        "price": 216,
+        "discount": 0,
+        "time": 10,
+        "calories": 280,
+        "protein": 10,
+        "carbs": 30,
+        "fats": 12,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Lentil Spinach Salad",
+        "ingredients": [
+            "lentils",
+            "spinach",
+            "red onion",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://www.gimmesomeoven.com/wp-content/uploads/2016/08/Easy-Warm-Lentil-Salad-Recipe-1.jpg",
+        "price": 180,
+        "discount": 10,
+        "time": 15,
+        "calories": 300,
+        "protein": 16,
+        "carbs": 38,
+        "fats": 8,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Grilled Chicken Quinoa Salad",
+        "ingredients": [
+            "grilled chicken breast",
+            "quinoa",
+            "mixed greens",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://www.completelydelicious.com/wp-content/uploads/2023/05/grilled-chicken-quinoa-salad-5-660x880.jpg",
+        "price": 230,
+        "discount": 0,
+        "time": 15,
+        "calories": 420,
+        "protein": 35,
+        "carbs": 30,
+        "fats": 14,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Shrimp Avocado Salad",
+        "ingredients": [
+            "shrimp",
+            "avocado",
+            "mixed greens",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://feelgoodfoodie.net/wp-content/uploads/2025/06/Shrimp-Avocado-Salad-04.jpg",
+        "price": 260,
+        "discount": 0,
+        "time": 15,
+        "calories": 360,
+        "protein": 28,
+        "carbs": 12,
+        "fats": 18,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Brown Rice Vegetable Salad",
+        "ingredients": [
+            "brown rice",
+            "cucumber",
+            "tomato",
+            "parsley",
+            "olive oil"
+        ],
+        "image": "https://www.recipetineats.com/tachyon/2020/09/Brown-Rice-Salad_8.jpg?resize=900%2C1260&zoom=0.72",
+        "price": 170,
+        "discount": 20,
+        "time": 15,
+        "calories": 310,
+        "protein": 9,
+        "carbs": 48,
+        "fats": 8,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Grilled Halloumi Veggie Sandwich",
+        "ingredients": [
+            "whole wheat bun",
+            "halloumi cheese",
+            "grilled zucchini",
+            "bell pepper",
+            "lettuce"
+        ],
+        "image": "https://itsavegworldafterall.com/wp-content/uploads/2021/05/Halloumi-Sandwiches-5.jpg",
+        "price": 175,
+        "discount": 15,
+        "time": 12,
+        "calories": 410,
+        "protein": 18,
+        "carbs": 36,
+        "fats": 20,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Roast Beef Mustard Sandwich",
+        "ingredients": [
+            "whole grain bread",
+            "roast beef",
+            "mustard",
+            "lettuce"
+        ],
+        "image": "https://cookingandbeer.com/wp-content/uploads/2015/07/roastbeefsammiesthumb.jpg",
+        "price": 200,
+        "discount": 0,
+        "time": 10,
+        "calories": 430,
+        "protein": 30,
+        "carbs": 34,
+        "fats": 18,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+  {
+    "name": "Grilled Chicken Caesar Salad",
+    "ingredients": [
+      "grilled chicken breast",
+      "romaine lettuce",
+      "parmesan cheese",
+      "croutons",
+      "Caesar dressing"
+    ],
+    "image": "https://damndelicious.net/wp-content/uploads/2023/01/220905_DD_Chx-Caesar-Salad_051-760x1140.jpg.webp",
+    "price": 320,
+    "discount": 0,
+    "time": 12,
+    "calories": 360,
+    "protein": 30,
+    "carbs": 12,
+    "fats": 20,
+    "categories": ["salad"],
+    "health": ["heart disease"],
+    "diet": ["high protein"],
+    "allergy": ["lactose"]
+  },
+  {
+    "name": "Beef and Quinoa Salad",
+    "ingredients": [
+      "grilled beef strips",
+      "cooked quinoa",
+      "mixed greens",
+      "olive oil",
+      "lemon juice"
+    ],
+    "image": "https://foxeslovelemons.com/wp-content/uploads/2013/03/Steak-Quinoa-Salad31.jpg",
+    "price": 380,
+    "discount": 0,
+    "time": 15,
+    "calories": 450,
+    "protein": 35,
+    "carbs": 28,
+    "fats": 18,
+    "categories": ["salad"],
+    "health": ["high blood pressure"],
+    "diet": ["high protein"],
+    "allergy": ["none"]
+  },
+  {
+    "name": "Turkey Avocado Sandwich",
+    "ingredients": [
+      "whole wheat bread",
+      "sliced turkey breast",
+      "avocado",
+      "lettuce",
+      "tomato",
+      "mustard"
+    ],
+    "image": "https://images.pexels.com/photos/1639561/pexels-photo-1639561.jpeg",
+    "price": 216,
+    "discount": 0,
+    "time": 10,
+    "calories": 320,
+    "protein": 20,
+    "carbs": 28,
+    "fats": 12,
+    "categories": ["sandwich"],
+    "health": ["heart disease"],
+    "diet": ["low carb"],
+    "allergy": ["gluten"]
+  },
+  {
+    "name": "Grilled Chicken Pesto Sandwich",
+    "ingredients": [
+      "whole grain bun",
+      "grilled chicken breast",
+      "basil pesto",
+      "tomato",
+      "lettuce"
+    ],
+    "image": "https://thecozyapron.com/wp-content/uploads/2020/09/grilled-chicken-sandwich_thecozyapron_1.jpg",
+    "price": 195,
+    "discount": 0,
+    "time": 12,
+    "calories": 420,
+    "protein": 32,
+    "carbs": 38,
+    "fats": 16,
+    "categories": ["sandwich"],
+    "health": ["heart disease"],
+    "diet": ["high protein"],
+    "allergy": ["nuts"]
+  },
+  {
+    "name": "Shrimp Avocado Salad",
+    "ingredients": [
+      "shrimp",
+      "avocado",
+      "mixed greens",
+      "olive oil",
+      "lemon juice"
+    ],
+    "image": "https://feelgoodfoodie.net/wp-content/uploads/2025/06/Shrimp-Avocado-Salad-04.jpg",
+    "price": 260,
+    "discount": 0,
+    "time": 15,
+    "calories": 360,
+    "protein": 28,
+    "carbs": 12,
+    "fats": 18,
+    "categories": ["salad"],
+    "health": ["heart disease"],
+    "diet": ["high protein"],
+    "allergy": ["none"]
+  },
+  {
+    "name": "Grilled Halloumi Veggie Sandwich",
+    "ingredients": [
+      "whole wheat bun",
+      "halloumi cheese",
+      "grilled zucchini",
+      "bell pepper",
+      "lettuce"
+    ],
+    "image": "https://itsavegworldafterall.com/wp-content/uploads/2021/05/Halloumi-Sandwiches-5.jpg",
+    "price": 175,
+    "discount": 15,
+    "time": 12,
+    "calories": 410,
+    "protein": 18,
+    "carbs": 36,
+    "fats": 20,
+    "categories": ["sandwich"],
+    "health": ["heart disease"],
+    "diet": ["vegan"],
+    "allergy": ["lactose"]
+  },
+  {
+    "name": "Falafel Tahini Sandwich",
+    "ingredients": [
+      "whole wheat pita",
+      "baked falafel",
+      "tahini sauce",
+      "tomato",
+      "lettuce"
+    ],
+    "image": "https://ordinaryvegan.net/wp-content/uploads/2019/09/Vegan-Baked-Falafel-resize-1536x1025.webp",
+    "price": 140,
+    "discount": 0,
+    "time": 10,
+    "calories": 390,
+    "protein": 14,
+    "carbs": 45,
+    "fats": 16,
+    "categories": ["sandwich"],
+    "health": ["heart disease"],
+    "diet": ["vegan"],
+    "allergy": ["gluten"]
+  },
+  {
+    "name": "Beef Stir-Fry with Veggies",
+    "ingredients": [
+      "beef strips",
+      "broccoli",
+      "bell peppers",
+      "carrot",
+      "soy sauce"
+    ],
+    "image": "https://www.allrecipes.com/thmb/tIgGxX3cWKTDdePPmtMbcRy1HLY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/228823-quick-beef-stir-fry-DDMFS-4x3-1f79b031d3134f02ac27d79e967dfef5.jpg",
+    "price": 300,
+    "discount": 0,
+    "time": 20,
+    "calories": 400,
+    "protein": 35,
+    "carbs": 25,
+    "fats": 18,
+    "categories": ["meal"],
+    "health": ["high blood pressure"],
+    "diet": ["high protein"],
+    "allergy": ["none"]
+  },
+  {
+    "name": "Chicken and Veggie Stir-Fry",
+    "ingredients": [
+      "chicken breast",
+      "zucchini",
+      "carrots",
+      "bell peppers",
+      "olive oil"
+    ],
+    "image": "https://www.momontimeout.com/wp-content/uploads/2018/11/chicken-stir-fry-733x1103.jpg",
+    "price": 280,
+    "discount": 0,
+    "time": 18,
+    "calories": 380,
+    "protein": 32,
+    "carbs": 20,
+    "fats": 15,
+    "categories": ["meal"],
+    "health": ["high blood pressure"],
+    "diet": ["high protein"],
+    "allergy": ["none"]
+  },
+  {
+    "name": "Lentil Spinach Salad",
+    "ingredients": [
+      "lentils",
+      "spinach",
+      "red onion",
+      "olive oil",
+      "lemon juice"
+    ],
+    "image": "https://www.gimmesomeoven.com/wp-content/uploads/2016/08/Easy-Warm-Lentil-Salad-Recipe-1.jpg",
+    "price": 180,
+    "discount": 10,
+    "time": 15,
+    "calories": 300,
+    "protein": 16,
+    "carbs": 38,
+    "fats": 8,
+    "categories": ["salad"],
+    "health": ["high blood pressure"],
+    "diet": ["vegan"],
+    "allergy": ["none"]
+  },
+  {
+    "name": "Brown Rice Vegetable Salad",
+    "ingredients": [
+      "brown rice",
+      "cucumber",
+      "tomato",
+      "parsley",
+      "olive oil"
+    ],
+    "image": "https://www.recipetineats.com/tachyon/2020/09/Brown-Rice-Salad_8.jpg?resize=900%2C1260&zoom=0.72",
+    "price": 170,
+    "discount": 20,
+    "time": 15,
+    "calories": 310,
+    "protein": 9,
+    "carbs": 48,
+    "fats": 8,
+    "categories": ["salad"],
+    "health": ["high blood pressure"],
+    "diet": ["vegan"],
+    "allergy": ["none"]
+  },
+  {
+    "name": "Grilled Salmon with Veggies",
+    "ingredients": [
+      "salmon fillet",
+      "broccoli",
+      "carrot",
+      "olive oil",
+      "lemon juice"
+    ],
+    "image": "https://www.eatingwell.com/thmb/FH-AVz1XXWw5TiKwyWM_It3NZ0I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7969212-grilled-salmon-and-vegetables-with-charred-lemon-vinaigrette-beauty-501b80ab61a640d3bfacfa5f97aa982d.jpg",
+    "price": 350,
+    "discount": 0,
+    "time": 20,
+    "calories": 450,
+    "protein": 38,
+    "carbs": 10,
+    "fats": 25,
+    "categories": ["meal"],
+    "health": ["high blood pressure"],
+    "diet": ["high protein"],
+    "allergy": ["none"]
+  },
+  {
+    "name": "Greek Yogurt with Berries and Honey",
+    "ingredients": [
+      "Greek yogurt",
+      "mixed berries",
+      "honey",
+      "chia seeds"
+    ],
+    "image": "https://lh3.ggpht.com/_BizpeaUzxq8/Sc2CnomPpeI/AAAAAAAAA9g/zwyx8yREB4o/s800/greek-yogurt.jpg",
+    "price": 150,
+    "discount": 0,
+    "time": 5,
+    "calories": 200,
+    "protein": 12,
+    "carbs": 25,
+    "fats": 6,
+    "categories": ["meal"],
+    "health": ["high blood pressure"],
+    "diet": ["low carb"],
+    "allergy": ["none"]
+  },
+  {
+    "name": "Avocado and Chickpea Salad",
+    "ingredients": [
+      "chickpeas",
+      "avocado",
+      "cucumber",
+      "olive oil",
+      "lemon juice"
+    ],
+    "image": "https://www.eatingwell.com/thmb/chcKCmbmQRvrHy1uyBEE38wgSPY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Avocado--Chickpea-Salad-hero-1x1-24606_preview_maxWidth_4000_maxHeight_4000_ppi_300_quality_100-eaaa63ea30cb443f81d683c63056a396.jpg",
+    "price": 315,
+    "discount": 0,
+    "time": 8,
+    "calories": 280,
+    "protein": 10,
+    "carbs": 25,
+    "fats": 15,
+    "categories": ["salad"],
+    "health": ["high blood pressure"],
+    "diet": ["vegan"],
+    "allergy": ["none"]
+  } 
 ]
