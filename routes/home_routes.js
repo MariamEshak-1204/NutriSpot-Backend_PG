@@ -3,7 +3,7 @@ import { protect } from "../middleware/auth_middleware.js";
 import { getAllFoods, getFoodOffers, getHomeFoods, searchFood } from "../controllers/home_controller.js";
 import { addToCart , getCart , updateQuantity , removeFromCart } from "../controllers/cart_controller.js";
 import { addToFavorite, getFavorites, removeFromFavorite } from "../controllers/favorite_controller.js";
-import { getFoodDetails } from "../controllers/food_controller.js"
+import { getFoodDetails } from "../controllers/foodDetails_controller.js"
 import { checkout } from "../controllers/order_controller.js";
 import { getFoodByAllergy, getFoodByCategory, getFoodByDiet, getFoodByHealth} from "../controllers/categoryFood_controller.js";
 
@@ -17,7 +17,7 @@ homeRouter.get("/SearchFood", searchFood);
 homeRouter.post("/cart/add", protect, addToCart);
 homeRouter.get("/cart", protect, getCart);
 homeRouter.put("/cart/update", protect, updateQuantity);
-homeRouter.delete("/cart/remove/:foodId", protect, removeFromCart);
+homeRouter.delete("/cart/remove", protect, removeFromCart);
 
 homeRouter.post("/favorite/add", protect, addToFavorite  );
 homeRouter.post("/favorite/remove", protect, removeFromFavorite);
