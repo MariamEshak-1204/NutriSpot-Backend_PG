@@ -1,118 +1,132 @@
-import Food from "../models/food_model.js"
+ import Food from "../models/food_model.js"
 
 
-// categories: ["salad", "meal", "sandwich"]
-
+   // categories: ["salad", "meal", "sandwich"]
 export const getFoodByCategory = async (req, res) => {
-
   try {
+    const { category } = req.query;
 
-    const category = req.params.category
+    if (!category) {
+      return res.status(400).json({
+        success: false,
+        message: "category is required",
+      });
+    }
 
-    const foods = await Food.find({ categories: category }).select("name price image calories categories")
+    const foods = await Food.find({
+      categories: { $regex: category, $options: "i" }
+    }).select("name price image calories categories");
 
     res.status(200).json({
       success: true,
       message: "Foods fetched successfully",
       count: foods.length,
       data: foods
-    })
+    });
 
   } catch (error) {
-
     res.status(500).json({
       success: false,
       message: error.message
-    })
-
+    });
   }
-
-}
+};
 
 //    health: ["high blood pressure", "heart disease" , "diabetes"]
 
-
 export const getFoodByHealth = async (req, res) => {
-
   try {
+    const { health } = req.query;
 
-    const category = req.params.category
+    if (!health) {
+      return res.status(400).json({
+        success: false,
+        message: "health is required",
+      });
+    }
 
-    const foods = await Food.find({ health: category }).select("name price image calories health")
+    const foods = await Food.find({
+      health: { $regex: health, $options: "i" }
+    }).select("name price image calories health");
 
     res.status(200).json({
       success: true,
       message: "Foods fetched successfully",
       count: foods.length,
       data: foods
-    })
+    });
 
   } catch (error) {
-
     res.status(500).json({
       success: false,
       message: error.message
-    })
-
+    });
   }
+};
 
-}
 
 //   diet: ["vegan", "keto", "low carb" , "high protein"]
 
 export const getFoodByDiet = async (req, res) => {
-
   try {
+    const { diet } = req.query;
 
-    const category = req.params.category
+    if (!diet) {
+      return res.status(400).json({
+        success: false,
+        message: "diet is required",
+      });
+    }
 
-    const foods = await Food.find({ diet: category }).select("name price image calories diet")
+    const foods = await Food.find({
+      diet: { $regex: diet, $options: "i" }
+    }).select("name price image calories diet");
 
     res.status(200).json({
       success: true,
       message: "Foods fetched successfully",
       count: foods.length,
       data: foods
-    })
+    });
 
   } catch (error) {
-
     res.status(500).json({
       success: false,
       message: error.message
-    })
-
+    });
   }
+};
 
-}
-
-
-//    allergy: [ "none" ,"nuts", "gluten", "lactose"]
-
-
+ //    allergy: [ "none" ,"nuts", "gluten", "lactose"]
+ 
 export const getFoodByAllergy = async (req, res) => {
-
   try {
+    const { allergy } = req.query;
 
-    const category = req.params.category
+    if (!allergy) {
+      return res.status(400).json({
+        success: false,
+        message: "allergy is required",
+      });
+    }
 
-    const foods = await Food.find({ allergy: category }).select("name price image calories allergy")
+    const foods = await Food.find({
+      allergy: { $regex: allergy, $options: "i" }
+    }).select("name price image calories allergy");
 
     res.status(200).json({
       success: true,
       message: "Foods fetched successfully",
       count: foods.length,
       data: foods
-    })
+    });
 
   } catch (error) {
-
     res.status(500).json({
       success: false,
       message: error.message
-    })
-
+    });
   }
+};
 
-}
 

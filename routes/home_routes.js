@@ -20,7 +20,7 @@ homeRouter.put("/cart/update", protect, updateQuantity);
 homeRouter.delete("/cart/remove", protect, removeFromCart);
 
 homeRouter.post("/favorite/add", protect, addToFavorite  );
-homeRouter.post("/favorite/remove", protect, removeFromFavorite);
+homeRouter.delete("/favorite/remove", protect, removeFromFavorite);
 homeRouter.get("/favorite", protect, getFavorites);
 
 
@@ -28,10 +28,10 @@ homeRouter.get("/FoodDetails/:id",protect , getFoodDetails)
 
 homeRouter.post("/orders/checkout", protect, checkout)
 
-homeRouter.get("/Category/:category", getFoodByCategory)
-homeRouter.get("/Health/:category", getFoodByHealth)
-homeRouter.get("/Diet/:category", getFoodByDiet)
-homeRouter.get("/Allergy/:category", getFoodByAllergy)
+homeRouter.get("/Category", getFoodByCategory)
+homeRouter.get("/Health", getFoodByHealth)
+homeRouter.get("/Diet", getFoodByDiet)
+homeRouter.get("/Allergy", getFoodByAllergy)
 
 
 
