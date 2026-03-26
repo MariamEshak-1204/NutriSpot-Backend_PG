@@ -6,6 +6,7 @@ import userRouter from "./routes/user_routes.js"
 import homeRouter from "./routes/home_routes.js"
 import { connectToDB } from "./DB/mongoose.js"
 import cors from "cors";
+import { swaggerUi, specs } from "./config/swagger.js";
 
 // use package dotenv
 dotenv.config()
@@ -19,6 +20,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 app.use(cookieParser())
 app.use(cors());
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 
 app.use('/user', userRouter)
 app.use('/home', homeRouter)
