@@ -21,7 +21,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 app.use(cookieParser())
 app.use(cors());
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use("/api/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use('/user', userRouter)
 app.use('/home', homeRouter)
