@@ -50,6 +50,7 @@
 // https://nutri-spot-backend-pg.vercel.app/api-docs
 
 import swaggerJsdoc from "swagger-jsdoc";
+import "../config/swagger_schemas.js";
 
 const options = {
   definition: {
