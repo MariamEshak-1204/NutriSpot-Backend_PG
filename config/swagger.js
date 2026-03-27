@@ -51,6 +51,8 @@
 
 import swaggerJsdoc from "swagger-jsdoc";
 import "../config/swagger_schemas.js";
+import "../routes/home_routes.js"
+import "../routes/user_routes.js"
 
 const options = {
   definition: {
