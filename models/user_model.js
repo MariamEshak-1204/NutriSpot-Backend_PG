@@ -78,10 +78,10 @@ const userSchema = new mongoose.Schema({
         ],
     },
 
-    sleepingQuality: {
-        type: String,
-        enum: ["Excellent", "Good", "Fair", "Poor"],
-    },
+    // sleepingQuality: {
+    //     type: String,
+    //     enum: ["Excellent", "Good", "Fair", "Poor"],
+    // },
 
     healthNotes: {
         type: String,
@@ -114,10 +114,10 @@ const userSchema = new mongoose.Schema({
         type: Number,
     },
 
-    profileCompleted: {
-        type: String,
-        enum: ["true", "false"],
-        default: "false",
+     profileCompleted: {
+        type: Boolean,
+        enum: [true, false],
+        default: false,
     },
 
     // Favorites Section

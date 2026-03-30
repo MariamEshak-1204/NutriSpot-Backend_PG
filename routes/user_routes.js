@@ -1,12 +1,16 @@
 import express from "express";
-
+import { uploadProfileImage } from "../middleware/multer.js";
 import { register, login, getAllUsers, googleLogin, facebookLogin } from "../controllers/user_auth_controller.js";
-import { profileSetup, getProfile } from "../controllers/profileSetup_controller.js";
 import { validate } from "../middleware/validate.js";
 import { protect } from "../middleware/auth_middleware.js";
 import { userValidation, loginValidation, profileValidation } from "../services/user_validation.js";
-
-
+import { 
+    profileSetup,
+    getProfile,
+    changePassword,
+    deleteAccount,
+    signOut
+} from "../controllers/profileSetup_controller.js";
 
 const userRouter = express.Router()
 
@@ -186,74 +190,113 @@ userRouter.route("/google-login").post(googleLogin);
  */
 userRouter.route("/facebook-login").post(facebookLogin);
 
+// ---------------------------------------------------------
+
+
 /**
  * @swagger
- * /user/profile:
+ * /user/profile/setup:
  *   put:
- *     summary: Update user profile
- *     tags: [User]
+ *     summary: Complete user profile setup
+ *     tags: [Profile]
  *     security:
  *       - bearerAuth: []
  *     requestBody:
  *       required: true
- *       description: Fields to update in user profile
  *       content:
  *         application/json:
- *           schema:
- *             $ref: '#/components/schemas/User'
+ *           example:
+ *             gender: female
+ *             age: 22
+ *             height: 165
+ *             weight: 55
+ *             mealsPerDay: 3
+ *             allergies: ["None"]
+ *             goal: "Lose weight"
+ *             activityLevel: "Moderate"
+ *             dietType: "High protein"
  *     responses:
  *       200:
- *         description: Profile updated successfully
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/User'
- *       401:
- *         description: Unauthorized (missing/invalid token)
- *       400:
- *         description: Invalid input
- *       500:
- *         description: Internal server error
- *   get:
- *     summary: Get user profile
- *     tags: [User]
+ *         description: Profile setup completed
+ */
+
+userRouter.route("/profile/setup").put(protect,uploadProfileImage.single("image"), validate(profileValidation), profileSetup)
+
+/**
+ * @swagger
+ * /user/profile/deleteAccount:
+ *   delete:
+ *     summary: Delete user account
+ *     tags: [Profile]
  *     security:
  *       - bearerAuth: []
  *     responses:
  *       200:
- *         description: Current user's profile
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/User'
- *       401:
- *         description: Unauthorized (missing/invalid token)
- *       500:
- *         description: Internal server error
+ *         description: Account deleted successfully
  */
-userRouter.route("/profile").put(protect, validate(profileValidation), profileSetup)
+
+userRouter.route("/profile/deleteAccount").delete(protect , deleteAccount)
 
 /**
  * @swagger
  * /user/profile:
  *   get:
- *     summary: Get user profile
- *     tags: [User]
+ *     summary: Get logged-in user profile
+ *     tags: [Profile]
  *     security:
  *       - bearerAuth: []
  *     responses:
  *       200:
  *         description: User profile data
- *       401:
- *         description: Unauthorized
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/User'
  */
-userRouter.route("/profile").get(protect, getProfile)
 
+userRouter.route("/profile").get(protect , getProfile)
 
-// -----------------------------------------------
+/**
+ * @swagger
+ * /user/profile/password:
+ *   put:
+ *     summary: Change user password
+ *     tags: [Profile]
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           example:
+ *             lastPassword: "123456"
+ *             newPassword: "abcdef"
+ *             confirmPassword: "abcdef"
+ *     responses:
+ *       200:
+ *         description: Password changed successfully
+ */
 
-// const userRouter = express.Router()
+userRouter.route("/profile/password").put(protect, changePassword);
 
+/**
+ * @swagger
+ * /user/profile/signout:
+ *   post:
+ *     summary: Logout user (invalidate token)
+ *     tags: [Profile]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Signed out successfully
+ */
+
+userRouter.route("/profile/signout").post(protect, signOut);
+
+// ----------------------------------------
+
+//   app.use('/user' , userRouter )  in index.js 
 // // Auth Routes => Login  ,  Register 
 
 // userRouter.route("/register").post(validate(userValidation), register)
@@ -264,8 +307,10 @@ userRouter.route("/profile").get(protect, getProfile)
 
 // // Profile Setup Route
 
-// userRouter.route("/profile").put(protect, validate(profileValidation), profileSetup);
-// userRouter.route("/profile").get(protect, getProfile)
-
+// userRouter.route("/profile/setup").put(protect,uploadProfileImage.single("image"), validate(profileValidation), profileSetup)
+// userRouter.route("/profile/deleteAccount").delete(protect , deleteAccount)
+// userRouter.route("/profile").get(protect , getProfile)
+// userRouter.route("/profile/password").put(protect, changePassword);
+// userRouter.route("/profile/signout").post(protect, signOut);
 
 export default userRouter;

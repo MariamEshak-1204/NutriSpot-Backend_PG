@@ -1,78 +1,162 @@
-import asyncHandler from "express-async-handler";
 import User from "../models/user_model.js";
+import bcrypt from "bcryptjs";
+import jwt from "jsonwebtoken";
+import fs from "fs";
+import path from "path";
+import BlacklistToken from "../models/blacklistToken_model.js";
+import asyncHandler from "express-async-handler";
 
+
+// -------------------- PROFILE SETUP / UPDATE / ProfileImage --------------------
 
 export const profileSetup = asyncHandler(async (req, res) => {
-
-    // 1️⃣ Get logged-in user
-    const user = await User.findById(req.user._id);
-
+    const userId = req.user._id;
+    const user = await User.findById(userId);
     if (!user) {
         res.status(404);
         throw new Error("User not found");
     }
 
-    // 2️⃣ Destructure body
-    const {
-        gender,
-        age,
-        height,
-        weight,
-        mealsPerDay,
-        allergies,
-        goal,
-        sleepingQuality,
-        healthNotes,
-        activityLevel,
-        dietType,
-        calories,
-        proteins,
-        carbs,
-        fats,
-    } = req.body;
+    // 1️⃣ تحديث الحقول العادية
+    const allowedFields = [
+        "userName", "email", "gender", "age", "height", "weight",
+        "mealsPerDay", "allergies", "goal", "sleepingQuality",
+        "healthNotes", "activityLevel", "dietType", "calories",
+        "proteins", "carbs", "fats"
+    ];
+    allowedFields.forEach(field => {
+        if (req.body[field] !== undefined) user[field] = req.body[field];
+    });
 
-    // 3️⃣ Update fields (safe update)
-    user.gender = gender ?? user.gender;
-    user.age = age ?? user.age;
-    user.height = height ?? user.height;
-    user.weight = weight ?? user.weight;
-    user.mealsPerDay = mealsPerDay ?? user.mealsPerDay;
-    user.allergies = allergies ?? user.allergies;
-    user.goal = goal ?? user.goal;
-    user.sleepingQuality = sleepingQuality ?? user.sleepingQuality;
-    user.healthNotes = healthNotes ?? user.healthNotes;
-    user.activityLevel = activityLevel ?? user.activityLevel;
-    user.dietType = dietType ?? user.dietType;
-    user.calories = calories ?? user.calories;
-    user.proteins = proteins ?? user.proteins;
-    user.carbs = carbs ?? user.carbs;
-    user.fats = fats ?? user.fats;
+    // 2️⃣ تحديث الصورة لو موجودة
+    if (req.file) {
+        // حذف الصورة القديمة
+        if (user.profileImage) {
+            const oldPath = path.join("uploads/profile", user.profileImage);
+            if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+        }
+        user.profileImage = req.file.filename;
+    }
 
-    // 4️⃣ Mark profile as completed
-    user.profileCompleted = "true";
+    // 3️⃣ تحديث profileCompleted
+    const requiredFields = ["userName", "email", "gender", "age"];
+    user.profileCompleted = requiredFields.every(f => !!user[f]);
 
-    // 5️⃣ Save user
+    // 4️⃣ حفظ التعديلات
     const updatedUser = await user.save();
 
-    // 6️⃣ Response
     res.status(200).json({
         status: "success",
-        message: "Profile setup completed successfully",
-        user: updatedUser,
+        message: user.profileCompleted
+            ? "Profile setup / update completed successfully"
+            : "Profile updated successfully (incomplete)",
+        user: updatedUser
     });
 });
 
+// -------------------- GET PROFILE --------------------
+export const getProfile = async (req, res) => {
+    try {
+        const userId = req.user.id; // assuming authentication middleware added
+        const user = await User.findById(userId).select("-password"); // hide password
+        if (!user) return res.status(404).json({ message: "User not found" });
 
-export const getProfile = asyncHandler(async (req, res) => {
-    const user = await User.findById(req.user._id);
-
-    if (!user) {
-        res.status(404);
-        throw new Error("User not found");
+        res.json(user);
+    } catch (error) {
+        res.status(500).json({ message: "Server error", error: error.message });
     }
+};
 
-    res.status(200).json({
-        status: "success",
-        user
-    });
-});
+// -------------------- CHANGE PASSWORD --------------------
+export const changePassword = async (req, res) => {
+    try {
+        const userId = req.user.id;
+        const { lastPassword, newPassword, confirmPassword } = req.body;
+
+        // 1️⃣ Check required fields
+        if (!lastPassword || !newPassword || !confirmPassword) {
+            return res.status(400).json({ message: "All fields are required" });
+        }
+
+        // 2️⃣ Password strength check
+        if (newPassword.length < 9) {
+            return res.status(400).json({ message: "Password must be at least 8 characters" });
+        }
+
+        // 3️⃣ Confirm password
+        if (newPassword !== confirmPassword) {
+            return res.status(400).json({ message: "Passwords do not match" });
+        }
+
+        // 4️⃣ Get user
+        const user = await User.findById(userId);
+        if (!user) return res.status(404).json({ message: "User not found" });
+
+        // 5️⃣ Check old password
+        const isMatch = await bcrypt.compare(lastPassword, user.password);
+        if (!isMatch) {
+            return res.status(400).json({ message: "Last password is incorrect" });
+        }
+
+        // 6️⃣ Hash new password
+        const salt = await bcrypt.genSalt(10);
+        user.password = await bcrypt.hash(newPassword, salt);
+
+        await user.save();
+
+        res.json({ message: "Password changed successfully" });
+
+    } catch (error) {
+        res.status(500).json({ message: "Server error", error: error.message });
+    }
+};
+
+// -------------------- DELETE ACCOUNT --------------------
+export const deleteAccount = async (req, res) => {
+    try {
+        const userId = req.user.id;
+
+        const user = await User.findByIdAndDelete(userId);
+        if (!user) return res.status(404).json({ message: "User not found" });
+
+        // Optionally: delete profile image
+        if (user.profileImage) {
+            const imgPath = path.join("uploads/profile", user.profileImage);
+            if (fs.existsSync(imgPath)) fs.unlinkSync(imgPath);
+        }
+
+        res.json({ message: "Account deleted successfully" });
+    } catch (error) {
+        res.status(500).json({ message: "Server error", error: error.message });
+    }
+};
+
+// -------------------- SIGN OUT --------------------
+
+
+
+export const signOut = async (req, res) => {
+    try {
+        const token = req.headers.authorization?.split(" ")[1];
+        if (token) {
+            // احفظ التوكن في DB مع وقت انتهاء الصلاحية
+            const decoded = jwt.decode(token);
+            await BlacklistToken.create({
+                token,
+                expiresAt: new Date(decoded.exp * 1000) // تحويل من sec ل ms
+            });
+        }
+
+        return res.status(200).json({
+            success: true,
+            message: "Signed out successfully"
+        });
+    } catch (error) {
+        return res.status(500).json({
+            success: false,
+            message: "Server error during sign out",
+            error: error.message
+        });
+    }
+};
+
