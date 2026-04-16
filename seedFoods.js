@@ -1,5 +1,5 @@
 
-
+// node seedFoods.js
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import fs from "fs";
