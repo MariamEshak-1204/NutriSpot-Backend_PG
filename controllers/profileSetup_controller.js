@@ -81,7 +81,8 @@ export const updateProfileWithImage = asyncHandler(async (req, res) => {
 
     res.status(200).json({
         status: "success",
-        user
+        userName: user.userName,
+        profileImage: user.profileImage
     });
 });
 
