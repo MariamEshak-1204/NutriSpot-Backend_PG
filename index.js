@@ -8,6 +8,7 @@ import { connectToDB } from "./DB/mongoose.js"
 import cors from "cors";
 import swaggerUi from "swagger-ui-express"
 import swaggerSpec from "./config/swagger.js" 
+import "./config/cloudinary.js";
 
 // use package dotenv
 dotenv.config()

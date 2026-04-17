@@ -5,13 +5,14 @@ import fs from "fs";
 import path from "path";
 import BlacklistToken from "../models/blacklistToken_model.js";
 import asyncHandler from "express-async-handler";
+import cloudinary from "../config/cloudinary.js";
 
 
 // -------------------- PROFILE SETUP / UPDATE / ProfileImage --------------------
-
 export const profileSetup = asyncHandler(async (req, res) => {
     const userId = req.user._id;
     const user = await User.findById(userId);
+
     if (!user) {
         res.status(404);
         throw new Error("User not found");
@@ -24,25 +25,18 @@ export const profileSetup = asyncHandler(async (req, res) => {
         "healthNotes", "activityLevel", "dietType", "calories",
         "proteins", "carbs", "fats"
     ];
+
     allowedFields.forEach(field => {
-        if (req.body[field] !== undefined) user[field] = req.body[field];
+        if (req.body[field] !== undefined) {
+            user[field] = req.body[field];
+        }
     });
 
-    // 2️⃣ تحديث الصورة لو موجودة
-    if (req.file) {
-        // حذف الصورة القديمة
-        if (user.profileImage) {
-            const oldPath = path.join("uploads/profile", user.profileImage);
-            if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
-        }
-        user.profileImage = req.file.filename;
-    }
-
-    // 3️⃣ تحديث profileCompleted
+    // 2️⃣ تحديث profileCompleted
     const requiredFields = ["userName", "email", "gender", "age"];
     user.profileCompleted = requiredFields.every(f => !!user[f]);
 
-    // 4️⃣ حفظ التعديلات
+    // 3️⃣ حفظ التعديلات
     const updatedUser = await user.save();
 
     res.status(200).json({
@@ -51,6 +45,43 @@ export const profileSetup = asyncHandler(async (req, res) => {
             ? "Profile setup / update completed successfully"
             : "Profile updated successfully (incomplete)",
         user: updatedUser
+    });
+});
+// -------------------------updateProfileWithImage-------------------------
+export const updateProfileWithImage = asyncHandler(async (req, res) => {
+    const user = await User.findById(req.user._id);
+
+    if (!user) {
+        return res.status(404).json({ message: "User not found" });
+    }
+
+    // username
+    if (req.body.userName) {
+        user.userName = req.body.userName;
+    }
+
+    // الصورة (الجزء الجديد)
+    if (req.file) {
+        const result = await new Promise((resolve, reject) => {
+            const stream = cloudinary.uploader.upload_stream(
+                { folder: "profile" },
+                (error, result) => {
+                    if (error) return reject(error);
+                    resolve(result);
+                }
+            );
+
+            stream.end(req.file.buffer);
+        });
+
+        user.profileImage = result.secure_url;
+    }
+
+    await user.save();
+
+    res.status(200).json({
+        status: "success",
+        user
     });
 });
 

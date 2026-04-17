@@ -1,5 +1,5 @@
 import express from "express";
-import { uploadProfileImage } from "../middleware/multer.js";
+import { upload } from "../middleware/multer.js";
 import { register, login, getAllUsers, googleLogin, facebookLogin } from "../controllers/user_auth_controller.js";
 import { validate } from "../middleware/validate.js";
 import { protect } from "../middleware/auth_middleware.js";
@@ -9,7 +9,8 @@ import {
     getProfile,
     changePassword,
     deleteAccount,
-    signOut
+    signOut,
+    updateProfileWithImage
 } from "../controllers/profileSetup_controller.js";
 
 const userRouter = express.Router()
@@ -220,7 +221,13 @@ userRouter.route("/facebook-login").post(facebookLogin);
  *         description: Profile setup completed
  */
 
-userRouter.route("/profile/setup").put(protect,uploadProfileImage.single("image"), validate(profileValidation), profileSetup)
+userRouter.route("/profile/setup").put(protect, validate(profileValidation), profileSetup)
+userRouter.put(
+  "/profile/image",
+  protect,
+  upload.single("image"),
+  updateProfileWithImage
+);
 
 /**
  * @swagger
