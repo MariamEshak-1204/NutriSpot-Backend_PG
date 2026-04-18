@@ -33,7 +33,7 @@ export const profileValidation = Joi.object({
     mealsPerDay: Joi.number().valid(2, 3).optional(),
 
     allergies: Joi.array().items(
-        Joi.string().valid("Diabetes", "Lactose", "Gluten", "Nuts", "None")
+        Joi.string().valid("Lactose", "Gluten", "Nuts", "None")
     ).optional(),
 
     goal: Joi.string().valid(
@@ -44,8 +44,8 @@ export const profileValidation = Joi.object({
         "Build muscle"
     ).optional(),
 
-    sleepingQuality: Joi.string()
-        .valid("Excellent", "Good", "Fair", "Poor")
+    healthCondition: Joi.string()
+        .valid("High Blood Pressure", "Heart Disease", "Diabetes" , "None")
         .optional(),
 
     healthNotes: Joi.string().allow("").optional(),

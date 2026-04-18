@@ -21,7 +21,7 @@ export const profileSetup = asyncHandler(async (req, res) => {
     // 1️⃣ تحديث الحقول العادية
     const allowedFields = [
         "userName", "email", "gender", "age", "height", "weight",
-        "mealsPerDay", "allergies", "goal", "sleepingQuality",
+        "mealsPerDay", "allergies", "goal", "healthCondition",
         "healthNotes", "activityLevel", "dietType", "calories",
         "proteins", "carbs", "fats"
     ];
@@ -150,12 +150,6 @@ export const deleteAccount = async (req, res) => {
 
         const user = await User.findByIdAndDelete(userId);
         if (!user) return res.status(404).json({ message: "User not found" });
-
-        // Optionally: delete profile image
-        if (user.profileImage) {
-            const imgPath = path.join("uploads/profile", user.profileImage);
-            if (fs.existsSync(imgPath)) fs.unlinkSync(imgPath);
-        }
 
         res.json({ message: "Account deleted successfully" });
     } catch (error) {

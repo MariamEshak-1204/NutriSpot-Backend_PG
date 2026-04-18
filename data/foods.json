@@ -12,7 +12,7 @@
             "Juice of 1 lemon",
             "Salt and black pepper to taste"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158081/FITFAT%20images/home%20suggestion%20recipes%20images/dx58mfmkllyxxjaprtdy.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776506080/vegetable-quinoa-salad-recipe-B_69_qxwrit.jpg",
         "price": 150,
         "discount": 20,
         "time": 25,
@@ -44,7 +44,7 @@
             "1 teaspoon dried thyme",
             "Salt and black pepper to taste"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/btmwpaeazvmutfn7sksm.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776506217/24xxxx-Recipes-Shopify1080_520x500_085eff37-c277-4b67-88d2-f9bf22f147cf_600x_xvsbqm.png",
         "price": 150,
         "discount": 30,
         "time": 20,
@@ -59,42 +59,9 @@
             "heart disease"
         ],
         "diet": [
-            "keto"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Red Lentil Soup",
-        "ingredients": [
-            "1 cup red lentils, rinsed",
-            "1 small onion, finely chopped",
-            "2 garlic cloves, minced",
-            "2 tablespoons olive oil",
-            "1 medium carrot, chopped",
-            "1 medium tomato, chopped",
-            "4 cups vegetable broth or water",
-            "1/2 teaspoon ground cumin",
-            "Salt and black pepper to taste"
-        ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/dpxysrae8nivps5ymiqr.jpg",
-        "price": 180,
-        "discount": 25,
-        "time": 30,
-        "calories": 360,
-        "protein": 18,
-        "carbs": 42,
-        "fats": 12,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "diabetes",
-            "heart disease"
-        ],
-        "diet": [
-            "vegan"
+            "low carb",
+            "keto",
+            "high protein"
         ],
         "allergy": [
             "none"
@@ -110,7 +77,7 @@
             "1 cup berries or favorite fruit",
             "Pinch of cinnamon"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/cun0ersyv8z6ihkpsk7x.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776506735/Fruit-and-Nut-Oatmeal-WP_ca7fxz.webp",
         "price": 220,
         "discount": 20,
         "time": 10,
@@ -119,7 +86,7 @@
         "carbs": 55,
         "fats": 8,
         "categories": [
-            "meal"
+            "snack"
         ],
         "health": [
             "diabetes",
@@ -143,7 +110,7 @@
             "Salt and black pepper",
             "Mixed vegetables (zucchini, broccoli, bell peppers)"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/xfheadrxtgg1qtkvptmj.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776506780/grilled-lemon-herb-chicken-with-roasted-vegetables-and-quinoa-bnoJdKRkho_w6nrdl.webp",
         "price": 250,
         "discount": 20,
         "time": 30,
@@ -159,10 +126,141 @@
             "heart disease"
         ],
         "diet": [
-            "vegan"
+            "low carb",
+            "keto",
+            "high protein"
         ],
         "allergy": [
             "none"
+        ]
+    },
+    {
+        "name": "Grilled Chicken with Garlic and Herbs",
+        "ingredients": [
+            "chicken breasts",
+            "2 tablespoons olive oil",
+            "garlic cloves, minced",
+            "1 teaspoon dried thyme",
+            "1 teaspoon rosemary",
+            "Juice of 1 lemon",
+            "Salt and black pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507903/simple-grilled-chicken-marinade-7_alt9yl.jpg",
+        "price": 300,
+        "discount": 0,
+        "time": 25,
+        "calories": 420,
+        "protein": 40,
+        "carbs": 2,
+        "fats": 28,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "low carb",
+            "keto",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Grilled Chicken Pesto Sandwich",
+        "ingredients": [
+            "whole grain bun",
+            "grilled chicken breast",
+            "basil pesto",
+            "tomato",
+            "lettuce"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507996/featured-pesto-chicken-sandwich-recipe_b9asxf.jpg",
+        "price": 195,
+        "time": 12,
+        "calories": 420,
+        "protein": 32,
+        "carbs": 38,
+        "fats": 16,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ],
+        "discount": 0
+    },
+    {
+        "name": "Grilled Chicken Quinoa Salad",
+        "ingredients": [
+            "grilled chicken breast",
+            "quinoa",
+            "mixed greens",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776508061/chicken-quinoa-bowl_btwrlx.jpg",
+        "price": 230,
+        "discount": 0,
+        "time": 15,
+        "calories": 420,
+        "protein": 35,
+        "carbs": 30,
+        "fats": 14,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Grilled Chicken Caesar Salad",
+        "ingredients": [
+            "grilled chicken breast",
+            "romaine lettuce",
+            "parmesan cheese",
+            "croutons",
+            "Caesar dressing"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776508166/grilled-chicken-caesar-salad-recipe-1_vlsyqi.jpg",
+        "price": 320,
+        "discount": 0,
+        "time": 12,
+        "calories": 360,
+        "protein": 30,
+        "carbs": 12,
+        "fats": 20,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "low carb",
+            "keto",
+            "high protein"
+        ],
+        "allergy": [
+            "gluten",
+            "lactose"
         ]
     },
     {
@@ -178,7 +276,7 @@
             "1 teaspoon minced garlic",
             "Salt and black pepper"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158083/FITFAT%20images/home%20suggestion%20recipes%20images/xnxesuyo1dexcy69p97b.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776506879/the-best-easy-stir-fry-vegetables-recipe-6-770x1155_spt0n3.jpg",
         "price": 240,
         "discount": 0,
         "time": 20,
@@ -192,38 +290,6 @@
         "health": [
             "diabetes",
             "heart disease"
-        ],
-        "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Avocado Toast",
-        "ingredients": [
-            "avocado, mashed",
-            "slices whole grain bread",
-            "1 tablespoon olive oil",
-            "Juice of 1/2 lemon",
-            "Salt and black pepper",
-            "Red pepper flakes (optional)"
-        ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158083/FITFAT%20images/home%20suggestion%20recipes%20images/jlpvwmcklyup0hsvht5d.jpg",
-        "price": 190,
-        "discount": 0,
-        "time": 10,
-        "calories": 320,
-        "protein": 8,
-        "carbs": 28,
-        "fats": 20,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "heart disease",
-            "diabetes"
         ],
         "diet": [
             "vegan"
@@ -248,7 +314,7 @@
             "1/2 cup coconut milk",
             "2 tablespoons olive oil"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158083/FITFAT%20images/home%20suggestion%20recipes%20images/fxxxnrvp63aemuovx1r9.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507130/DSC09874_j1zt8n.jpg",
         "price": 200,
         "discount": 0,
         "time": 35,
@@ -271,39 +337,6 @@
         ]
     },
     {
-        "name": "Avocado and Egg Salad",
-        "ingredients": [
-            "boiled eggs, chopped",
-            "avocado, diced",
-            "1/2 cucumber, chopped",
-            "1/4 cup chopped parsley",
-            "1 tablespoon olive oil",
-            "Juice of 1 lemon",
-            "Salt and black pepper"
-        ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/xicnwyb9kmfotl3hrfv2.jpg",
-        "price": 100,
-        "discount": 0,
-        "time": 15,
-        "calories": 350,
-        "protein": 14,
-        "carbs": 8,
-        "fats": 28,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "heart disease",
-            "diabetes"
-        ],
-        "diet": [
-            "low carb"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
         "name": "Roasted Tomato Soup",
         "ingredients": [
             "tomatoes, chopped",
@@ -314,7 +347,7 @@
             "1 teaspoon dried thyme",
             "Salt and black pepper"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/zcadjohia0srvzl72xj1.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507301/Roasted-Tomato-Soup-Recipe-8_s0dntc.jpg",
         "price": 250,
         "discount": 0,
         "time": 25,
@@ -323,14 +356,15 @@
         "carbs": 20,
         "fats": 10,
         "categories": [
-            "meal"
+            "soup"
         ],
         "health": [
             "diabetes",
             "heart disease"
         ],
         "diet": [
-            "vegan"
+            "vegan",
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -348,7 +382,7 @@
             "1/4 cup chopped parsley",
             "Salt and black pepper"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/px1nklb3boecwvm3tm8u.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507603/L1170884-2_rbovmo.jpg",
         "price": 315,
         "discount": 0,
         "time": 35,
@@ -371,24 +405,23 @@
         ]
     },
     {
-        "name": "Tuna and Avocado Salad",
+        "name": "Stuffed Portobello Mushrooms",
         "ingredients": [
-            "can tuna, drained",
-            "1/2 avocado, diced",
-            "1/4 cup red onion, chopped",
-            "1/4 cup parsley, chopped",
-            "1 tablespoon olive oil",
-            "Juice of 1 lemon",
-            "Salt and black pepper"
+            "2 large portobello mushrooms",
+            "1/2 cup spinach",
+            "1/4 cup feta cheese",
+            "1 garlic clove",
+            "1 tbsp olive oil",
+            "salt and pepper"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/qp3p4jej7f1hqccrrwkj.jpg",
-        "price": 160,
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776511666/delish-190731-stuffed-portobello-mushrooms-0280-landscape-pf-1565820911.jpg_hvf6qa.jpg",
+        "price": 190,
         "discount": 0,
-        "time": 15,
-        "calories": 350,
-        "protein": 25,
-        "carbs": 5,
-        "fats": 22,
+        "time": 25,
+        "calories": 220,
+        "protein": 10,
+        "carbs": 10,
+        "fats": 16,
         "categories": [
             "meal"
         ],
@@ -397,30 +430,31 @@
             "diabetes"
         ],
         "diet": [
-            "low carb"
+            "vegan",
+            "low carb",
+            "keto"
         ],
         "allergy": [
-            "none"
+            "lactose"
         ]
     },
     {
-        "name": "Oatmeal with Cocoa and Banana",
+        "name": "Stuffed Bell Peppers with Quinoa",
         "ingredients": [
-            "1/2 cup oats",
-            "1 cup milk (low-fat or plant-based)",
-            "1 tablespoon cocoa powder",
-            "1 tablespoon honey",
-            "1/2 banana, sliced",
-            "1 teaspoon chia seeds (optional)"
+            "2 bell peppers, halved",
+            "1 cup cooked quinoa",
+            "1/2 cup black beans, cooked",
+            "1/4 cup corn",
+            "1 teaspoon olive oil",
+            "Salt and pepper to taste"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/x0nlmas1a6lf9jvcz3tj.jpg",
-        "price": 110,
-        "discount": 0,
-        "time": 10,
-        "calories": 320,
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776511719/Quinoa-and-Lentil-Stuffed-Peppers_-done_dtxswf.png",
+        "price": 160,
+        "time": 35,
+        "calories": 280,
         "protein": 10,
         "carbs": 50,
-        "fats": 10,
+        "fats": 8,
         "categories": [
             "meal"
         ],
@@ -433,6 +467,454 @@
         ],
         "allergy": [
             "none"
+        ],
+        "discount": 0
+    },
+    {
+        "name": "Avocado Toast",
+        "ingredients": [
+            "avocado, mashed",
+            "slices whole grain bread",
+            "1 tablespoon olive oil",
+            "Juice of 1/2 lemon",
+            "Salt and black pepper",
+            "Red pepper flakes (optional)"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507015/1200-Avocado-Toast-2-SpendWithPennies-1_hrtzfa.jpg",
+        "price": 190,
+        "discount": 0,
+        "time": 10,
+        "calories": 320,
+        "protein": 8,
+        "carbs": 28,
+        "fats": 20,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Poached Egg on Avocado Toast",
+        "ingredients": [
+            "2 slices sourdough bread",
+            "1 avocado",
+            "2 eggs",
+            "1 tsp lemon juice",
+            "red pepper flakes",
+            "salt and pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507031/1617726496606c8c20a7a82_e7qdsi.jpg",
+        "price": 180,
+        "discount": 0,
+        "time": 15,
+        "calories": 370,
+        "protein": 16,
+        "carbs": 30,
+        "fats": 22,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Avocado and Egg Salad",
+        "ingredients": [
+            "boiled eggs, chopped",
+            "avocado, diced",
+            "1/2 cucumber, chopped",
+            "1/4 cup chopped parsley",
+            "1 tablespoon olive oil",
+            "Juice of 1 lemon",
+            "Salt and black pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507195/wholesomeyum-Avocado-Egg-Salad-Recipe-29_vhfad0.jpg",
+        "price": 100,
+        "discount": 0,
+        "time": 15,
+        "calories": 350,
+        "protein": 14,
+        "carbs": 8,
+        "fats": 28,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "vegan",
+            "low carb",
+            "keto"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Avocado Salad",
+        "ingredients": [
+            "Avocado",
+            "Lettuce",
+            "Cherry tomatoes",
+            "Olive oil",
+            "Lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776505163/Easy-Avocado-Salad-Recipe-1200_yfgd4g.jpg",
+        "price": 120,
+        "discount": 10,
+        "time": 10,
+        "calories": 320,
+        "protein": 5,
+        "carbs": 15,
+        "fats": 25,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "low carb",
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Tuna and Avocado Salad",
+        "ingredients": [
+            "can tuna, drained",
+            "1/2 avocado, diced",
+            "1/4 cup red onion, chopped",
+            "1/4 cup parsley, chopped",
+            "1 tablespoon olive oil",
+            "Juice of 1 lemon",
+            "Salt and black pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776505221/Simply-Best-Tuna-Avocado-Salad-LEAD-4-91634e86293b434ebb0a9a744649e336_vc2lub.jpg",
+        "price": 160,
+        "discount": 0,
+        "time": 15,
+        "calories": 350,
+        "protein": 25,
+        "carbs": 5,
+        "fats": 22,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Shrimp Avocado Salad",
+        "ingredients": [
+            "shrimp",
+            "avocado",
+            "mixed greens",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776505361/Shrimp-Avocado-Salad-recipe-1-1_o6x2eh.jpg",
+        "price": 260,
+        "discount": 0,
+        "time": 15,
+        "calories": 360,
+        "protein": 28,
+        "carbs": 12,
+        "fats": 18,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "low carb",
+            "keto",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Avocado and Chickpea Sandwich",
+        "ingredients": [
+            "2 slices whole wheat bread",
+            "1/2 avocado, mashed",
+            "1/2 cup chickpeas, mashed",
+            "1 teaspoon lemon juice",
+            "Salt and pepper to taste"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776508374/best-chickpea-avocado-salad-sandwich-1_q4mkqf.jpg",
+        "price": 135,
+        "discount": 0,
+        "time": 10,
+        "calories": 280,
+        "protein": 9,
+        "carbs": 35,
+        "fats": 10,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Avocado and Almond Salad",
+        "ingredients": [
+            "1 avocado, sliced",
+            "1/4 cup almonds, chopped",
+            "1/4 cup cherry tomatoes",
+            "1 tablespoon olive oil",
+            "1 teaspoon lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776508466/avocado-citrus-salad-horz-features-1_nxqdzs.jpg",
+        "price": 215,
+        "discount": 0,
+        "time": 10,
+        "calories": 280,
+        "protein": 6,
+        "carbs": 10,
+        "fats": 22,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes"
+        ],
+        "diet": [
+            "vegan",
+            "low carb",
+            "keto"
+        ],
+        "allergy": [
+            "nuts"
+        ]
+    },
+    {
+        "name": "Turkey Avocado Sandwich",
+        "ingredients": [
+            "2 slices whole wheat bread",
+            "100g turkey breast, sliced",
+            "1/2 avocado, sliced",
+            "Lettuce leaves",
+            "1 teaspoon mustard"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776508555/turkey-bacon-avocado-sandwich-with-avocado-dressing-recipe_hbsum0.jpg",
+        "price": 216,
+        "discount": 0,
+        "time": 10,
+        "calories": 320,
+        "protein": 20,
+        "carbs": 28,
+        "fats": 12,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Avocado and Chickpea Salad",
+        "ingredients": [
+            "1/2 cup chickpeas",
+            "1/2 avocado, diced",
+            "1/4 cup cucumber, diced",
+            "1 tablespoon olive oil",
+            "1 teaspoon lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776508645/Chickpea-Avocado-Salad-Feat-Image-Square_lnsylp.jpg",
+        "price": 315,
+        "time": 8,
+        "calories": 280,
+        "protein": 10,
+        "carbs": 25,
+        "fats": 15,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ],
+        "discount": 0
+    },
+    {
+        "name": "Turkey Avocado Whole Wheat Sandwich",
+        "ingredients": [
+            "whole wheat bread",
+            "turkey breast slices",
+            "avocado",
+            "lettuce",
+            "tomato",
+            "mustard"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776508741/turkey-avocado-sandwich-6-500x500_umclcy.jpg",
+        "price": 185,
+        "discount": 15,
+        "time": 10,
+        "calories": 380,
+        "protein": 28,
+        "carbs": 35,
+        "fats": 14,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Salmon Avocado Bagel",
+        "ingredients": [
+            "whole grain bagel",
+            "smoked salmon",
+            "1/2 avocado mashed",
+            "red onion",
+            "capers",
+            "lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776508835/herbed-cream-cheese-with-hot-smoked-salmon-and-avocado-110529-1_ccdxlm.jpg",
+        "price": 230,
+        "discount": 0,
+        "time": 8,
+        "calories": 420,
+        "protein": 26,
+        "carbs": 40,
+        "fats": 18,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Spicy Tuna Avocado Wrap",
+        "ingredients": [
+            "whole wheat wrap",
+            "canned tuna",
+            "1/2 avocado",
+            "sriracha",
+            "lettuce",
+            "cucumber",
+            "lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776508902/spicy-tuna-wrap-recipe-1_nbf8li.jpg",
+        "price": 155,
+        "discount": 0,
+        "time": 10,
+        "calories": 350,
+        "protein": 26,
+        "carbs": 28,
+        "fats": 16,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Oatmeal with Cocoa and Banana",
+        "ingredients": [
+            "1/2 cup oats",
+            "1 cup milk (low-fat or plant-based)",
+            "1 tablespoon cocoa powder",
+            "1 tablespoon honey",
+            "1/2 banana, sliced",
+            "1 teaspoon chia seeds (optional)"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507710/chocolate-banana-oatmeal-1_pmywjh.jpg",
+        "price": 110,
+        "discount": 0,
+        "time": 10,
+        "calories": 320,
+        "protein": 10,
+        "carbs": 50,
+        "fats": 10,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "lactose"
         ]
     },
     {
@@ -445,7 +927,7 @@
             "Juice of 1 lemon",
             "Salt and black pepper"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158083/FITFAT%20images/home%20suggestion%20recipes%20images/nosmwnybowcilrrzfvhp.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776507770/Untitled-design-14_bgufib.jpg",
         "price": 210,
         "discount": 10,
         "time": 15,
@@ -460,43 +942,13 @@
             "heart disease"
         ],
         "diet": [
-            "low carb"
+            "vegan",
+            "low carb",
+            "keto"
         ],
         "allergy": [
+            "lactose",
             "nuts"
-        ]
-    },
-    {
-        "name": "Grilled Chicken with Garlic and Herbs",
-        "ingredients": [
-            "chicken breasts",
-            "2 tablespoons olive oil",
-            "garlic cloves, minced",
-            "1 teaspoon dried thyme",
-            "1 teaspoon rosemary",
-            "Juice of 1 lemon",
-            "Salt and black pepper"
-        ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/ksuvisprlsm4uxiptexg.jpg",
-        "price": 300,
-        "discount": 0,
-        "time": 25,
-        "calories": 420,
-        "protein": 40,
-        "carbs": 2,
-        "fats": 28,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "heart disease",
-            "diabetes"
-        ],
-        "diet": [
-            "low carb"
-        ],
-        "allergy": [
-            "none"
         ]
     },
     {
@@ -510,7 +962,7 @@
             "2 tablespoons olive oil",
             "Salt and black pepper"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/oep0aqguygmmkscfqwvq.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776509250/carrot-ginger-soup_d5slwv.png",
         "price": 150,
         "discount": 0,
         "time": 25,
@@ -519,51 +971,18 @@
         "carbs": 20,
         "fats": 10,
         "categories": [
-            "meal"
+            "soup"
         ],
         "health": [
             "diabetes",
             "heart disease"
         ],
         "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Pasta with Eggplant and Tomato Sauce",
-        "ingredients": [
-            "200 grams whole wheat pasta",
-            "eggplant, chopped",
-            "tomato, chopped",
-            "garlic clove, minced",
-            "1/4 cup tomato sauce",
-            "2 tablespoons olive oil",
-            "1/4 cup grated Parmesan cheese",
-            "Salt and black pepper"
-        ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158084/FITFAT%20images/home%20suggestion%20recipes%20images/jqzqfapheiy5ldls7nnt.jpg",
-        "price": 180,
-        "discount": 0,
-        "time": 30,
-        "calories": 400,
-        "protein": 15,
-        "carbs": 55,
-        "fats": 15,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "heart disease",
-            "diabetes"
-        ],
-        "diet": [
+            "vegan",
             "low carb"
         ],
         "allergy": [
-            "lactose"
+            "none"
         ]
     },
     {
@@ -577,7 +996,7 @@
             "1 teaspoon honey",
             "Juice of 1 lemon"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/ybdcewe293fmfarrxlkl.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776509397/Apple-Cranberry-Quinoa-Salad-08_axyp0p.jpg",
         "price": 160,
         "discount": 0,
         "time": 15,
@@ -611,7 +1030,7 @@
             "1/2 teaspoon paprika",
             "Salt and black pepper"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/sl97sq5p3eygdsmofbhp.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776509494/traditional-moroccan-tagine-with-sardines-vegetables_857988-2903_jrz2ct.jpg",
         "price": 170,
         "discount": 0,
         "time": 40,
@@ -627,7 +1046,8 @@
             "diabetes"
         ],
         "diet": [
-            "low carb"
+            "low carb",
+            "high protein"
         ],
         "allergy": [
             "none"
@@ -644,7 +1064,7 @@
             "1/2 teaspoon baking powder",
             "1 teaspoon cinnamon"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/qpphj5azocdagfyvew33.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776509547/banana-oat-pancakes-8_bznmvc.jpg",
         "price": 220,
         "discount": 0,
         "time": 20,
@@ -653,7 +1073,38 @@
         "carbs": 45,
         "fats": 10,
         "categories": [
-            "meal"
+            "snack"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Fruit Smoothie Bowl",
+        "ingredients": [
+            "banana",
+            "berries",
+            "granola",
+            "coconut flakes",
+            "chia seeds"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776509607/Frozen-Fruit-Smoothie-Bowl_idj8wh.jpg",
+        "price": 140,
+        "discount": 0,
+        "time": 10,
+        "calories": 350,
+        "protein": 8,
+        "carbs": 65,
+        "fats": 10,
+        "categories": [
+            "snack"
         ],
         "health": [
             "diabetes",
@@ -667,38 +1118,6 @@
         ]
     },
     {
-        "name": "Fruit Smoothie Bowl",
-        "ingredients": [
-            "banana",
-            "berries",
-            "granola",
-            "coconut flakes",
-            "chia seeds"
-        ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/xwhhr0cqkmjd4dtnqzqk.jpg",
-        "price": 140,
-        "discount": 0,
-        "time": 10,
-        "calories": 350,
-        "protein": 8,
-        "carbs": 65,
-        "fats": 10,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "diabetes",
-            "heart disease"
-        ],
-        "diet": [
-            "vegan",
-            "low carb"
-        ],
-        "allergy": [
-            "nuts"
-        ]
-    },
-    {
         "name": "Greek Yogurt Parfait",
         "ingredients": [
             "greek yogurt",
@@ -707,7 +1126,7 @@
             "granola",
             "walnuts"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/aus5gjhy2ndf5vz4xhj9.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776509664/Greek-Yogurt-Parfait-with-fruit-600x600_uibcfr.jpg",
         "price": 180,
         "discount": 0,
         "time": 10,
@@ -716,17 +1135,109 @@
         "carbs": 45,
         "fats": 18,
         "categories": [
-            "meal"
+            "snack"
         ],
         "health": [
             "diabetes",
             "heart disease"
         ],
         "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "lactose",
+            "nuts"
+        ]
+    },
+    {
+        "name": "Greek Yogurt with Honey and Walnuts",
+        "ingredients": [
+            "1 cup Greek yogurt",
+            "1 tablespoon honey",
+            "2 tablespoons chopped walnuts"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513604/Greek-Yogurt-drizzled-with-Honey-and-Walnuts-Yiaourti-me-meli-225x225_vh24kt.jpg",
+        "price": 145,
+        "discount": 0,
+        "time": 5,
+        "calories": 180,
+        "protein": 10,
+        "carbs": 12,
+        "fats": 8,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "vegan",
+            "low carb"
+        ],
+        "allergy": [
+            "lactose",
+            "nuts"
+        ]
+    },
+    {
+        "name": "Tuna Greek Yogurt Sandwich",
+        "ingredients": [
+            "whole wheat bread",
+            "tuna",
+            "greek yogurt",
+            "cucumber",
+            "lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513653/greek-yogurt-tuna-salad-sandwich-cut-in-half_jxjovh.jpg",
+        "price": 160,
+        "discount": 0,
+        "time": 10,
+        "calories": 340,
+        "protein": 30,
+        "carbs": 32,
+        "fats": 8,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
             "high protein"
         ],
         "allergy": [
-            "nuts"
+            "gluten",
+            "lactose"
+        ]
+    },
+    {
+        "name": "Greek Yogurt with Berries and Honey",
+        "ingredients": [
+            "Greek yogurt",
+            "mixed berries",
+            "honey",
+            "chia seeds"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513746/Fage_Recipe_Tiles_B_600x420_Apr21_Plain_Loaded_BowlsA_Hero_1291_RGB_gxo4iv.jpg",
+        "price": 150,
+        "discount": 0,
+        "time": 5,
+        "calories": 200,
+        "protein": 12,
+        "carbs": 25,
+        "fats": 6,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "lactose"
         ]
     },
     {
@@ -738,7 +1249,7 @@
             "coleslaw",
             "pickles"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/kbkespqefyvqbxsdqf9x.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776509735/pulled-pork-sandwiches-on-butcher-paper-horizontal-500x500_q0h7zh.jpg",
         "price": 160,
         "discount": 0,
         "time": 15,
@@ -757,39 +1268,7 @@
             "high protein"
         ],
         "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Chicken Caesar Salad",
-        "ingredients": [
-            "romaine lettuce",
-            "grilled chicken breast",
-            "parmesan cheese",
-            "Caesar dressing",
-            "croutons"
-        ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/ioys1peqyxykvwgrsqtz.jpg",
-        "price": 215,
-        "discount": 0,
-        "time": 15,
-        "calories": 490,
-        "protein": 30,
-        "carbs": 20,
-        "fats": 28,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "heart disease",
-            "diabetes"
-        ],
-        "diet": [
-            "high protein",
-            "low carb"
-        ],
-        "allergy": [
-            "lactose"
+            "gluten"
         ]
     },
     {
@@ -801,7 +1280,7 @@
             "white wine",
             "vegetable broth"
         ],
-        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158085/FITFAT%20images/home%20suggestion%20recipes%20images/y6n34ebzpalgg1cumcx1.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776510034/85389-gourmet-mushroom-risotto-DDMFS-4x3-a8a80a8deb064c6a8f15452b808a0258_nrdeue.jpg",
         "price": 230,
         "discount": 0,
         "time": 35,
@@ -817,6 +1296,7 @@
             "diabetes"
         ],
         "diet": [
+            "vegan",
             "high protein"
         ],
         "allergy": [
@@ -832,7 +1312,7 @@
             "1 tablespoon olive oil",
             "Salt and black pepper to taste"
         ],
-        "image": "https://cheeseandsuch.com/wp-content/uploads/2021/03/spinach-feta-omelette-recipe-11-1024x683.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776510110/Spinach-Feta-Omelette-1200_bhp9ai.jpg",
         "price": 150,
         "discount": 0,
         "time": 10,
@@ -848,6 +1328,8 @@
             "diabetes"
         ],
         "diet": [
+            "vegan",
+            "low carb",
             "keto",
             "high protein"
         ],
@@ -864,7 +1346,7 @@
             "200g asparagus, steamed",
             "Salt and pepper to taste"
         ],
-        "image": "https://healthymummywellness.com/wp-content/uploads/2022/04/Roast-Turkey-Breast-grilled-Asperagus-Sweet-Potato-Wedges-768x512.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776510167/ttgdkxlufcwzul5xzwad_twfp0t.jpg",
         "price": 300,
         "discount": 0,
         "time": 25,
@@ -880,6 +1362,7 @@
             "diabetes"
         ],
         "diet": [
+            "low carb",
             "keto",
             "high protein"
         ],
@@ -895,7 +1378,7 @@
             "1/2 mango, diced",
             "1 teaspoon honey"
         ],
-        "image": "https://triedtestedandtrue.com/wp-content/uploads/2022/09/Coconut-Mango-Chia-Pudding-6.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776510216/Mango-Chia-Pudding-13_mv7fe8.jpg",
         "price": 145,
         "discount": 0,
         "time": 10,
@@ -904,7 +1387,7 @@
         "carbs": 20,
         "fats": 12,
         "categories": [
-            "meal"
+            "snack"
         ],
         "health": [
             "diabetes",
@@ -915,8 +1398,40 @@
             "low carb"
         ],
         "allergy": [
-            "none"
+            "nuts"
         ]
+    },
+    {
+        "name": "Sweet Potato and Lentil Stew",
+        "ingredients": [
+            "1 cup sweet potato, diced",
+            "1/2 cup red lentils",
+            "1 small onion, chopped",
+            "2 cups vegetable broth",
+            "1 teaspoon cumin",
+            "Salt and pepper to taste"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776512834/image6-2023-10-01T022213-11_pxkz6p.png",
+        "price": 155,
+        "time": 30,
+        "calories": 300,
+        "protein": 12,
+        "carbs": 40,
+        "fats": 7,
+        "categories": [
+            "soup"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ],
+        "discount": 0
     },
     {
         "name": "Baked Sweet Potato with Black Beans",
@@ -927,7 +1442,7 @@
             "1/2 teaspoon paprika",
             "Salt and pepper to taste"
         ],
-        "image": "https://foodwithfeeling.com/wp-content/uploads/2022/04/stuffed-sweet-potatoes-10.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776510268/EWL-Sweet-Potatoes-Warm-Black-Bean-Salad-1x1-233-6a88f00867c948de86da5008a1eca5e4_r6sg3m.jpg",
         "price": 215,
         "discount": 0,
         "time": 40,
@@ -950,6 +1465,105 @@
         ]
     },
     {
+        "name": "Baked Cod with Lemon and Herbs",
+        "ingredients": [
+            "150g cod fillet",
+            "1 teaspoon olive oil",
+            "1 teaspoon lemon juice",
+            "1/2 teaspoon dried thyme",
+            "Salt and pepper to taste"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776512209/lemon-herb-baked-cod-with-roasted-asparagus-and-garlic-parmesan-zucchini-eG7mNspvL2_vdmrno.webp",
+        "price": 220,
+        "discount": 20,
+        "time": 25,
+        "calories": 200,
+        "protein": 25,
+        "carbs": 2,
+        "fats": 8,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "low carb",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Baked Lemon Herb Chicken",
+        "ingredients": [
+            "150g chicken breast",
+            "1 tbsp olive oil",
+            "1 tsp lemon zest",
+            "1 tsp mixed herbs",
+            "2 garlic cloves",
+            "salt and pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776512261/211129_DAMN-DELICIOUS_Lemon-Herb-Roasted-Chx_059-760x1140_rrqqic.jpg",
+        "price": 270,
+        "discount": 0,
+        "time": 30,
+        "calories": 310,
+        "protein": 38,
+        "carbs": 4,
+        "fats": 14,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "low carb",
+            "keto",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Baked Falafel Bowl",
+        "ingredients": [
+            "6 baked falafel balls",
+            "1/2 cup hummus",
+            "1 cup tabbouleh",
+            "pita bread",
+            "cucumber",
+            "tomato",
+            "tahini"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776512324/baked-falafel-bowl-FI_ba0w12.jpg",
+        "price": 170,
+        "discount": 0,
+        "time": 30,
+        "calories": 420,
+        "protein": 16,
+        "carbs": 52,
+        "fats": 18,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
         "name": "Quinoa and Roasted Vegetable Bowl",
         "ingredients": [
             "1 cup cooked quinoa",
@@ -958,7 +1572,7 @@
             "1 teaspoon lemon juice",
             "Salt and pepper to taste"
         ],
-        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776510355/Roasted-Vegetable-Quinoa-Bowls-1-480x480_dnzxs8.jpg",
         "price": 159,
         "discount": 10,
         "time": 30,
@@ -974,8 +1588,36 @@
             "heart disease"
         ],
         "diet": [
-            "vegan",
-            "low carb"
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Quinoa and Roasted Veggie Salad",
+        "ingredients": [
+            "1 cup cooked quinoa",
+            "1/2 cup roasted zucchini, bell peppers, carrot",
+            "1 tablespoon olive oil",
+            "1 teaspoon lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776510397/Kale-Salad-with-Crispy-Quinoa-SQUARE_of8sch.jpg",
+        "price": 216,
+        "discount": 0,
+        "time": 10,
+        "calories": 280,
+        "protein": 10,
+        "carbs": 30,
+        "fats": 12,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes"
+        ],
+        "diet": [
+            "vegan"
         ],
         "allergy": [
             "none"
@@ -990,8 +1632,9 @@
             "1 tablespoon pine nuts",
             "Salt and pepper to taste"
         ],
-        "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2013/08/Zucchini-Noodles-with-Pesto-6.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776511148/55443131-3e3f0c8c06074a3fa428677aaeb59f47_uhnqp1.jpg",
         "price": 260,
+        "discount": 0,
         "time": 20,
         "calories": 200,
         "protein": 6,
@@ -1006,10 +1649,46 @@
         ],
         "diet": [
             "vegan",
+            "low carb",
             "keto"
         ],
         "allergy": [
             "nuts"
+        ]
+    },
+    {
+        "name": "Turkey Meatballs with Zucchini Noodles",
+        "ingredients": [
+            "200g ground turkey",
+            "2 medium zucchinis spiralized",
+            "1/2 cup tomato sauce",
+            "1 egg",
+            "1 tsp oregano",
+            "1 garlic clove",
+            "salt and pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776511102/WEB1xclose-up_of_turkey_meatballs_and_zucchini_noodles_773a7179-aff1-4864-aaa5-4877de4e0dde_1-735x735_rlxppu.jpg",
+        "price": 260,
+        "discount": 0,
+        "time": 30,
+        "calories": 340,
+        "protein": 35,
+        "carbs": 12,
+        "fats": 16,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "low carb",
+            "keto",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
         ]
     },
     {
@@ -1020,15 +1699,16 @@
             "1 tablespoon almond butter",
             "1 teaspoon honey"
         ],
-        "image": "https://fitmealideas.com/wp-content/uploads/2021/04/mixed-berry-smoothie-with-almond-milk-1.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776511248/Lamington-12_tpivu7.jpg",
         "price": 129,
+        "discount": 0,
         "time": 10,
         "calories": 180,
         "protein": 5,
         "carbs": 20,
         "fats": 8,
         "categories": [
-            "meal"
+            "snack"
         ],
         "health": [
             "diabetes",
@@ -1037,6 +1717,35 @@
         "diet": [
             "vegan",
             "low carb"
+        ],
+        "allergy": [
+            "nuts"
+        ]
+    },
+    {
+        "name": "Almond Butter Smoothie",
+        "ingredients": [
+            "1 cup almond milk",
+            "1 banana",
+            "1 tablespoon almond butter",
+            "1 teaspoon honey"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776511393/banana-almond-butter-smoothie-hero_t7w7yr.jpg",
+        "price": 125,
+        "discount": 0,
+        "time": 5,
+        "calories": 250,
+        "protein": 6,
+        "carbs": 30,
+        "fats": 12,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "diabetes"
+        ],
+        "diet": [
+            "vegan"
         ],
         "allergy": [
             "nuts"
@@ -1053,8 +1762,9 @@
             "1 teaspoon lemon juice",
             "Salt and pepper to taste"
         ],
-        "image": "https://www.themediterraneandish.com/wp-content/uploads/2023/12/TMD-Chickpea-Salad-Leads-01-Angle-Horizontal.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776511470/d8jaggas8kk3dbabpjru_gbqaaf.jpg",
         "price": 240,
+        "discount": 0,
         "time": 15,
         "calories": 260,
         "protein": 12,
@@ -1062,38 +1772,6 @@
         "fats": 10,
         "categories": [
             "salad"
-        ],
-        "health": [
-            "diabetes",
-            "heart disease"
-        ],
-        "diet": [
-            "vegan",
-            "high protein"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Stuffed Bell Peppers with Quinoa",
-        "ingredients": [
-            "2 bell peppers, halved",
-            "1 cup cooked quinoa",
-            "1/2 cup black beans, cooked",
-            "1/4 cup corn",
-            "1 teaspoon olive oil",
-            "Salt and pepper to taste"
-        ],
-        "image": "https://www.thespruceeats.com/thmb/FC1kDitBHn08teDrh-gkYeg27VA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/quinoa-stuffed-peppers-2238585-08-43c24df24a3e4aa8991d22337e1ded40.jpg",
-        "price": 160,
-        "time": 35,
-        "calories": 280,
-        "protein": 10,
-        "carbs": 50,
-        "fats": 8,
-        "categories": [
-            "meal"
         ],
         "health": [
             "diabetes",
@@ -1115,15 +1793,16 @@
             "1 teaspoon olive oil",
             "Salt and pepper to taste"
         ],
-        "image": "https://whatsfordinner.com/wp-content/uploads/2017/02/Grilled-Vegetable-Wrap_main.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776511835/veggiewrap_ygslak.jpg",
         "price": 130,
+        "discount": 0,
         "time": 15,
         "calories": 240,
         "protein": 8,
         "carbs": 35,
         "fats": 7,
         "categories": [
-            "meal"
+            "sandwich"
         ],
         "health": [
             "diabetes",
@@ -1133,7 +1812,7 @@
             "vegan"
         ],
         "allergy": [
-            "none"
+            "gluten"
         ]
     },
     {
@@ -1145,8 +1824,9 @@
             "1/2 cup peas and carrots",
             "Salt and pepper to taste"
         ],
-        "image": "https://www.220triathlon.com/wp-content/uploads/sites/4/2023/12/turmeric-cauliflower-rice.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776511945/5a-paleo-turmeric-cauliflower-rice-1024x1024_i0rj04.jpg",
         "price": 152,
+        "discount": 0,
         "time": 15,
         "calories": 150,
         "protein": 5,
@@ -1161,7 +1841,7 @@
         ],
         "diet": [
             "vegan",
-            "keto"
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -1176,8 +1856,9 @@
             "1 teaspoon sesame oil",
             "1 clove garlic, minced"
         ],
-        "image": "https://plantifullybasedblog.com/wp-content/uploads/2024/07/tofu-and-broccoli.png",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776512031/241217_Tofu-And-Broccoli_550_ar2qsa.jpg",
         "price": 150,
+        "discount": 0,
         "time": 20,
         "calories": 220,
         "protein": 15,
@@ -1192,40 +1873,8 @@
         ],
         "diet": [
             "vegan",
-            "high protein",
+            "low carb",
             "keto"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Baked Cod with Lemon and Herbs",
-        "ingredients": [
-            "150g cod fillet",
-            "1 teaspoon olive oil",
-            "1 teaspoon lemon juice",
-            "1/2 teaspoon dried thyme",
-            "Salt and pepper to taste"
-        ],
-        "image": "https://www.themediterraneandish.com/wp-content/uploads/2017/10/Mediterranean-Baked-Cod-Recipe-Lemon-Garlic-The-Mediterranean-Dish-1.jpg",
-        "price": 220,
-        "discount": 20,
-        "time": 25,
-        "calories": 200,
-        "protein": 25,
-        "carbs": 2,
-        "fats": 8,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "heart disease",
-            "diabetes"
-        ],
-        "diet": [
-            "keto",
-            "high protein"
         ],
         "allergy": [
             "none"
@@ -1241,7 +1890,7 @@
             "1 teaspoon lemon juice",
             "Salt and pepper to taste"
         ],
-        "image": "https://foolproofliving.com/wp-content/uploads/2021/02/Quinoa-Kale-Salad-recipe-2.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776512519/kale-and-quinoa-salad-with-lemon-dressing-50e7ff379b924df8ab3dd665e2efefb5_pfwwul.jpg",
         "price": 145,
         "discount": 25,
         "time": 20,
@@ -1264,6 +1913,74 @@
         ]
     },
     {
+        "name": "White Bean and Kale Stew",
+        "ingredients": [
+            "1 cup white beans",
+            "2 cups kale",
+            "1 small onion",
+            "2 garlic cloves",
+            "3 cups vegetable broth",
+            "1 tbsp olive oil",
+            "1 tsp rosemary"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776512562/white-bean-and-kale-soup-A_39-4_h6lrjq.jpg",
+        "price": 155,
+        "discount": 0,
+        "time": 30,
+        "calories": 310,
+        "protein": 15,
+        "carbs": 42,
+        "fats": 7,
+        "categories": [
+            "soup"
+        ],
+        "health": [
+            "heart disease",
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Pasta with Eggplant and Tomato Sauce",
+        "ingredients": [
+            "200 grams whole wheat pasta",
+            "eggplant, chopped",
+            "tomato, chopped",
+            "garlic clove, minced",
+            "1/4 cup tomato sauce",
+            "2 tablespoons olive oil",
+            "1/4 cup grated Parmesan cheese",
+            "Salt and black pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776509347/maxresdefault_hmsmu6.jpg",
+        "price": 180,
+        "discount": 0,
+        "time": 30,
+        "calories": 400,
+        "protein": 15,
+        "carbs": 55,
+        "fats": 15,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten",
+            "lactose"
+        ]
+    },
+    {
         "name": "Eggplant and Tomato Bake",
         "ingredients": [
             "1 medium eggplant, sliced",
@@ -1272,8 +1989,9 @@
             "1 teaspoon oregano",
             "Salt and pepper to taste"
         ],
-        "image": "https://immigrantstable.com/wp-content/uploads/2014/09/Eggplant-tomato-recipe-eggplant-tomato-stacks-THUMBNAIL-1.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776512685/Eggplant-tomato-recipe-eggplant-tomato-stacks-THUMBNAIL-1_nvtv9d.jpg",
         "price": 155,
+        "discount": 0,
         "time": 25,
         "calories": 210,
         "protein": 6,
@@ -1288,69 +2006,7 @@
         ],
         "diet": [
             "vegan",
-            "keto"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Avocado and Chickpea Sandwich",
-        "ingredients": [
-            "2 slices whole wheat bread",
-            "1/2 avocado, mashed",
-            "1/2 cup chickpeas, mashed",
-            "1 teaspoon lemon juice",
-            "Salt and pepper to taste"
-        ],
-        "image": "https://images.pexels.com/photos/1988624/pexels-photo-1988624.jpeg?_gl=1*1e67vj8*_ga*MTA5MDgzNzMwMC4xNzM3MjIzNTAw*_ga_8JE65Q40S6*czE3NjgzMjQ4NDMkbzI0JGcxJHQxNzY4MzI0ODQ3JGo1NiRsMCRoMA..",
-        "price": 135,
-        "time": 10,
-        "calories": 280,
-        "protein": 9,
-        "carbs": 35,
-        "fats": 10,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "diabetes",
-            "heart disease"
-        ],
-        "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Sweet Potato and Lentil Stew",
-        "ingredients": [
-            "1 cup sweet potato, diced",
-            "1/2 cup red lentils",
-            "1 small onion, chopped",
-            "2 cups vegetable broth",
-            "1 teaspoon cumin",
-            "Salt and pepper to taste"
-        ],
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZB0448yQ-V9loLabA54aRv1njHqnsOGZLrg&s",
-        "price": 155,
-        "time": 30,
-        "calories": 300,
-        "protein": 12,
-        "carbs": 40,
-        "fats": 7,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "diabetes",
-            "heart disease"
-        ],
-        "diet": [
-            "vegan",
-            "high protein"
+            "low carb"
         ],
         "allergy": [
             "none"
@@ -1364,26 +2020,26 @@
             "1 tablespoon honey",
             "1 tablespoon granola"
         ],
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RBpL2QNI7L4OQIC2MU2JFSvX6twPetIgFQ&s",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776512937/Fage_Recipe_Tiles_B_600x420_Apr21_Plain_Loaded_BowlsA_Hero_1291_RGB_cpuepc.jpg",
         "price": 145,
+        "discount": 0,
         "time": 5,
         "calories": 230,
         "protein": 12,
         "carbs": 25,
         "fats": 5,
         "categories": [
-            "meal"
+            "snack"
         ],
         "health": [
             "diabetes",
             "heart disease"
         ],
         "diet": [
-            "high protein",
-            "low carb"
+            "vegan"
         ],
         "allergy": [
-            "none"
+            "lactose"
         ]
     },
     {
@@ -1395,8 +2051,9 @@
             "1 teaspoon garlic, minced",
             "Salt and pepper to taste"
         ],
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ZN5HbyGUpZALSCGSev-ibn2QbsJ1eQ5cLg&s",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513023/img_1394-1_fggmva.jpg",
         "price": 225,
+        "discount": 0,
         "time": 20,
         "calories": 280,
         "protein": 25,
@@ -1410,40 +2067,10 @@
             "heart disease"
         ],
         "diet": [
-            "keto",
             "high protein"
         ],
         "allergy": [
             "none"
-        ]
-    },
-    {
-        "name": "Almond Butter Smoothie",
-        "ingredients": [
-            "1 cup almond milk",
-            "1 banana",
-            "1 tablespoon almond butter",
-            "1 teaspoon honey"
-        ],
-        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
-        "price": 125,
-        "time": 5,
-        "calories": 250,
-        "protein": 6,
-        "carbs": 30,
-        "fats": 12,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "diabetes"
-        ],
-        "diet": [
-            "vegan",
-            "low carb"
-        ],
-        "allergy": [
-            "nuts"
         ]
     },
     {
@@ -1455,7 +2082,7 @@
             "1 teaspoon baking powder",
             "1 teaspoon vanilla extract"
         ],
-        "image": "https://www.mamaknowsglutenfree.com/wp-content/uploads/2025/03/1Gluten-Free-Pancakes-15.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513093/Perfect-Gluten-Free-Pancakes-NEW-iowagirleats-02_cs2qdn.jpg",
         "price": 155,
         "time": 15,
         "calories": 300,
@@ -1463,16 +2090,46 @@
         "carbs": 35,
         "fats": 10,
         "categories": [
-            "meal"
+            "snack"
         ],
         "health": [
             "heart disease"
         ],
         "diet": [
-            "high protein"
+            "vegan"
         ],
         "allergy": [
-            "gluten"
+            "nuts"
+        ],
+        "discount": 0
+    },
+    {
+        "name": "Gluten-Free Banana Bread",
+        "ingredients": [
+            "2 ripe bananas",
+            "1 cup gluten-free flour",
+            "1/4 cup coconut oil",
+            "1 teaspoon baking soda"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513193/Gluten-free-banana-bread-recipe-image_ccu0f7.jpg",
+        "price": 125,
+        "discount": 0,
+        "time": 40,
+        "calories": 220,
+        "protein": 5,
+        "carbs": 35,
+        "fats": 8,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "diabetes"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
         ]
     },
     {
@@ -1484,7 +2141,7 @@
             "1/4 cup spinach",
             "1 teaspoon olive oil"
         ],
-        "image": "https://www.safefood.net/webpconverter.ashx?guid=b01b0826-14c8-42a3-baf3-20c21fb5bddd&width=600&quality=85",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513266/5941200-yummy-veggie-omelet-AllrecipesPhot-4x3o-9731d76434de4b7daae40281f56a7a66_dftjpc.jpg",
         "price": 145,
         "time": 10,
         "calories": 280,
@@ -1498,12 +2155,15 @@
             "high blood pressure"
         ],
         "diet": [
+            "vegan",
+            "low carb",
             "keto",
             "high protein"
         ],
         "allergy": [
             "lactose"
-        ]
+        ],
+        "discount": 0
     },
     {
         "name": "Quinoa and Chickpea Salad",
@@ -1514,7 +2174,7 @@
             "1 tablespoon olive oil",
             "1 teaspoon lemon juice"
         ],
-        "image": "https://www.eatingbirdfood.com/wp-content/uploads/2026/01/quinoa-chickpea-salad-hero-copy.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513382/Quinoa-Chickpea-Lemon-Dill-Salad-5_sbgdxi.jpg",
         "price": 135,
         "time": 10,
         "calories": 320,
@@ -1528,12 +2188,12 @@
             "diabetes"
         ],
         "diet": [
-            "vegan",
-            "high protein"
+            "vegan"
         ],
         "allergy": [
             "none"
-        ]
+        ],
+        "discount": 0
     },
     {
         "name": "Peanut Butter Energy Balls",
@@ -1543,77 +2203,22 @@
             "1/4 cup honey",
             "1/4 cup dark chocolate chips"
         ],
-        "image": "https://www.noracooks.com/wp-content/uploads/2024/10/PeanutButterEnergyBalls-11.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513436/peanut-butter-energy-bites-recipe-8356_malw5c.jpg",
         "price": 150,
+        "discount": 0,
         "time": 10,
         "calories": 200,
         "protein": 6,
         "carbs": 25,
         "fats": 10,
         "categories": [
-            "meal"
+            "snack"
         ],
         "health": [
             "heart disease"
         ],
         "diet": [
             "vegan"
-        ],
-        "allergy": [
-            "nuts"
-        ]
-    },
-    {
-        "name": "Gluten-Free Banana Bread",
-        "ingredients": [
-            "2 ripe bananas",
-            "1 cup gluten-free flour",
-            "1/4 cup coconut oil",
-            "1 teaspoon baking soda"
-        ],
-        "image": "https://www.mamaknowsglutenfree.com/wp-content/uploads/2017/04/gluten-free-banana-bread-recipe-3-768x512.jpg",
-        "price": 125,
-        "time": 40,
-        "calories": 220,
-        "protein": 5,
-        "carbs": 35,
-        "fats": 8,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "diabetes"
-        ],
-        "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "gluten"
-        ]
-    },
-    {
-        "name": "Greek Yogurt with Honey and Walnuts",
-        "ingredients": [
-            "1 cup Greek yogurt",
-            "1 tablespoon honey",
-            "2 tablespoons chopped walnuts"
-        ],
-        "image": "https://www.mygreekdish.com/wp-content/uploads/2014/09/Greek-Yogurt-drizzled-with-Honey-and-Walnuts-Yiaourti-me-meli-980x651.jpg",
-        "price": 145,
-        "time": 5,
-        "calories": 180,
-        "protein": 10,
-        "carbs": 12,
-        "fats": 8,
-        "categories": [
-            "meal"
-        ],
-        "health": [
-            "heart disease"
-        ],
-        "diet": [
-            "keto",
-            "high protein"
         ],
         "allergy": [
             "nuts"
@@ -1628,55 +2233,27 @@
             "1 teaspoon olive oil",
             "Salt and pepper to taste"
         ],
-        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2024/12/mushroom-soup-recipe-580x732.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776513863/Cream-of-Mushroom-Soup-Recipe-2-800x800_vtfj0k.jpg",
         "price": 160,
+        "discount": 0,
         "time": 20,
         "calories": 250,
         "protein": 6,
         "carbs": 12,
         "fats": 18,
         "categories": [
-            "meal"
+            "soup"
         ],
         "health": [
             "high blood pressure"
         ],
         "diet": [
             "vegan",
+            "low carb",
             "keto"
         ],
         "allergy": [
             "lactose"
-        ]
-    },
-    {
-        "name": "Avocado and Almond Salad",
-        "ingredients": [
-            "1 avocado, sliced",
-            "1/4 cup almonds, chopped",
-            "1/4 cup cherry tomatoes",
-            "1 tablespoon olive oil",
-            "1 teaspoon lemon juice"
-        ],
-        "image": "https://kitchenkeys.net/wp-content/uploads/2017/10/fullsizerender-8.jpg",
-        "price": 215,
-        "time": 10,
-        "calories": 280,
-        "protein": 6,
-        "carbs": 10,
-        "fats": 22,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "diabetes"
-        ],
-        "diet": [
-            "vegan",
-            "low carb"
-        ],
-        "allergy": [
-            "nuts"
         ]
     },
     {
@@ -1687,8 +2264,9 @@
             "Lettuce leaves",
             "1/4 cup sliced tomato"
         ],
-        "image": "https://itsavegworldafterall.com/wp-content/uploads/2022/02/Veggie-Cheese-Sandwich-3.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514017/veg-cheese-sandwich-recipe_qwt7ib.jpg",
         "price": 214,
+        "discount": 0,
         "time": 5,
         "calories": 300,
         "protein": 12,
@@ -1701,28 +2279,29 @@
             "heart disease"
         ],
         "diet": [
-            "high protein"
+            "vegan"
         ],
         "allergy": [
+            "gluten",
             "lactose"
         ]
     },
     {
-        "name": "Turkey Avocado Sandwich",
+        "name": "Smoked Salmon Cream Cheese Sandwich",
         "ingredients": [
-            "2 slices whole wheat bread",
-            "100g turkey breast, sliced",
-            "1/2 avocado, sliced",
-            "Lettuce leaves",
-            "1 teaspoon mustard"
+            "whole grain bread",
+            "smoked salmon",
+            "light cream cheese",
+            "cucumber"
         ],
-        "image": "https://images.pexels.com/photos/1639561/pexels-photo-1639561.jpeg",
-        "price": 216,
-        "time": 10,
-        "calories": 320,
-        "protein": 20,
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514077/Smoked-Salmon-Tea-Sandwiches-Recipe_a7jvff.jpg",
+        "price": 220,
+        "discount": 0,
+        "time": 8,
+        "calories": 360,
+        "protein": 24,
         "carbs": 28,
-        "fats": 12,
+        "fats": 16,
         "categories": [
             "sandwich"
         ],
@@ -1733,37 +2312,69 @@
             "high protein"
         ],
         "allergy": [
-            "gluten"
+            "gluten",
+            "lactose"
         ]
     },
     {
-        "name": "Chicken Pesto Sandwich",
+        "name": "Cottage Cheese and Fruit Bowl",
         "ingredients": [
-            "2 slices sourdough bread",
-            "100g grilled chicken",
-            "1 tablespoon pesto",
-            "Tomato slices",
-            "Lettuce leaves"
+            "1 cup low-fat cottage cheese",
+            "1/2 cup pineapple chunks",
+            "1/2 cup strawberries",
+            "1 tbsp honey",
+            "1 tsp chia seeds"
         ],
-        "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-        "price": 215,
-        "time": 12,
-        "calories": 350,
-        "protein": 22,
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514151/1671644042296_nnhnbj.webp",
+        "price": 130,
+        "discount": 0,
+        "time": 5,
+        "calories": 220,
+        "protein": 18,
+        "carbs": 24,
+        "fats": 4,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan",
+            "high protein"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Grilled Cheese Sandwich",
+        "ingredients": [
+            "Bread slices",
+            "Cheddar cheese",
+            "Butter"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776505430/grilled-cheese_rrslnw.jpg",
+        "price": 85,
+        "discount": 5,
+        "time": 10,
+        "calories": 400,
+        "protein": 12,
         "carbs": 30,
-        "fats": 15,
+        "fats": 25,
         "categories": [
             "sandwich"
         ],
         "health": [
-            "diabetes"
+            "none"
         ],
         "diet": [
-            "keto",
-            "high protein"
+            "low carb"
         ],
         "allergy": [
-            "nuts"
+            "gluten",
+            "lactose"
         ]
     },
     {
@@ -1774,8 +2385,9 @@
             "2 tablespoons hummus",
             "Spinach leaves"
         ],
-        "image": "https://foodwithfeeling.com/wp-content/uploads/2023/09/Grilled-Veggie-Wraps-3-680x1020.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514297/wrap2_2000_1125_qluwyk.jpg",
         "price": 140,
+        "discount": 0,
         "time": 8,
         "calories": 280,
         "protein": 8,
@@ -1791,7 +2403,7 @@
             "vegan"
         ],
         "allergy": [
-            "none"
+            "gluten"
         ]
     },
     {
@@ -1803,15 +2415,16 @@
             "Lettuce leaves",
             "Sliced cucumber"
         ],
-        "image": "https://www.culinaryhill.com/wp-content/uploads/2022/06/The-Best-Tuna-Salad-Culinary-Hill-LR-12.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514400/98579-barbies-tuna-salad-DDMFS-4x3-f035868432e14a479ca4bc349011bf19_ucbghf.jpg",
         "price": 150,
+        "discount": 0,
         "time": 10,
         "calories": 330,
         "protein": 18,
         "carbs": 28,
         "fats": 14,
         "categories": [
-            "sandwich"
+            "salad"
         ],
         "health": [
             "heart disease"
@@ -1820,7 +2433,7 @@
             "high protein"
         ],
         "allergy": [
-            "lactose"
+            "gluten"
         ]
     },
     {
@@ -1831,7 +2444,7 @@
             "Spinach leaves",
             "1 teaspoon olive oil"
         ],
-        "image": "https://www.eatingwell.com/thmb/xcmUyImuOzj5HOfwpYdlL1GMVAw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8030933-egg-spinach-cheddar-breakfast-sandwich-beauty-743063c037fe42bda5a55fe4bdfa7419.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514558/spinach-omelette-breakfast-sandwich-1-kiersten-hickman_aynkfs.jpg",
         "price": 314,
         "discount": 20,
         "time": 8,
@@ -1846,246 +2459,10 @@
             "diabetes"
         ],
         "diet": [
-            "keto",
-            "high protein"
-        ],
-        "allergy": [
-            "gluten"
-        ]
-    },
-    {
-        "name": "Greek Salad",
-        "ingredients": [
-            "1 cup chopped cucumber",
-            "1 cup cherry tomatoes, halved",
-            "1/4 cup feta cheese",
-            "1/4 cup olives",
-            "1 tablespoon olive oil"
-        ],
-        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/greek-salad-2-580x756.jpg",
-        "price": 215,
-        "time": 5,
-        "calories": 250,
-        "protein": 8,
-        "carbs": 10,
-        "fats": 20,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "heart disease"
-        ],
-        "diet": [
-            "keto",
-            "low carb"
-        ],
-        "allergy": [
-            "lactose"
-        ]
-    },
-    {
-        "name": "Quinoa and Roasted Veggie Salad",
-        "ingredients": [
-            "1 cup cooked quinoa",
-            "1/2 cup roasted zucchini, bell peppers, carrot",
-            "1 tablespoon olive oil",
-            "1 teaspoon lemon juice"
-        ],
-        "image": "https://choosingchia.com/jessh-jessh/uploads/2025/08/roasted-vegetable-quinoa-salad-8.jpg",
-        "price": 216,
-        "time": 10,
-        "calories": 280,
-        "protein": 10,
-        "carbs": 30,
-        "fats": 12,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "diabetes"
-        ],
-        "diet": [
             "vegan"
         ],
         "allergy": [
             "none"
-        ]
-    },
-    {
-        "name": "Spinach and Strawberry Salad",
-        "ingredients": [
-            "2 cups fresh spinach",
-            "1/2 cup strawberries, sliced",
-            "1/4 cup walnuts",
-            "1 tablespoon balsamic vinaigrette"
-        ],
-        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2025/04/spinach-strawberry-salad-recipe-580x808.jpg",
-        "price": 214,
-        "time": 5,
-        "calories": 220,
-        "protein": 6,
-        "carbs": 15,
-        "fats": 12,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "high blood pressure"
-        ],
-        "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "nuts"
-        ]
-    },
-    {
-        "name": "Chicken Caesar Salad",
-        "ingredients": [
-            "2 cups romaine lettuce",
-            "100g grilled chicken breast",
-            "1/4 cup parmesan cheese",
-            "2 tablespoons Caesar dressing",
-            "Croutons"
-        ],
-        "image": "https://damndelicious.net/wp-content/uploads/2023/01/220905_DD_Chx-Caesar-Salad_051-760x1140.jpg.webp",
-        "price": 318,
-        "time": 10,
-        "calories": 350,
-        "protein": 25,
-        "carbs": 12,
-        "fats": 20,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "heart disease"
-        ],
-        "diet": [
-            "high protein"
-        ],
-        "allergy": [
-            "lactose"
-        ]
-    },
-    {
-        "name": "Avocado and Chickpea Salad",
-        "ingredients": [
-            "1/2 cup chickpeas",
-            "1/2 avocado, diced",
-            "1/4 cup cucumber, diced",
-            "1 tablespoon olive oil",
-            "1 teaspoon lemon juice"
-        ],
-        "image": "https://www.eatingwell.com/thmb/chcKCmbmQRvrHy1uyBEE38wgSPY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc/:format(webp)/Avocado--Chickpea-Salad-hero-1x1-24606_preview_maxWidth_4000_maxHeight_4000_ppi_300_quality_100-eaaa63ea30cb443f81d683c63056a396.jpg",
-        "price": 315,
-        "time": 8,
-        "calories": 280,
-        "protein": 10,
-        "carbs": 25,
-        "fats": 15,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "diabetes"
-        ],
-        "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Turkey Avocado Whole Wheat Sandwich",
-        "ingredients": [
-            "whole wheat bread",
-            "turkey breast slices",
-            "avocado",
-            "lettuce",
-            "tomato",
-            "mustard"
-        ],
-        "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg",
-        "price": 185,
-        "discount": 15,
-        "time": 10,
-        "calories": 380,
-        "protein": 28,
-        "carbs": 35,
-        "fats": 14,
-        "categories": [
-            "sandwich"
-        ],
-        "health": [
-            "heart disease",
-            "diabetes"
-        ],
-        "diet": [
-            "high protein"
-        ],
-        "allergy": [
-            "gluten"
-        ]
-    },
-    {
-        "name": "Grilled Chicken Pesto Sandwich",
-        "ingredients": [
-            "whole grain bun",
-            "grilled chicken breast",
-            "basil pesto",
-            "tomato",
-            "lettuce"
-        ],
-        "image": "https://thecozyapron.com/wp-content/uploads/2020/09/grilled-chicken-sandwich_thecozyapron_1.jpg",
-        "price": 195,
-        "time": 12,
-        "calories": 420,
-        "protein": 32,
-        "carbs": 38,
-        "fats": 16,
-        "categories": [
-            "sandwich"
-        ],
-        "health": [
-            "heart disease"
-        ],
-        "diet": [
-            "high protein"
-        ],
-        "allergy": [
-            "nuts"
-        ]
-    },
-    {
-        "name": "Tuna Greek Yogurt Sandwich",
-        "ingredients": [
-            "whole wheat bread",
-            "tuna",
-            "greek yogurt",
-            "cucumber",
-            "lemon juice"
-        ],
-        "image": "https://www.daisybeet.com/wp-content/uploads/2023/08/Tuna-Salad-with-Greek-Yogurt-8.jpg",
-        "price": 160,
-        "time": 10,
-        "calories": 340,
-        "protein": 30,
-        "carbs": 32,
-        "fats": 8,
-        "categories": [
-            "sandwich"
-        ],
-        "health": [
-            "heart disease",
-            "diabetes"
-        ],
-        "diet": [
-            "high protein"
-        ],
-        "allergy": [
-            "lactose"
         ]
     },
     {
@@ -2096,8 +2473,9 @@
             "spinach",
             "low fat cheese"
         ],
-        "image": "https://sweetpeasandsaffron.com/wp-content/uploads/2018/06/copycat-starbucks-egg-white-breakfast-sandwich-2.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514626/Panera-Breakfast-Sandwich-photo-e1415820924382_ogfxuq.jpg",
         "price": 145,
+        "discount": 0,
         "time": 8,
         "calories": 280,
         "protein": 22,
@@ -2110,11 +2488,108 @@
             "heart disease"
         ],
         "diet": [
+            "vegan",
             "high protein"
         ],
         "allergy": [
-            "lactose",
-            "gluten"
+            "gluten",
+            "lactose"
+        ]
+    },
+    {
+        "name": "Egg and Vegetable Stir-Fry",
+        "ingredients": [
+            "3 eggs",
+            "1 cup mixed vegetables",
+            "1 tbsp soy sauce",
+            "1 tsp sesame oil",
+            "1 garlic clove",
+            "spring onions"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514751/cozwqp4bgxdhhpu8pbc5_i87l3c.webp",
+        "price": 135,
+        "discount": 0,
+        "time": 15,
+        "calories": 250,
+        "protein": 16,
+        "carbs": 10,
+        "fats": 16,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan",
+            "low carb",
+            "keto"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Greek Salad",
+        "ingredients": [
+            "1 cup chopped cucumber",
+            "1 cup cherry tomatoes, halved",
+            "1/4 cup feta cheese",
+            "1/4 cup olives",
+            "1 tablespoon olive oil"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776504389/greek_salad_600x900_ecycqr.webp",
+        "price": 215,
+        "time": 5,
+        "calories": 250,
+        "protein": 8,
+        "carbs": 10,
+        "fats": 20,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "vegan",
+            "low carb",
+            "keto"
+        ],
+        "allergy": [
+            "lactose"
+        ],
+        "discount": 0
+    },
+    {
+        "name": "Spinach and Strawberry Salad",
+        "ingredients": [
+            "2 cups fresh spinach",
+            "1/2 cup strawberries, sliced",
+            "1/4 cup walnuts",
+            "1 tablespoon balsamic vinaigrette"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514847/strawberry-spinach-salad_vg2rs6.jpg",
+        "price": 214,
+        "discount": 0,
+        "time": 5,
+        "calories": 220,
+        "protein": 6,
+        "carbs": 15,
+        "fats": 12,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan",
+            "low carb"
+        ],
+        "allergy": [
+            "nuts"
         ]
     },
     {
@@ -2126,7 +2601,7 @@
             "bell pepper",
             "lettuce"
         ],
-        "image": "https://itsavegworldafterall.com/wp-content/uploads/2021/05/Halloumi-Sandwiches-5.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514909/Halloumi-Sandwich-2-500x500_bc86p0.jpg",
         "price": 175,
         "discount": 15,
         "time": 12,
@@ -2141,9 +2616,11 @@
             "heart disease"
         ],
         "diet": [
-            "keto"
+            "vegan",
+            "high protein"
         ],
         "allergy": [
+            "gluten",
             "lactose"
         ]
     },
@@ -2155,8 +2632,9 @@
             "mustard",
             "lettuce"
         ],
-        "image": "https://cookingandbeer.com/wp-content/uploads/2015/07/roastbeefsammiesthumb.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776514950/PMR_Recipes_800x600_Spicy-Horseradish-Roast-Beef-Sandwich_kukvtg.jpg",
         "price": 200,
+        "discount": 0,
         "time": 10,
         "calories": 430,
         "protein": 30,
@@ -2184,8 +2662,9 @@
             "tomato",
             "lettuce"
         ],
-        "image": "https://ordinaryvegan.net/wp-content/uploads/2019/09/Vegan-Baked-Falafel-resize-1536x1025.webp",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515010/Falafel-Pita-Sandwich-5_epibv8.jpg",
         "price": 140,
+        "discount": 0,
         "time": 10,
         "calories": 390,
         "protein": 14,
@@ -2206,64 +2685,6 @@
         ]
     },
     {
-        "name": "Smoked Salmon Cream Cheese Sandwich",
-        "ingredients": [
-            "whole grain bread",
-            "smoked salmon",
-            "light cream cheese",
-            "cucumber"
-        ],
-        "image": "https://thecozyapron.com/wp-content/uploads/2024/05/smoked-salmon-sandwich_thecozyapron_1.jpg",
-        "price": 220,
-        "time": 8,
-        "calories": 360,
-        "protein": 24,
-        "carbs": 28,
-        "fats": 16,
-        "categories": [
-            "sandwich"
-        ],
-        "health": [
-            "heart disease"
-        ],
-        "diet": [
-            "high protein"
-        ],
-        "allergy": [
-            "lactose"
-        ]
-    },
-    {
-        "name": "Grilled Chicken Quinoa Salad",
-        "ingredients": [
-            "grilled chicken breast",
-            "quinoa",
-            "mixed greens",
-            "olive oil",
-            "lemon juice"
-        ],
-        "image": "https://www.completelydelicious.com/wp-content/uploads/2023/05/grilled-chicken-quinoa-salad-5-660x880.jpg",
-        "price": 230,
-        "time": 15,
-        "calories": 420,
-        "protein": 35,
-        "carbs": 30,
-        "fats": 14,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "diabetes",
-            "heart disease"
-        ],
-        "diet": [
-            "high protein"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
         "name": "Lentil Spinach Salad",
         "ingredients": [
             "lentils",
@@ -2272,7 +2693,7 @@
             "olive oil",
             "lemon juice"
         ],
-        "image": "https://www.gimmesomeoven.com/wp-content/uploads/2016/08/Easy-Warm-Lentil-Salad-Recipe-1.jpg",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515086/Spinach-Lentil-Salad-Reshoot-3_w5w4fl.jpg",
         "price": 180,
         "discount": 10,
         "time": 15,
@@ -2295,35 +2716,6 @@
         ]
     },
     {
-        "name": "Shrimp Avocado Salad",
-        "ingredients": [
-            "shrimp",
-            "avocado",
-            "mixed greens",
-            "olive oil",
-            "lemon juice"
-        ],
-        "image": "https://feelgoodfoodie.net/wp-content/uploads/2025/06/Shrimp-Avocado-Salad-04.jpg",
-        "price": 260,
-        "time": 15,
-        "calories": 360,
-        "protein": 28,
-        "carbs": 12,
-        "fats": 18,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "heart disease"
-        ],
-        "diet": [
-            "high protein"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
         "name": "Brown Rice Vegetable Salad",
         "ingredients": [
             "brown rice",
@@ -2332,7 +2724,7 @@
             "parsley",
             "olive oil"
         ],
-        "image": "https://www.recipetineats.com/tachyon/2020/09/Brown-Rice-Salad_8.jpg?resize=900%2C1260&zoom=0.72",
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515139/Vegetable-Rice-Salad-GF-7-23-7sq_jm5akg.jpg",
         "price": 170,
         "discount": 20,
         "time": 15,
@@ -2355,26 +2747,844 @@
         ]
     },
     {
-        "name": "Spinach and Strawberry Salad",
+        "name": "Beef and Quinoa Salad",
         "ingredients": [
-            "fresh spinach",
-            "strawberries",
-            "walnuts",
-            "balsamic vinaigrette"
+            "grilled beef strips",
+            "cooked quinoa",
+            "mixed greens",
+            "olive oil",
+            "lemon juice"
         ],
-        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2025/04/spinach-strawberry-salad-recipe-580x808.jpg",
-        "price": 214,
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515182/Steak-Fajita-Quinoa-Salad-Feature2_nhxx9i.jpg",
+        "price": 380,
         "discount": 0,
-        "time": 5,
-        "calories": 220,
-        "protein": 6,
-        "carbs": 15,
-        "fats": 12,
+        "time": 15,
+        "calories": 450,
+        "protein": 35,
+        "carbs": 28,
+        "fats": 18,
         "categories": [
             "salad"
         ],
         "health": [
             "high blood pressure"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Beef Stir-Fry with Veggies",
+        "ingredients": [
+            "beef strips",
+            "broccoli",
+            "bell peppers",
+            "carrot",
+            "soy sauce"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515225/Beef-Stir-Fry-with-Vegetables016-web-square_dp5iqv.jpg",
+        "price": 300,
+        "discount": 0,
+        "time": 20,
+        "calories": 400,
+        "protein": 35,
+        "carbs": 25,
+        "fats": 18,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Chicken and Veggie Stir-Fry",
+        "ingredients": [
+            "chicken breast",
+            "zucchini",
+            "carrots",
+            "bell peppers",
+            "olive oil"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515307/223382_chicken-stir-fry_Rita-1x1-1-b6b835ccfc714bb6a8391a7c47a06a84_yxtfzq.jpg",
+        "price": 280,
+        "discount": 0,
+        "time": 18,
+        "calories": 380,
+        "protein": 32,
+        "carbs": 20,
+        "fats": 15,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "low carb",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Grilled Salmon with Veggies",
+        "ingredients": [
+            "salmon fillet",
+            "broccoli",
+            "carrot",
+            "olive oil",
+            "lemon juice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776506203/Sheet-Pan-Salmon-and-Vegetables-21_e91u3z.jpg",
+        "price": 350,
+        "discount": 0,
+        "time": 20,
+        "calories": 450,
+        "protein": 38,
+        "carbs": 10,
+        "fats": 25,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "high blood pressure"
+        ],
+        "diet": [
+            "low carb",
+            "keto",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Spicy Black Bean Bowl",
+        "ingredients": [
+            "1 cup black beans",
+            "1/2 cup brown rice",
+            "1/2 avocado",
+            "salsa",
+            "1 tsp cumin",
+            "lime juice",
+            "cilantro"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515365/51796590811_152a839693_o_nw00nl.jpg",
+        "price": 155,
+        "discount": 0,
+        "time": 20,
+        "calories": 390,
+        "protein": 16,
+        "carbs": 55,
+        "fats": 12,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Pan-Seared Tilapia with Greens",
+        "ingredients": [
+            "150g tilapia fillet",
+            "2 cups mixed greens",
+            "1 tbsp olive oil",
+            "1 lemon",
+            "1 tsp garlic powder",
+            "salt and pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515433/tilapia-charred-green-beans_0284-2_i64byu.jpg",
+        "price": 230,
+        "discount": 0,
+        "time": 20,
+        "calories": 280,
+        "protein": 30,
+        "carbs": 5,
+        "fats": 14,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "low carb",
+            "keto",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Coconut Curry Lentils",
+        "ingredients": [
+            "1 cup red lentils",
+            "1/2 cup coconut milk",
+            "1 tbsp curry powder",
+            "1 onion",
+            "2 garlic cloves",
+            "1 tomato",
+            "2 cups vegetable broth"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515476/AMAZING-Coconut-Curried-Golden-Lentils-20-minutes-healthy-SO-satisfying-vegan-lentil-curry-plantbased-coconut-dairyfree-glutenfree-11_tioppw.jpg",
+        "price": 175,
+        "discount": 10,
+        "time": 30,
+        "calories": 380,
+        "protein": 17,
+        "carbs": 48,
+        "fats": 14,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Veggie-Loaded Frittata",
+        "ingredients": [
+            "4 eggs",
+            "1/2 cup bell peppers",
+            "1/2 cup mushrooms",
+            "1/4 cup spinach",
+            "1/4 cup onion",
+            "1 tbsp olive oil",
+            "salt and pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515519/Loaded-Veggie-Fritatta-3-680x1024_ccwfjv.jpg",
+        "price": 160,
+        "discount": 0,
+        "time": 20,
+        "calories": 270,
+        "protein": 18,
+        "carbs": 8,
+        "fats": 18,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan",
+            "low carb",
+            "keto",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Seared Tuna Steak",
+        "ingredients": [
+            "150g tuna steak",
+            "1 tbsp soy sauce",
+            "1 tsp sesame oil",
+            "1 tsp ginger",
+            "1 garlic clove",
+            "sesame seeds",
+            "spring onions"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515558/seared-ahi-tuna-recipe-2_yaimol.jpg",
+        "price": 290,
+        "discount": 0,
+        "time": 15,
+        "calories": 310,
+        "protein": 40,
+        "carbs": 4,
+        "fats": 14,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "low carb",
+            "keto",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Pumpkin and Ginger Soup",
+        "ingredients": [
+            "2 cups pumpkin, diced",
+            "1 tsp fresh ginger",
+            "1 small onion",
+            "2 garlic cloves",
+            "3 cups vegetable broth",
+            "1 tbsp olive oil",
+            "coconut milk"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515614/Pumpkin-Ginger-Soup-recipe-image-500x500_choydv.jpg",
+        "price": 145,
+        "discount": 0,
+        "time": 30,
+        "calories": 190,
+        "protein": 5,
+        "carbs": 22,
+        "fats": 9,
+        "categories": [
+            "soup"
+        ],
+        "health": [
+            "diabetes",
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Chicken and Brown Rice Bowl",
+        "ingredients": [
+            "150g grilled chicken",
+            "1 cup brown rice",
+            "1/2 cup steamed broccoli",
+            "1/2 cup carrots",
+            "1 tbsp soy sauce",
+            "sesame seeds"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515671/7010038_CLBowls_LemonChickenCitrusBowls133-429f3145941642e382359bbfed04b2fe_dmn9wm.jpg",
+        "price": 240,
+        "discount": 0,
+        "time": 25,
+        "calories": 440,
+        "protein": 36,
+        "carbs": 45,
+        "fats": 10,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Mango and Black Bean Salad",
+        "ingredients": [
+            "1 mango, diced",
+            "1/2 cup black beans",
+            "1/4 cup red onion",
+            "cilantro",
+            "lime juice",
+            "1 tbsp olive oil",
+            "chili flakes"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515712/instagram-In-Stream_Square___mango-black-bean-salad-2_afa0ak.jpg",
+        "price": 160,
+        "discount": 0,
+        "time": 10,
+        "calories": 260,
+        "protein": 9,
+        "carbs": 45,
+        "fats": 6,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Roasted Beet and Walnut Salad",
+        "ingredients": [
+            "2 roasted beets",
+            "1/4 cup walnuts",
+            "2 cups arugula",
+            "1/4 cup goat cheese",
+            "1 tbsp balsamic vinegar",
+            "1 tbsp olive oil"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515756/Roasted-Beet-Salad-with-Goat-Cheese-and-Candied-Walnuts-featured_ajoixh.jpg",
+        "price": 195,
+        "discount": 10,
+        "time": 10,
+        "calories": 290,
+        "protein": 8,
+        "carbs": 18,
+        "fats": 22,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "heart disease",
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan",
+            "low carb"
+        ],
+        "allergy": [
+            "lactose",
+            "nuts"
+        ]
+    },
+    {
+        "name": "Tabbouleh Salad",
+        "ingredients": [
+            "1 cup bulgur wheat",
+            "2 cups parsley",
+            "1 tomato diced",
+            "1/2 cucumber diced",
+            "2 tbsp olive oil",
+            "juice of 2 lemons",
+            "mint leaves"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515799/Grain-Free-Tabbouleh-Salad-11_g2jws6.jpg",
+        "price": 130,
+        "discount": 0,
+        "time": 15,
+        "calories": 240,
+        "protein": 7,
+        "carbs": 38,
+        "fats": 8,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Edamame and Corn Salad",
+        "ingredients": [
+            "1 cup edamame",
+            "1/2 cup corn",
+            "1/4 cup red bell pepper",
+            "1 tbsp soy sauce",
+            "1 tsp sesame oil",
+            "spring onions"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515845/corn-edamame-salad-square_utpxa4.jpg",
+        "price": 140,
+        "discount": 0,
+        "time": 10,
+        "calories": 230,
+        "protein": 14,
+        "carbs": 28,
+        "fats": 8,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Nicoise Salad",
+        "ingredients": [
+            "canned tuna",
+            "2 boiled eggs",
+            "green beans",
+            "cherry tomatoes",
+            "olives",
+            "1 tbsp olive oil",
+            "Dijon mustard dressing"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515886/MC-Nicoise-Salad-kvfw-mediumSquareAt3X_nmzbsg.jpg",
+        "price": 210,
+        "discount": 0,
+        "time": 15,
+        "calories": 380,
+        "protein": 28,
+        "carbs": 14,
+        "fats": 22,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "low carb",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Watermelon Feta Mint Salad",
+        "ingredients": [
+            "2 cups watermelon, cubed",
+            "1/4 cup feta cheese",
+            "fresh mint leaves",
+            "1 tbsp olive oil",
+            "black pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515928/watermelon-salad_mtzfgl.jpg",
+        "price": 145,
+        "discount": 0,
+        "time": 5,
+        "calories": 180,
+        "protein": 6,
+        "carbs": 22,
+        "fats": 8,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "high blood pressure",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Asian Cabbage Slaw",
+        "ingredients": [
+            "2 cups shredded cabbage",
+            "1 carrot julienned",
+            "1 tbsp soy sauce",
+            "1 tsp sesame oil",
+            "1 tsp rice vinegar",
+            "sesame seeds",
+            "spring onions"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776515964/asian-slaw-recipe-A_31-2_qiwwux.jpg",
+        "price": 120,
+        "discount": 0,
+        "time": 10,
+        "calories": 150,
+        "protein": 4,
+        "carbs": 16,
+        "fats": 7,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes",
+            "high blood pressure"
+        ],
+        "diet": [
+            "vegan",
+            "low carb"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Warm Roasted Veggie Salad",
+        "ingredients": [
+            "1 cup roasted sweet potato",
+            "1/2 cup roasted chickpeas",
+            "2 cups spinach",
+            "1/4 cup pomegranate seeds",
+            "1 tbsp tahini dressing"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516004/Moroccan-Roasted-Vegetable-Salad_yoyoiz.jpg",
+        "price": 175,
+        "discount": 0,
+        "time": 30,
+        "calories": 320,
+        "protein": 11,
+        "carbs": 46,
+        "fats": 10,
+        "categories": [
+            "salad"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Caprese Panini",
+        "ingredients": [
+            "ciabatta bread",
+            "fresh mozzarella",
+            "tomato slices",
+            "fresh basil",
+            "1 tbsp olive oil",
+            "balsamic glaze"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516046/Best-Caprese-Sandwich-with-Basil-Pesto-Panini-15-scaled_tmufoz.jpg",
+        "price": 195,
+        "discount": 0,
+        "time": 10,
+        "calories": 390,
+        "protein": 16,
+        "carbs": 38,
+        "fats": 20,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten",
+            "lactose"
+        ]
+    },
+    {
+        "name": "Hummus and Roasted Veggie Wrap",
+        "ingredients": [
+            "whole wheat wrap",
+            "4 tbsp hummus",
+            "roasted eggplant",
+            "roasted bell peppers",
+            "spinach",
+            "cucumber"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516094/Humms-Wrap-with-Roasted-Vegetables-4_laocvo.jpg",
+        "price": 145,
+        "discount": 0,
+        "time": 15,
+        "calories": 310,
+        "protein": 10,
+        "carbs": 42,
+        "fats": 12,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Chickpea Shawarma Wrap",
+        "ingredients": [
+            "whole wheat wrap",
+            "roasted spiced chickpeas",
+            "tahini sauce",
+            "tomato",
+            "lettuce",
+            "pickles",
+            "onion"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516142/16631744116322070b9b677_ddm5uv.jpg",
+        "price": 150,
+        "discount": 0,
+        "time": 20,
+        "calories": 380,
+        "protein": 14,
+        "carbs": 52,
+        "fats": 12,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "BLT Turkey Wrap",
+        "ingredients": [
+            "whole wheat wrap",
+            "turkey breast",
+            "turkey bacon",
+            "lettuce",
+            "tomato",
+            "light mayo"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516198/IMG_2801_vkzfyy.jpg",
+        "price": 175,
+        "discount": 0,
+        "time": 10,
+        "calories": 360,
+        "protein": 28,
+        "carbs": 30,
+        "fats": 14,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Grilled Eggplant and Mozzarella Sandwich",
+        "ingredients": [
+            "ciabatta",
+            "grilled eggplant",
+            "fresh mozzarella",
+            "tomato",
+            "basil pesto",
+            "olive oil"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516270/grilled-eggplant-sandwiches-featured-image-300x300_ni09xn.jpg",
+        "price": 185,
+        "discount": 0,
+        "time": 15,
+        "calories": 400,
+        "protein": 14,
+        "carbs": 42,
+        "fats": 20,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Shakshuka",
+        "ingredients": [
+            "3 eggs",
+            "1 cup crushed tomatoes",
+            "1/2 bell pepper",
+            "1 small onion",
+            "1 tsp cumin",
+            "1 tsp paprika",
+            "1 garlic clove",
+            "1 tbsp olive oil"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516312/IMG_4359-2-e1709389769495_ilqfrx.jpg",
+        "price": 155,
+        "discount": 0,
+        "time": 25,
+        "calories": 280,
+        "protein": 16,
+        "carbs": 18,
+        "fats": 16,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "vegan",
+            "low carb"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Overnight Oats with Chia",
+        "ingredients": [
+            "1/2 cup oats",
+            "1 cup almond milk",
+            "2 tbsp chia seeds",
+            "1 tbsp honey",
+            "1/2 cup mixed berries",
+            "1 tsp vanilla"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516350/basic-overnight-oats-5_rhebox.jpg",
+        "price": 120,
+        "discount": 0,
+        "time": 5,
+        "calories": 310,
+        "protein": 10,
+        "carbs": 48,
+        "fats": 10,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
         ],
         "diet": [
             "vegan"
@@ -2384,268 +3594,61 @@
         ]
     },
     {
-        "name": "Grilled Veggie Wrap",
+        "name": "Miso Soup with Tofu",
         "ingredients": [
-            "whole wheat wrap",
-            "grilled zucchini",
-            "bell peppers",
-            "eggplant",
-            "hummus",
-            "spinach leaves"
+            "2 tbsp miso paste",
+            "100g silken tofu",
+            "2 cups dashi broth",
+            "1 sheet nori",
+            "spring onions",
+            "1 tsp soy sauce"
         ],
-        "image": "https://foodwithfeeling.com/wp-content/uploads/2023/09/Grilled-Veggie-Wraps-3-680x1020.jpg",
-        "price": 140,
-        "discount": 0,
-        "time": 8,
-        "calories": 280,
-        "protein": 8,
-        "carbs": 32,
-        "fats": 10,
-        "categories": [
-            "sandwich"
-        ],
-        "health": [
-            "high blood pressure"
-        ],
-        "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Greek Salad",
-        "ingredients": [
-            "cucumber",
-            "cherry tomatoes",
-            "feta cheese",
-            "olives",
-            "olive oil"
-        ],
-        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/greek-salad-2-580x756.jpg",
-        "price": 215,
-        "discount": 0,
-        "time": 5,
-        "calories": 250,
-        "protein": 8,
-        "carbs": 10,
-        "fats": 20,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "high blood pressure"
-        ],
-        "diet": [
-            "keto"
-        ],
-        "allergy": [
-            "lactose"
-        ]
-    },
-    {
-        "name": "Quinoa and Roasted Veggie Salad",
-        "ingredients": [
-            "cooked quinoa",
-            "roasted zucchini",
-            "bell peppers",
-            "carrot",
-            "olive oil",
-            "lemon juice"
-        ],
-        "image": "https://choosingchia.com/jessh-jessh/uploads/2025/08/roasted-vegetable-quinoa-salad-8.jpg",
-        "price": 216,
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516400/Miso-soup-with-tofu-sesame-seeds-and-watercress_ndt9ad.jpg",
+        "price": 130,
         "discount": 0,
         "time": 10,
-        "calories": 280,
+        "calories": 160,
         "protein": 10,
-        "carbs": 30,
-        "fats": 12,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "high blood pressure"
-        ],
-        "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Lentil Spinach Salad",
-        "ingredients": [
-            "lentils",
-            "spinach",
-            "red onion",
-            "olive oil",
-            "lemon juice"
-        ],
-        "image": "https://www.gimmesomeoven.com/wp-content/uploads/2016/08/Easy-Warm-Lentil-Salad-Recipe-1.jpg",
-        "price": 180,
-        "discount": 10,
-        "time": 15,
-        "calories": 300,
-        "protein": 16,
-        "carbs": 38,
+        "carbs": 10,
         "fats": 8,
         "categories": [
-            "salad"
+            "soup"
         ],
         "health": [
-            "high blood pressure"
+            "high blood pressure",
+            "heart disease"
         ],
         "diet": [
-            "vegan"
+            "vegan",
+            "low carb"
         ],
         "allergy": [
             "none"
         ]
     },
     {
-        "name": "Grilled Chicken Quinoa Salad",
+        "name": "Salmon and Spinach Quiche",
         "ingredients": [
-            "grilled chicken breast",
-            "quinoa",
-            "mixed greens",
-            "olive oil",
-            "lemon juice"
+            "whole wheat pastry shell",
+            "2 eggs",
+            "100g smoked salmon",
+            "1 cup spinach",
+            "1/2 cup low-fat cream",
+            "salt and pepper"
         ],
-        "image": "https://www.completelydelicious.com/wp-content/uploads/2023/05/grilled-chicken-quinoa-salad-5-660x880.jpg",
-        "price": 230,
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516442/dairy-free-salmon-spinach-quiche-cb585fb3ae03ed0c1853416bea0b1ab9-1920_cpyucn.jpg",
+        "price": 245,
         "discount": 0,
-        "time": 15,
-        "calories": 420,
-        "protein": 35,
-        "carbs": 30,
-        "fats": 14,
+        "time": 40,
+        "calories": 380,
+        "protein": 24,
+        "carbs": 22,
+        "fats": 22,
         "categories": [
-            "salad"
+            "meal"
         ],
         "health": [
-            "high blood pressure"
-        ],
-        "diet": [
-            "high protein"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Shrimp Avocado Salad",
-        "ingredients": [
-            "shrimp",
-            "avocado",
-            "mixed greens",
-            "olive oil",
-            "lemon juice"
-        ],
-        "image": "https://feelgoodfoodie.net/wp-content/uploads/2025/06/Shrimp-Avocado-Salad-04.jpg",
-        "price": 260,
-        "discount": 0,
-        "time": 15,
-        "calories": 360,
-        "protein": 28,
-        "carbs": 12,
-        "fats": 18,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "high blood pressure"
-        ],
-        "diet": [
-            "high protein"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Brown Rice Vegetable Salad",
-        "ingredients": [
-            "brown rice",
-            "cucumber",
-            "tomato",
-            "parsley",
-            "olive oil"
-        ],
-        "image": "https://www.recipetineats.com/tachyon/2020/09/Brown-Rice-Salad_8.jpg?resize=900%2C1260&zoom=0.72",
-        "price": 170,
-        "discount": 20,
-        "time": 15,
-        "calories": 310,
-        "protein": 9,
-        "carbs": 48,
-        "fats": 8,
-        "categories": [
-            "salad"
-        ],
-        "health": [
-            "high blood pressure"
-        ],
-        "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "none"
-        ]
-    },
-    {
-        "name": "Grilled Halloumi Veggie Sandwich",
-        "ingredients": [
-            "whole wheat bun",
-            "halloumi cheese",
-            "grilled zucchini",
-            "bell pepper",
-            "lettuce"
-        ],
-        "image": "https://itsavegworldafterall.com/wp-content/uploads/2021/05/Halloumi-Sandwiches-5.jpg",
-        "price": 175,
-        "discount": 15,
-        "time": 12,
-        "calories": 410,
-        "protein": 18,
-        "carbs": 36,
-        "fats": 20,
-        "categories": [
-            "sandwich"
-        ],
-        "health": [
-            "high blood pressure"
-        ],
-        "diet": [
-            "vegan"
-        ],
-        "allergy": [
-            "lactose"
-        ]
-    },
-    {
-        "name": "Roast Beef Mustard Sandwich",
-        "ingredients": [
-            "whole grain bread",
-            "roast beef",
-            "mustard",
-            "lettuce"
-        ],
-        "image": "https://cookingandbeer.com/wp-content/uploads/2015/07/roastbeefsammiesthumb.jpg",
-        "price": 200,
-        "discount": 0,
-        "time": 10,
-        "calories": 430,
-        "protein": 30,
-        "carbs": 34,
-        "fats": 18,
-        "categories": [
-            "sandwich"
-        ],
-        "health": [
-            "high blood pressure"
+            "heart disease"
         ],
         "diet": [
             "high protein"
@@ -2654,312 +3657,478 @@
             "gluten"
         ]
     },
-  {
-    "name": "Grilled Chicken Caesar Salad",
-    "ingredients": [
-      "grilled chicken breast",
-      "romaine lettuce",
-      "parmesan cheese",
-      "croutons",
-      "Caesar dressing"
-    ],
-    "image": "https://damndelicious.net/wp-content/uploads/2023/01/220905_DD_Chx-Caesar-Salad_051-760x1140.jpg.webp",
-    "price": 320,
-    "discount": 0,
-    "time": 12,
-    "calories": 360,
-    "protein": 30,
-    "carbs": 12,
-    "fats": 20,
-    "categories": ["salad"],
-    "health": ["heart disease"],
-    "diet": ["high protein"],
-    "allergy": ["lactose"]
-  },
-  {
-    "name": "Beef and Quinoa Salad",
-    "ingredients": [
-      "grilled beef strips",
-      "cooked quinoa",
-      "mixed greens",
-      "olive oil",
-      "lemon juice"
-    ],
-    "image": "https://foxeslovelemons.com/wp-content/uploads/2013/03/Steak-Quinoa-Salad31.jpg",
-    "price": 380,
-    "discount": 0,
-    "time": 15,
-    "calories": 450,
-    "protein": 35,
-    "carbs": 28,
-    "fats": 18,
-    "categories": ["salad"],
-    "health": ["high blood pressure"],
-    "diet": ["high protein"],
-    "allergy": ["none"]
-  },
-  {
-    "name": "Turkey Avocado Sandwich",
-    "ingredients": [
-      "whole wheat bread",
-      "sliced turkey breast",
-      "avocado",
-      "lettuce",
-      "tomato",
-      "mustard"
-    ],
-    "image": "https://images.pexels.com/photos/1639561/pexels-photo-1639561.jpeg",
-    "price": 216,
-    "discount": 0,
-    "time": 10,
-    "calories": 320,
-    "protein": 20,
-    "carbs": 28,
-    "fats": 12,
-    "categories": ["sandwich"],
-    "health": ["heart disease"],
-    "diet": ["low carb"],
-    "allergy": ["gluten"]
-  },
-  {
-    "name": "Grilled Chicken Pesto Sandwich",
-    "ingredients": [
-      "whole grain bun",
-      "grilled chicken breast",
-      "basil pesto",
-      "tomato",
-      "lettuce"
-    ],
-    "image": "https://thecozyapron.com/wp-content/uploads/2020/09/grilled-chicken-sandwich_thecozyapron_1.jpg",
-    "price": 195,
-    "discount": 0,
-    "time": 12,
-    "calories": 420,
-    "protein": 32,
-    "carbs": 38,
-    "fats": 16,
-    "categories": ["sandwich"],
-    "health": ["heart disease"],
-    "diet": ["high protein"],
-    "allergy": ["nuts"]
-  },
-  {
-    "name": "Shrimp Avocado Salad",
-    "ingredients": [
-      "shrimp",
-      "avocado",
-      "mixed greens",
-      "olive oil",
-      "lemon juice"
-    ],
-    "image": "https://feelgoodfoodie.net/wp-content/uploads/2025/06/Shrimp-Avocado-Salad-04.jpg",
-    "price": 260,
-    "discount": 0,
-    "time": 15,
-    "calories": 360,
-    "protein": 28,
-    "carbs": 12,
-    "fats": 18,
-    "categories": ["salad"],
-    "health": ["heart disease"],
-    "diet": ["high protein"],
-    "allergy": ["none"]
-  },
-  {
-    "name": "Grilled Halloumi Veggie Sandwich",
-    "ingredients": [
-      "whole wheat bun",
-      "halloumi cheese",
-      "grilled zucchini",
-      "bell pepper",
-      "lettuce"
-    ],
-    "image": "https://itsavegworldafterall.com/wp-content/uploads/2021/05/Halloumi-Sandwiches-5.jpg",
-    "price": 175,
-    "discount": 15,
-    "time": 12,
-    "calories": 410,
-    "protein": 18,
-    "carbs": 36,
-    "fats": 20,
-    "categories": ["sandwich"],
-    "health": ["heart disease"],
-    "diet": ["vegan"],
-    "allergy": ["lactose"]
-  },
-  {
-    "name": "Falafel Tahini Sandwich",
-    "ingredients": [
-      "whole wheat pita",
-      "baked falafel",
-      "tahini sauce",
-      "tomato",
-      "lettuce"
-    ],
-    "image": "https://ordinaryvegan.net/wp-content/uploads/2019/09/Vegan-Baked-Falafel-resize-1536x1025.webp",
-    "price": 140,
-    "discount": 0,
-    "time": 10,
-    "calories": 390,
-    "protein": 14,
-    "carbs": 45,
-    "fats": 16,
-    "categories": ["sandwich"],
-    "health": ["heart disease"],
-    "diet": ["vegan"],
-    "allergy": ["gluten"]
-  },
-  {
-    "name": "Beef Stir-Fry with Veggies",
-    "ingredients": [
-      "beef strips",
-      "broccoli",
-      "bell peppers",
-      "carrot",
-      "soy sauce"
-    ],
-    "image": "https://www.allrecipes.com/thmb/tIgGxX3cWKTDdePPmtMbcRy1HLY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/228823-quick-beef-stir-fry-DDMFS-4x3-1f79b031d3134f02ac27d79e967dfef5.jpg",
-    "price": 300,
-    "discount": 0,
-    "time": 20,
-    "calories": 400,
-    "protein": 35,
-    "carbs": 25,
-    "fats": 18,
-    "categories": ["meal"],
-    "health": ["high blood pressure"],
-    "diet": ["high protein"],
-    "allergy": ["none"]
-  },
-  {
-    "name": "Chicken and Veggie Stir-Fry",
-    "ingredients": [
-      "chicken breast",
-      "zucchini",
-      "carrots",
-      "bell peppers",
-      "olive oil"
-    ],
-    "image": "https://www.momontimeout.com/wp-content/uploads/2018/11/chicken-stir-fry-733x1103.jpg",
-    "price": 280,
-    "discount": 0,
-    "time": 18,
-    "calories": 380,
-    "protein": 32,
-    "carbs": 20,
-    "fats": 15,
-    "categories": ["meal"],
-    "health": ["high blood pressure"],
-    "diet": ["high protein"],
-    "allergy": ["none"]
-  },
-  {
-    "name": "Lentil Spinach Salad",
-    "ingredients": [
-      "lentils",
-      "spinach",
-      "red onion",
-      "olive oil",
-      "lemon juice"
-    ],
-    "image": "https://www.gimmesomeoven.com/wp-content/uploads/2016/08/Easy-Warm-Lentil-Salad-Recipe-1.jpg",
-    "price": 180,
-    "discount": 10,
-    "time": 15,
-    "calories": 300,
-    "protein": 16,
-    "carbs": 38,
-    "fats": 8,
-    "categories": ["salad"],
-    "health": ["high blood pressure"],
-    "diet": ["vegan"],
-    "allergy": ["none"]
-  },
-  {
-    "name": "Brown Rice Vegetable Salad",
-    "ingredients": [
-      "brown rice",
-      "cucumber",
-      "tomato",
-      "parsley",
-      "olive oil"
-    ],
-    "image": "https://www.recipetineats.com/tachyon/2020/09/Brown-Rice-Salad_8.jpg?resize=900%2C1260&zoom=0.72",
-    "price": 170,
-    "discount": 20,
-    "time": 15,
-    "calories": 310,
-    "protein": 9,
-    "carbs": 48,
-    "fats": 8,
-    "categories": ["salad"],
-    "health": ["high blood pressure"],
-    "diet": ["vegan"],
-    "allergy": ["none"]
-  },
-  {
-    "name": "Grilled Salmon with Veggies",
-    "ingredients": [
-      "salmon fillet",
-      "broccoli",
-      "carrot",
-      "olive oil",
-      "lemon juice"
-    ],
-    "image": "https://www.eatingwell.com/thmb/FH-AVz1XXWw5TiKwyWM_It3NZ0I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7969212-grilled-salmon-and-vegetables-with-charred-lemon-vinaigrette-beauty-501b80ab61a640d3bfacfa5f97aa982d.jpg",
-    "price": 350,
-    "discount": 0,
-    "time": 20,
-    "calories": 450,
-    "protein": 38,
-    "carbs": 10,
-    "fats": 25,
-    "categories": ["meal"],
-    "health": ["high blood pressure"],
-    "diet": ["high protein"],
-    "allergy": ["none"]
-  },
-  {
-    "name": "Greek Yogurt with Berries and Honey",
-    "ingredients": [
-      "Greek yogurt",
-      "mixed berries",
-      "honey",
-      "chia seeds"
-    ],
-    "image": "https://lh3.ggpht.com/_BizpeaUzxq8/Sc2CnomPpeI/AAAAAAAAA9g/zwyx8yREB4o/s800/greek-yogurt.jpg",
-    "price": 150,
-    "discount": 0,
-    "time": 5,
-    "calories": 200,
-    "protein": 12,
-    "carbs": 25,
-    "fats": 6,
-    "categories": ["meal"],
-    "health": ["high blood pressure"],
-    "diet": ["low carb"],
-    "allergy": ["none"]
-  },
-  {
-    "name": "Avocado and Chickpea Salad",
-    "ingredients": [
-      "chickpeas",
-      "avocado",
-      "cucumber",
-      "olive oil",
-      "lemon juice"
-    ],
-    "image": "https://www.eatingwell.com/thmb/chcKCmbmQRvrHy1uyBEE38wgSPY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Avocado--Chickpea-Salad-hero-1x1-24606_preview_maxWidth_4000_maxHeight_4000_ppi_300_quality_100-eaaa63ea30cb443f81d683c63056a396.jpg",
-    "price": 315,
-    "discount": 0,
-    "time": 8,
-    "calories": 280,
-    "protein": 10,
-    "carbs": 25,
-    "fats": 15,
-    "categories": ["salad"],
-    "health": ["high blood pressure"],
-    "diet": ["vegan"],
-    "allergy": ["none"]
-  } 
+    {
+        "name": "Protein Pancakes",
+        "ingredients": [
+            "1/2 cup oats",
+            "1 scoop protein powder",
+            "1 banana",
+            "2 eggs",
+            "1/2 tsp baking powder",
+            "1/2 cup almond milk"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516480/protein-pancakes_gtzwpv.jpg",
+        "price": 145,
+        "discount": 0,
+        "time": 15,
+        "calories": 340,
+        "protein": 28,
+        "carbs": 38,
+        "fats": 8,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan",
+            "high protein"
+        ],
+        "allergy": [
+            "nuts"
+        ]
+    },
+    {
+        "name": "Grilled Corn and Black Bean Tacos",
+        "ingredients": [
+            "corn tortillas",
+            "1/2 cup black beans",
+            "1/2 cup grilled corn",
+            "1/4 avocado",
+            "salsa",
+            "lime juice",
+            "cilantro"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516519/Grilled-Corn-Black-Bean-Tacos-1_mzkfyy.jpg",
+        "price": 160,
+        "discount": 0,
+        "time": 20,
+        "calories": 360,
+        "protein": 12,
+        "carbs": 52,
+        "fats": 12,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Beef and Broccoli Bowl",
+        "ingredients": [
+            "150g lean beef strips",
+            "1 cup broccoli",
+            "1 tbsp soy sauce",
+            "1 tsp oyster sauce",
+            "1 tsp sesame oil",
+            "garlic",
+            "ginger",
+            "brown rice"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516559/IMG_3547_gvjq7v.jpg",
+        "price": 310,
+        "discount": 0,
+        "time": 25,
+        "calories": 420,
+        "protein": 36,
+        "carbs": 30,
+        "fats": 16,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Lemon Garlic Shrimp Pasta",
+        "ingredients": [
+            "150g whole wheat pasta",
+            "150g shrimp",
+            "2 garlic cloves",
+            "juice of 1 lemon",
+            "2 tbsp olive oil",
+            "parsley",
+            "chili flakes"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516599/2019_08_22_lemon_garlic_shrimp_pasta_2_ukdzsq.jpg",
+        "price": 270,
+        "discount": 15,
+        "time": 25,
+        "calories": 430,
+        "protein": 30,
+        "carbs": 50,
+        "fats": 12,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "heart disease"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Walnut and Banana Smoothie Bowl",
+        "ingredients": [
+            "1 frozen banana",
+            "1/2 cup almond milk",
+            "2 tbsp walnuts",
+            "1 tbsp almond butter",
+            "granola",
+            "honey",
+            "cinnamon"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776516646/strawberry-smoothie-bowl-2_daihy4.jpg",
+        "price": 140,
+        "discount": 0,
+        "time": 5,
+        "calories": 350,
+        "protein": 9,
+        "carbs": 46,
+        "fats": 16,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "heart disease",
+            "diabetes"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "nuts"
+        ]
+    },
+    {
+        "name": "Tuna Sandwich",
+        "ingredients": [
+            "1 can tuna",
+            "2 slices bread",
+            "1 tablespoon mayonnaise",
+            "Lettuce",
+            "Tomato slices"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776503624/Lindseyeats__Tuna_Sandwich_Recipe-5_yyzxnp.jpg",
+        "price": 95,
+        "discount": 5,
+        "time": 10,
+        "calories": 420,
+        "protein": 25,
+        "carbs": 35,
+        "fats": 20,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Lentil Soup",
+        "ingredients": [
+            "1 cup lentils",
+            "1 onion",
+            "2 carrots",
+            "2 cloves garlic",
+            "3 cups vegetable broth",
+            "Salt and pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776504053/lentil-soup-3sq_hcon0o.jpg",
+        "price": 80,
+        "discount": 0,
+        "time": 30,
+        "calories": 300,
+        "protein": 18,
+        "carbs": 40,
+        "fats": 6,
+        "categories": [
+            "soup"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Red Lentil Soup",
+        "ingredients": [
+            "1 cup red lentils, rinsed",
+            "1 small onion, finely chopped",
+            "2 garlic cloves, minced",
+            "2 tablespoons olive oil",
+            "1 medium carrot, chopped",
+            "1 medium tomato, chopped",
+            "4 cups vegetable broth or water",
+            "1/2 teaspoon ground cumin",
+            "Salt and black pepper to taste"
+        ],
+        "image": "https://res.cloudinary.com/djqyhkpq8/image/upload/v1733158082/FITFAT%20images/home%20suggestion%20recipes%20images/dpxysrae8nivps5ymiqr.jpg",
+        "price": 180,
+        "discount": 25,
+        "time": 30,
+        "calories": 360,
+        "protein": 18,
+        "carbs": 42,
+        "fats": 12,
+        "categories": [
+            "soup"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Moroccan Spiced Lentil Soup",
+        "ingredients": [
+            "1 cup green lentils",
+            "1 tsp cumin",
+            "1 tsp coriander",
+            "1 tsp turmeric",
+            "1 small onion",
+            "2 garlic cloves",
+            "4 cups vegetable broth"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776506415/Moroccan-style-red-lentil-soup-sq_s6iej6.jpg",
+        "price": 160,
+        "discount": 0,
+        "time": 35,
+        "calories": 320,
+        "protein": 18,
+        "carbs": 45,
+        "fats": 6,
+        "categories": [
+            "soup"
+        ],
+        "health": [
+            "diabetes",
+            "heart disease"
+        ],
+        "diet": [
+            "vegan",
+            "high protein"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Beef Steak Meal",
+        "ingredients": [
+            "200g beef steak",
+            "Mashed potatoes",
+            "Steamed vegetables",
+            "1 tablespoon butter"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776504144/premium-steak-combo_z4l5km.jpg",
+        "price": 220,
+        "discount": 15,
+        "time": 35,
+        "calories": 700,
+        "protein": 45,
+        "carbs": 35,
+        "fats": 40,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "lactose"
+        ]
+    },
+    {
+        "name": "Potato Chips",
+        "ingredients": [
+            "Potatoes",
+            "Oil",
+            "Salt"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776504259/sweet_potato_chips_01_90109c46-0cbe-477a-b7fb-39c8acfc745f_1024x1024_mlxqwh.png",
+        "price": 40,
+        "discount": 0,
+        "time": 10,
+        "calories": 300,
+        "protein": 4,
+        "carbs": 30,
+        "fats": 18,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "vegan"
+        ],
+        "allergy": [
+            "none"
+        ]
+    },
+    {
+        "name": "Chicken Noodle Soup",
+        "ingredients": [
+            "Chicken breast",
+            "Noodles",
+            "Carrots",
+            "Celery",
+            "Chicken broth",
+            "Salt and pepper"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776504511/Chicken-Noodle-Soup-7-scaled_vujecy.jpg",
+        "price": 100,
+        "discount": 10,
+        "time": 30,
+        "calories": 350,
+        "protein": 25,
+        "carbs": 30,
+        "fats": 10,
+        "categories": [
+            "soup"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Chicken Wrap",
+        "ingredients": [
+            "Grilled chicken",
+            "Tortilla bread",
+            "Lettuce",
+            "Tomatoes",
+            "Garlic sauce"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776504610/20240919202952-classic-ranch-02_1200x1200_iogzmd.jpg",
+        "price": 105,
+        "discount": 5,
+        "time": 15,
+        "calories": 450,
+        "protein": 28,
+        "carbs": 40,
+        "fats": 18,
+        "categories": [
+            "sandwich"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "ingredients": [
+            "Spaghetti pasta",
+            "Ground beef",
+            "Tomato sauce",
+            "Onion",
+            "Garlic",
+            "Olive oil"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776504738/spaghetti-bolognese-36_u4m7gh.jpg",
+        "price": 150,
+        "discount": 10,
+        "time": 35,
+        "calories": 650,
+        "protein": 30,
+        "carbs": 75,
+        "fats": 22,
+        "categories": [
+            "meal"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "high protein"
+        ],
+        "allergy": [
+            "gluten"
+        ]
+    },
+    {
+        "name": "Mixed Nuts",
+        "ingredients": [
+            "Almonds",
+            "Cashews",
+            "Walnuts",
+            "Salt"
+        ],
+        "image": "https://res.cloudinary.com/dla0l2unu/image/upload/v1776504899/Simply-Recipes-Classic-Mixed-Nuts-LEAD-4-resized-3baf14d5b03d44cf85882b7fc4dd3b64_aryuny.jpg",
+        "price": 70,
+        "discount": 0,
+        "time": 5,
+        "calories": 300,
+        "protein": 10,
+        "carbs": 10,
+        "fats": 25,
+        "categories": [
+            "snack"
+        ],
+        "health": [
+            "none"
+        ],
+        "diet": [
+            "keto"
+        ],
+        "allergy": [
+            "nuts"
+        ]
+    }
 ]

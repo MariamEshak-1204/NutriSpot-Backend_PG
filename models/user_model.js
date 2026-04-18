@@ -64,7 +64,7 @@ const userSchema = new mongoose.Schema({
 
     allergies: [{
         type: String,
-        enum: ["Diabetes", "Lactose", "Gluten", "Nuts", "None"],
+        enum: ["Lactose", "Gluten", "Nuts", "None"],
     }],
 
     goal: {
@@ -78,10 +78,10 @@ const userSchema = new mongoose.Schema({
         ],
     },
 
-    // sleepingQuality: {
-    //     type: String,
-    //     enum: ["Excellent", "Good", "Fair", "Poor"],
-    // },
+    healthCondition: {
+        type: String,
+        enum: ["High Blood Pressure", "Heart Disease" , "Diabetes" , "None"],
+    },
 
     healthNotes: {
         type: String,

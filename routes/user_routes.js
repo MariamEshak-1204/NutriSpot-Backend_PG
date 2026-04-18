@@ -222,12 +222,52 @@ userRouter.route("/facebook-login").post(facebookLogin);
  */
 
 userRouter.route("/profile/setup").put(protect, validate(profileValidation), profileSetup)
-userRouter.put(
-  "/profile/image",
-  protect,
-  upload.single("image"),
-  updateProfileWithImage
-);
+
+ /**
+ * @swagger
+ * /user/profile/image:
+ *   put:
+ *     summary: Update user profile image and username
+ *     tags: [User Profile]
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         multipart/form-data:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               userName:
+ *                 type: string
+ *                 example: Mariam
+ *               image:
+ *                 type: string
+ *                 format: binary
+ *     responses:
+ *       200:
+ *         description: Profile updated successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 status:
+ *                   type: string
+ *                   example: success
+ *                 userName:
+ *                   type: string
+ *                   example: Mariam
+ *                 profileImage:
+ *                   type: string
+ *                   example: https://res.cloudinary.com/...
+ *       404:
+ *         description: User not found
+ *       500:
+ *         description: Server error
+ */
+
+userRouter.put("/profile/image", protect, upload.single("image"), updateProfileWithImage );
 
 /**
  * @swagger

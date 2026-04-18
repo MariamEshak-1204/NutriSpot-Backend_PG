@@ -16,13 +16,13 @@ const foodSchema = mongoose.Schema(
 
     categories: {
        type: [String], 
-       enum: ["salad", "meal", "sandwich"], 
+       enum: ["salad", "meal", "sandwich" , "soup" , "snack"], 
        required: true 
       },
 
     health: { 
       type: [String], 
-      enum: ["high blood pressure", "heart disease" , "diabetes"],
+      enum: ["high blood pressure", "heart disease" , "diabetes" , "none"],
       required: true  
 
     },

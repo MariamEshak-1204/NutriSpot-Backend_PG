@@ -26,14 +26,14 @@ export const foodValidation = Joi.object({
 
   categories: Joi.array()
     .items(
-      Joi.string().valid("salad", "meal", "sandwich")
+      Joi.string().valid("salad", "meal", "sandwich" , "soup" , "snack" )
     )
     .min(1)
     .required(),
 
   health: Joi.array()
     .items(
-      Joi.string().valid("high blood pressure", "heart disease" , "diabetes")
+      Joi.string().valid("high blood pressure", "heart disease" , "diabetes" , "none")
     )
     .optional(),
 
