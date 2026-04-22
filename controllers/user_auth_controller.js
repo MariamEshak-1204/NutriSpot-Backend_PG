@@ -4,10 +4,12 @@ import asyncHandler from "express-async-handler";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
+import { connectToDB } from "../DB/mongoose.js";
 dotenv.config();
 
 // ---------------- Register ----------------
 export const register = asyncHandler(async (req, res) => {
+    await connectToDB()
     const { userName, email, password, profileImage, role } = req.body;
 
     const existUser = await User.findOne({ email });
@@ -34,6 +36,7 @@ export const register = asyncHandler(async (req, res) => {
 
 // ---------------- Login ----------------
 export const login = asyncHandler(async (req, res) => {
+    await connectToDB()
     const { email, password } = req.body;
 
     const user = await User.findOne({ email });
@@ -62,6 +65,7 @@ export const login = asyncHandler(async (req, res) => {
 
 // ---------------- Get All Users ----------------
 export const getAllUsers = asyncHandler(async (req, res) => {
+    await connectToDB()
     const users = await User.find({});
     res.status(200).json(users);
 });
