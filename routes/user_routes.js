@@ -12,6 +12,8 @@ import {
     signOut,
     updateProfileWithImage
 } from "../controllers/profileSetup_controller.js";
+import { getMeals, recommendMeals } from "../controllers/recommendMeals_controller.js";
+import { getChatHistory, sendMessageToAI } from "../controllers/chat_controller.js";
 
 const userRouter = express.Router()
 
@@ -341,6 +343,180 @@ userRouter.route("/profile/password").put(protect, changePassword);
 
 userRouter.route("/profile/signout").post(protect, signOut);
 
+
+
+/**
+ * @swagger
+ * /user/api/recommend-meals:
+ *   put:
+ *     summary: Recommend meals for user based on profile
+ *     tags: [Meals]
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - goal
+ *             properties:
+ *               gender:
+ *                 type: string
+ *               age:
+ *                 type: number
+ *               height:
+ *                 type: number
+ *               weight:
+ *                 type: number
+ *               mealsPerDay:
+ *                 type: number
+ *               allergies:
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *               goal:
+ *                 type: string
+ *                 example: "Lose weight"
+ *               healthCondition:
+ *                 type: string
+ *               healthNotes:
+ *                 type: string
+ *               activityLevel:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Recommendations fetched successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                 message:
+ *                   type: string
+ *                 data:
+ *                   type: object
+ *       400:
+ *         description: User data is required
+ *       401:
+ *         description: Unauthorized
+ *       502:
+ *         description: AI service failed
+ */
+userRouter.put("/api/recommend-meals", protect, recommendMeals);
+
+/**
+ * @swagger
+ * /user/api/recommend-meals:
+ *   get:
+ *     summary: Get saved meals history
+ *     tags: [Meals]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved meals
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                 data:
+ *                   type: array
+ *                   items:
+ *                     type: object
+ *       401:
+ *         description: Unauthorized
+ */
+userRouter.get("/api/recommend-meals", protect, getMeals);
+
+/**
+ * @swagger
+ * /user/api/chat:
+ *   put:
+ *     summary: Send message to AI chat
+ *     tags: [Chat]
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - message
+ *             properties:
+ *               message:
+ *                 type: string
+ *                 example: "Hello"
+ *               user_profile:
+ *                 type: object
+ *               recommendations:
+ *                 type: array
+ *                 items:
+ *                   type: object
+ *     responses:
+ *       200:
+ *         description: Message sent successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                 message:
+ *                   type: string
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     userMessage:
+ *                       type: string
+ *                     aiReply:
+ *                       type: string
+ *       400:
+ *         description: Message is required
+ *       401:
+ *         description: Unauthorized
+ *       502:
+ *         description: AI service failed
+ */
+userRouter.put("/api/chat", protect, sendMessageToAI);
+
+/**
+ * @swagger
+ * user/api/chat:
+ *   get:
+ *     summary: Get chat history
+ *     tags: [Chat]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Chat history retrieved successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                 data:
+ *                   type: array
+ *                   items:
+ *                     type: object
+ *       401:
+ *         description: Unauthorized
+ */
+userRouter.get("/api/chat", protect, getChatHistory);
+
+
 // ----------------------------------------
 
 //   app.use('/user' , userRouter )  in index.js 
@@ -359,5 +535,16 @@ userRouter.route("/profile/signout").post(protect, signOut);
 // userRouter.route("/profile").get(protect , getProfile)
 // userRouter.route("/profile/password").put(protect, changePassword);
 // userRouter.route("/profile/signout").post(protect, signOut);
+
+// // RecommendMeals && AI
+
+// userRouter.put("/api/recommend-meals", protect , recommendMeals);
+// userRouter.get("/api/recommend-meals", protect, getMeals);
+
+// // 💬 send message
+// userRouter.put("/api/chat", protect, sendMessageToAI);
+// // 📥 get history
+// userRouter.get("/api/chat", protect, getChatHistory);
+
 
 export default userRouter;
