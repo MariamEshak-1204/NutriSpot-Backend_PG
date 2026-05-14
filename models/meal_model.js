@@ -1,4 +1,3 @@
-
 import mongoose from "mongoose";
 
 const mealSchema = new mongoose.Schema({
@@ -10,16 +9,94 @@ const mealSchema = new mongoose.Schema({
 
     meals: [
         {
-            name: String,
-            calories: Number,
-            protein: Number,
-            carbs: Number,
-            fat: Number,
+            name: {
+                type: String
+            },
+
+            ingredients: {
+                type: [String],
+                default: []
+            },
+
+            image: {
+                type: String
+            },
+
+            price: {
+                type: Number
+            },
+
+            discount: {
+                type: Number
+            },
+
+            time: {
+                type: Number
+            },
+
+            calories: {
+                type: Number
+            },
+
+            protein: {
+                type: Number
+            },
+
+            carbs: {
+                type: Number
+            },
+
+            fats: {
+                type: Number
+            },
+
+            categories: {
+                type: [String],
+                default: []
+            },
+
+            health: {
+                type: [String],
+                default: []
+            },
+
+            diet: {
+                type: [String],
+                default: []
+            },
+
+            allergy: {
+                type: [String],
+                default: []
+            },
+
+            diseases: {
+                type: [String],
+                default: []
+            },
+
+            score: {
+                type: Number
+            }
         }
     ],
 
     goal: {
         type: String
+    },
+
+    daily_targets: {
+        calories: Number,
+        protein: Number,
+        carbs: Number,
+        fats: Number
+    },
+
+    meal_target: {
+        calories: Number,
+        protein: Number,
+        carbs: Number,
+        fats: Number
     }
 
 }, {

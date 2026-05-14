@@ -29,12 +29,21 @@ export const recommendMeals = async (req, res) => {
             });
         }
 
+        // const meal = await Meal.create({
+        //     userId,
+        //     meals: Array.isArray(result?.recommendations)
+        //         ? result.recommendations
+        //         : [],
+        //     goal: userData.goal
+        // });
+
         const meal = await Meal.create({
             userId,
-            meals: Array.isArray(result?.recommendations)
-                ? result.recommendations
-                : [],
-            goal: userData.goal
+            meals: result.recommendations || [],
+            goal: userData.goal,
+
+            daily_targets: result.daily_targets,
+            meal_target: result.meal_target
         });
 
         return res.status(200).json({
