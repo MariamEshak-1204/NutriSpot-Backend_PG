@@ -1,10 +1,9 @@
-
 import { recommendMeals as aiRecommendMeals } from "../services/ai_service.js";
 import Meal from "../models/meal_model.js";
+import Food from "../models/food_model.js";
 
 export const recommendMeals = async (req, res) => {
     try {
-
         const userData = req.body;
 
         if (!userData || Object.keys(userData).length === 0) {
@@ -15,41 +14,63 @@ export const recommendMeals = async (req, res) => {
         }
 
         if (!req.user?.id) {
-            return res.status(401).json({ message: "Unauthorized" });
+            return res.status(401).json({
+                success: false,
+                message: "Unauthorized"
+            });
         }
 
         const userId = req.user.id;
 
         const result = await aiRecommendMeals(userData);
 
-        if (!result) {
+        if (!result || !Array.isArray(result.recommendations)) {
             return res.status(502).json({
                 success: false,
                 message: "AI service failed"
             });
         }
 
-        // const meal = await Meal.create({
-        //     userId,
-        //     meals: Array.isArray(result?.recommendations)
-        //         ? result.recommendations
-        //         : [],
-        //     goal: userData.goal
-        // });
+        // 🔥 Map foods from DB (name -> _id)
+        const foods = await Food.find({}, { name: 1 });
 
-        const meal = await Meal.create({
+        const foodMap = new Map(
+            foods.map(f => [f.name.toLowerCase(), f._id])
+        );
+
+        // 🔥 clean AI recommendations + attach foodId
+        const recommendationsWithIds = result.recommendations.map(aiItem => {
+            const foodId = foodMap.get(aiItem.name?.toLowerCase());
+
+            return {
+                ...aiItem,
+               FoodDetails: foodId || null
+            };
+        });
+
+        // 🔥 remove nulls (optional)
+        const safeMeals = recommendationsWithIds.filter(m => m.FoodDetails);
+
+        // 🔥 save in DB (BUT without destroying AI response)
+        await Meal.create({
             userId,
-            meals: result.recommendations || [],
+            meals: safeMeals.map(m => ({
+                FoodDetails: m.FoodDetails,
+                score: m.score
+            })),
             goal: userData.goal,
-
             daily_targets: result.daily_targets,
             meal_target: result.meal_target
         });
 
+        // 🔥 IMPORTANT: return ORIGINAL AI RESPONSE shape
         return res.status(200).json({
             success: true,
             message: "Recommendations fetched successfully",
-            data: result
+            data: {
+                ...result,
+                recommendations: recommendationsWithIds
+            }
         });
 
     } catch (error) {
@@ -65,14 +86,17 @@ export const recommendMeals = async (req, res) => {
 // 📥 Get saved meals history
 export const getMeals = async (req, res) => {
     try {
-
         if (!req.user?.id) {
-            return res.status(401).json({ message: "Unauthorized" });
+            return res.status(401).json({
+                success: false,
+                message: "Unauthorized"
+            });
         }
 
         const userId = req.user.id;
 
         const meals = await Meal.find({ userId })
+            .populate("meals.FoodDetails")
             .sort({ createdAt: -1 });
 
         return res.status(200).json({
