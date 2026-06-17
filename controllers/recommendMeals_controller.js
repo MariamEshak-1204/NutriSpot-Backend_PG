@@ -1,6 +1,7 @@
 import { recommendMeals as aiRecommendMeals } from "../services/ai_service.js";
 import Meal from "../models/meal_model.js";
 import Food from "../models/food_model.js";
+import User from "../models/user_model.js";
 
 export const recommendMeals = async (req, res) => {
     try {
@@ -19,6 +20,21 @@ export const recommendMeals = async (req, res) => {
                 message: "Unauthorized"
             });
         }
+        console.log("BODY:", req.body);
+        console.log("USER:", req.user);
+
+        const updatedUser = await User.findByIdAndUpdate(
+            req.user._id,
+            {
+                $set: {
+                    ...userData,
+                    profileCompleted: true
+                }
+            },
+            { new: true }
+        );
+        console.log("UPDATED USER:", updatedUser);
+
 
         const userId = req.user.id;
 
@@ -44,7 +60,7 @@ export const recommendMeals = async (req, res) => {
 
             return {
                 ...aiItem,
-               FoodDetails: foodId || null
+                FoodDetails: foodId || null
             };
         });
 
