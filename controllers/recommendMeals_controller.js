@@ -3,16 +3,11 @@ import Meal from "../models/meal_model.js";
 import Food from "../models/food_model.js";
 import User from "../models/user_model.js";
 
+import { calculateNutrition } from "../services/nutrition_calculator.js";
+
 export const recommendMeals = async (req, res) => {
     try {
         const userData = req.body;
-
-        if (!userData || Object.keys(userData).length === 0) {
-            return res.status(400).json({
-                success: false,
-                message: "User data is required"
-            });
-        }
 
         if (!req.user?.id) {
             return res.status(401).json({
@@ -20,25 +15,94 @@ export const recommendMeals = async (req, res) => {
                 message: "Unauthorized"
             });
         }
-        console.log("BODY:", req.body);
-        console.log("USER:", req.user);
 
-        const updatedUser = await User.findByIdAndUpdate(
-            req.user._id,
-            {
-                $set: {
-                    ...userData,
-                    profileCompleted: true
+        const dbUser = await User.findById(req.user.id);
+
+        if (!dbUser) {
+            return res.status(404).json({
+                success: false,
+                message: "User not found"
+            });
+        }
+
+        // Merge DB + BODY
+        const finalUser = {
+            ...dbUser.toObject(),
+            ...userData
+        };
+
+        // Validation
+        if (
+            !finalUser.gender ||
+            !finalUser.age ||
+            !finalUser.height ||
+            !finalUser.weight ||
+            !finalUser.activityLevel ||
+            !finalUser.goal
+        ) {
+            return res.status(400).json({
+                success: false,
+                message: "Please complete your profile first"
+            });
+        }
+
+        if (!userData) {
+            return res.status(400).json({
+                success: false,
+                message: "User data is required"
+            });
+        }
+
+        let nutritionData;
+
+        // ================= AUTO MODE =================
+        if (userData.mode === "auto") {
+
+            nutritionData = calculateNutrition(finalUser);
+
+            await User.findByIdAndUpdate(
+                req.user.id,
+                {
+                    $set: {
+                        calories: nutritionData.calories,
+                        proteins: nutritionData.proteins,
+                        carbs: nutritionData.carbs,
+                        fats: nutritionData.fats
+                    }
                 }
-            },
-            { new: true }
-        );
-        console.log("UPDATED USER:", updatedUser);
+            );
+        }
 
+        // ================= MANUAL MODE =================
+        else {
+            nutritionData = {
+                calories: userData.calories,
+                protein: userData.protein,
+                carbs: userData.carbs,
+                fats: userData.fats
+            };
+        }
 
-        const userId = req.user.id;
+        // ================= AI PAYLOAD (FIXED) =================
+        const aiPayload = {
+            gender: finalUser.gender,
+            age: finalUser.age,
+            height: finalUser.height,
+            weight: finalUser.weight,
+            mealsPerDay: finalUser.mealsPerDay,
+            allergies: finalUser.allergies,
+            goal: finalUser.goal,
+            healthNotes: finalUser.healthNotes,
+            activityLevel: finalUser.activityLevel,
+            dietType: finalUser.dietType,
 
-        const result = await aiRecommendMeals(userData);
+            calories: nutritionData.calories,
+            protein: nutritionData.proteins,
+            carbs: nutritionData.carbs,
+            fats: nutritionData.fats
+        };
+
+        const result = await aiRecommendMeals(aiPayload);
 
         if (!result || !Array.isArray(result.recommendations)) {
             return res.status(502).json({
@@ -47,39 +111,35 @@ export const recommendMeals = async (req, res) => {
             });
         }
 
-        // 🔥 Map foods from DB (name -> _id)
+        // Food mapping
         const foods = await Food.find({}, { name: 1 });
 
         const foodMap = new Map(
             foods.map(f => [f.name.toLowerCase(), f._id])
         );
 
-        // 🔥 clean AI recommendations + attach foodId
-        const recommendationsWithIds = result.recommendations.map(aiItem => {
-            const foodId = foodMap.get(aiItem.name?.toLowerCase());
+        const recommendationsWithIds = result.recommendations.map(item => {
+            const foodId = foodMap.get(item.name?.toLowerCase());
 
             return {
-                ...aiItem,
+                ...item,
                 FoodDetails: foodId || null
             };
         });
 
-        // 🔥 remove nulls (optional)
         const safeMeals = recommendationsWithIds.filter(m => m.FoodDetails);
 
-        // 🔥 save in DB (BUT without destroying AI response)
         await Meal.create({
-            userId,
+            userId: req.user.id,
             meals: safeMeals.map(m => ({
                 FoodDetails: m.FoodDetails,
                 score: m.score
             })),
-            goal: userData.goal,
+            goal: finalUser.goal,
             daily_targets: result.daily_targets,
             meal_target: result.meal_target
         });
 
-        // 🔥 IMPORTANT: return ORIGINAL AI RESPONSE shape
         return res.status(200).json({
             success: true,
             message: "Recommendations fetched successfully",
@@ -99,7 +159,7 @@ export const recommendMeals = async (req, res) => {
     }
 };
 
-// 📥 Get saved meals history
+// ================= GET MEALS =================
 export const getMeals = async (req, res) => {
     try {
         if (!req.user?.id) {
@@ -109,9 +169,7 @@ export const getMeals = async (req, res) => {
             });
         }
 
-        const userId = req.user.id;
-
-        const meals = await Meal.find({ userId })
+        const meals = await Meal.find({ userId: req.user.id })
             .populate("meals.FoodDetails")
             .sort({ createdAt: -1 });
 

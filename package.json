@@ -24,7 +24,7 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "express-async-handler": "^1.2.0",
-    "google-auth-library": "^10.5.0",
+    "google-auth-library": "^10.7.0",
     "joi": "^18.0.2",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^7.0.0",
