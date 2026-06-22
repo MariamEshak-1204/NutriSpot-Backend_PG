@@ -2,7 +2,6 @@ import { recommendMeals as aiRecommendMeals } from "../services/ai_service.js";
 import Meal from "../models/meal_model.js";
 import Food from "../models/food_model.js";
 import User from "../models/user_model.js";
-
 import { calculateNutrition } from "../services/nutrition_calculator.js";
 
 export const recommendMeals = async (req, res) => {
@@ -25,13 +24,13 @@ export const recommendMeals = async (req, res) => {
             });
         }
 
-        // Merge DB + BODY
+        // ================= MERGE DATA =================
         const finalUser = {
             ...dbUser.toObject(),
             ...userData
         };
 
-        // Validation
+        // ================= VALIDATION FIRST =================
         if (
             !finalUser.gender ||
             !finalUser.age ||
@@ -52,6 +51,28 @@ export const recommendMeals = async (req, res) => {
                 message: "User data is required"
             });
         }
+
+        // ================= SAVE PROFILE =================
+        await User.findByIdAndUpdate(
+            req.user.id,
+            {
+                $set: {
+                    gender: finalUser.gender,
+                    age: finalUser.age,
+                    height: finalUser.height,
+                    weight: finalUser.weight,
+                    activityLevel: finalUser.activityLevel,
+                    goal: finalUser.goal,
+                    mealsPerDay: finalUser.mealsPerDay,
+                    allergies: finalUser.allergies,
+                    healthNotes: finalUser.healthNotes,
+                    dietType: finalUser.dietType,
+
+                    // مهم جدًا
+                    profileCompleted: true
+                }
+            }
+        );
 
         let nutritionData;
 
@@ -83,7 +104,7 @@ export const recommendMeals = async (req, res) => {
             };
         }
 
-        // ================= AI PAYLOAD (FIXED) =================
+        // ================= AI PAYLOAD =================
         const aiPayload = {
             gender: finalUser.gender,
             age: finalUser.age,
@@ -111,7 +132,7 @@ export const recommendMeals = async (req, res) => {
             });
         }
 
-        // Food mapping
+        // ================= FOOD MAPPING =================
         const foods = await Food.find({}, { name: 1 });
 
         const foodMap = new Map(
@@ -129,6 +150,7 @@ export const recommendMeals = async (req, res) => {
 
         const safeMeals = recommendationsWithIds.filter(m => m.FoodDetails);
 
+        // ================= SAVE MEALS =================
         await Meal.create({
             userId: req.user.id,
             meals: safeMeals.map(m => ({
@@ -158,6 +180,7 @@ export const recommendMeals = async (req, res) => {
         });
     }
 };
+
 
 // ================= GET MEALS =================
 export const getMeals = async (req, res) => {
