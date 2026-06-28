@@ -14,8 +14,12 @@ export const recommendMeals = async (userData) => {
         return response.data;
 
     } catch (error) {
-        console.log("AI error response:",error.response?.data || error.message);
-        throw new Error(error.response?.data?.message || error.message);
+        console.log("========== AI ERROR ==========");
+        console.log(error.response?.status);
+        console.log(error.response?.data);
+
+        // رجعي الـ Error الأصلي كما هو
+        throw error;
     }
 };
 

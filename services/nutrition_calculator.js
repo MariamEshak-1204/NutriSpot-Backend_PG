@@ -1,3 +1,4 @@
+
 export const calculateNutrition = (user) => {
     let bmr;
 
@@ -43,15 +44,25 @@ export const calculateNutrition = (user) => {
             break;
     }
 
-    const proteins = Math.round(user.weight * 2);
-    const fats = Math.round(user.weight * 0.8);
+    let proteins = Math.round(user.weight * 2);
+    let fats = Math.round(user.weight * 0.8);
 
-    const carbs = Math.round(
+    let carbs = Math.round(
         (calories - (proteins * 4) - (fats * 9)) / 4
     );
 
+    // ================= AI LIMITS =================
+
+    calories = Math.max(1500, Math.min(Math.round(calories), 2500));
+
+    proteins = Math.max(40, Math.min(proteins, 200));
+
+    carbs = Math.max(130, Math.min(carbs, 300));
+
+    fats = Math.max(30, Math.min(fats, 100));
+
     return {
-        calories: Math.round(calories),
+        calories,
         proteins,
         carbs,
         fats
