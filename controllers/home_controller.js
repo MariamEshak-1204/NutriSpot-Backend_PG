@@ -71,9 +71,8 @@ export const getHomeFoods = async (req, res) => {
 };
 
 export const getAllFoods = asyncHandler(async (req, res) => {
-    const user = req.user; // جاية من middleware
-    // مثال بسيط: نجيب كل الأكلات 
-    // See All
+    const user = req.user; 
+    
     const foods = await Food.find();
 
     res.status(200).json({

@@ -112,7 +112,7 @@ export const recommendMeals = async (req, res) => {
         // ================= MANUAL MODE =================
         else {
 
-            // تأكد إن المستخدم بعت القيم المطلوبة
+            
             if (
                 userData.calories == null ||
                 userData.proteins == null ||
@@ -131,7 +131,7 @@ export const recommendMeals = async (req, res) => {
                 carbs: userData.carbs,
                 fats: userData.fats
             };
-            // نحفظ القيم اللي دخلها المستخدم
+            
             await User.findByIdAndUpdate(
                 req.user.id,
                 {

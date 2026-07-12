@@ -31,12 +31,7 @@ app.get('/', (req, res) => {
   res.send('Server is running')
 })
 
-// use DB
 connectToDB()
 
 export default app;
-
-// app.listen( port , ()=>{
-//     console.log(`app is running on port : ${port}`)
-// })
 

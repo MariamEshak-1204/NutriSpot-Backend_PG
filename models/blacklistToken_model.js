@@ -1,9 +1,9 @@
-// ملف: models/blacklistToken_model.js
+
 import mongoose from "mongoose";
 
 const blacklistTokenSchema = new mongoose.Schema({
     token: { type: String, required: true },
-    expiresAt: { type: Date, required: true }, // اختياري: وقت انتهاء صلاحية التوكن
+    expiresAt: { type: Date, required: true }, 
 }, { timestamps: true });
 
 const BlacklistToken = mongoose.model("BlacklistToken", blacklistTokenSchema);

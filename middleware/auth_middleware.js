@@ -11,10 +11,10 @@ export const protect = async (req, res, next) => {
     try {
       token = req.headers.authorization.split(" ")[1];
 
-      // تحقق من التوكن
+      
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-      // احصل على بيانات المستخدم
+      
       const user = await User.findById(decoded.id).select("-password");
 
       if (!user) {

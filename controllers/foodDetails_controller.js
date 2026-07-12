@@ -6,7 +6,7 @@ export const getFoodDetails = async (req, res) => {
 
     const { id } = req.params
 
-    // نتأكد إن الـ id صح
+    
     if (!mongoose.Types.ObjectId.isValid(id)) {
       return res.status(400).json({
         message: "Invalid Food ID"

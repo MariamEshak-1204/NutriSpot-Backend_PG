@@ -104,7 +104,7 @@ export const updateQuantity = async (req, res) => {
       return res.status(404).json({ message: "Item not found in cart" });
     }
 
-    // لو الكمية = 0 نشيل الأكلة
+    
     if (quantity === 0) {
       cart.items.splice(itemIndex, 1);
     } else {

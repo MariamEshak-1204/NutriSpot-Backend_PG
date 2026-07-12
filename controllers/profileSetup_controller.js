@@ -18,7 +18,7 @@ export const profileSetup = asyncHandler(async (req, res) => {
         throw new Error("User not found");
     }
 
-    // 1️⃣ تحديث الحقول العادية
+    
     const allowedFields = [
         "userName", "email", "gender", "age", "height", "weight",
         "mealsPerDay", "allergies", "goal", "healthCondition",
@@ -32,11 +32,11 @@ export const profileSetup = asyncHandler(async (req, res) => {
         }
     });
 
-    // 2️⃣ تحديث profileCompleted
+    
     const requiredFields = ["userName", "email", "gender", "age"];
     user.profileCompleted = requiredFields.every(f => !!user[f]);
 
-    // 3️⃣ حفظ التعديلات
+    
     const updatedUser = await user.save();
 
     res.status(200).json({
@@ -55,12 +55,12 @@ export const updateProfileWithImage = asyncHandler(async (req, res) => {
         return res.status(404).json({ message: "User not found" });
     }
 
-    // username
+   
     if (req.body.userName) {
         user.userName = req.body.userName;
     }
 
-    // الصورة (الجزء الجديد)
+    
     if (req.file) {
         const result = await new Promise((resolve, reject) => {
             const stream = cloudinary.uploader.upload_stream(
@@ -89,8 +89,8 @@ export const updateProfileWithImage = asyncHandler(async (req, res) => {
 // -------------------- GET PROFILE --------------------
 export const getProfile = async (req, res) => {
     try {
-        const userId = req.user._id; // assuming authentication middleware added
-        const user = await User.findById(userId).select("-password"); // hide password
+        const userId = req.user._id; 
+        const user = await User.findById(userId).select("-password"); 
         if (!user) return res.status(404).json({ message: "User not found" });
 
         res.status(200).json({
@@ -173,11 +173,11 @@ export const signOut = async (req, res) => {
     try {
         const token = req.headers.authorization?.split(" ")[1];
         if (token) {
-            // احفظ التوكن في DB مع وقت انتهاء الصلاحية
+            
             const decoded = jwt.decode(token);
             await BlacklistToken.create({
                 token,
-                expiresAt: new Date(decoded.exp * 1000) // تحويل من sec ل ms
+                expiresAt: new Date(decoded.exp * 1000) 
             });
         }
 
